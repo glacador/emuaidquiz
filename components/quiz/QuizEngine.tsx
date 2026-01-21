@@ -178,8 +178,8 @@ export default function QuizEngine({ config }: QuizEngineProps) {
     params.set('s', String(result.urgency))
     params.set('f', fearAnswer.toLowerCase())
 
-    // Redirect to results page
-    window.location.href = `/${result.conditionSlug}?${params.toString()}`
+    // Redirect to results page (include funnel ID in path)
+    window.location.href = `/${config.funnel.id}/${result.conditionSlug}?${params.toString()}`
   }, [answers, multiAnswers, config, email, firstName, startTime])
 
   // Auto-advance for belief cards and social proof
