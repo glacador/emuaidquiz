@@ -13,6 +13,7 @@ const navItems = [
   { href: '/admin', label: 'Dashboard', icon: '📊' },
   { href: '/admin/funnels', label: 'Funnels', icon: '🎯' },
   { href: '/admin/questions', label: 'Questions', icon: '❓' },
+  { href: '/admin/outcomes', label: 'Outcomes', icon: '📄' },
   { href: '/admin/ab-tests', label: 'A/B Tests', icon: '🧪' },
   { href: '/admin/analytics', label: 'Analytics', icon: '📈' },
 ]

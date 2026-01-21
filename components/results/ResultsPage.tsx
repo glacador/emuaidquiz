@@ -12,6 +12,8 @@ interface ResultsPageProps {
   urgencyBand: string
   urgencyScore: number
   objectionContent?: ObjectionContent
+  customHtml?: string | null
+  customCss?: string | null
 }
 
 // Parse markdown bold (**text**) to React elements
@@ -83,8 +85,71 @@ export default function ResultsPage({
   condition,
   urgencyBand,
   objectionContent,
+  customHtml,
+  customCss,
 }: ResultsPageProps) {
   const { resultsCopy } = condition
+
+  // If custom HTML is provided, render it with the buybox and footer
+  if (customHtml) {
+    // Process template variables in custom HTML
+    const processedHtml = customHtml
+      .replace(/\{\{condition_name\}\}/g, condition.name)
+      .replace(/\{\{condition_code\}\}/g, condition.code)
+      .replace(/\{\{headline\}\}/g, resultsCopy.headline)
+      .replace(/\{\{intro\}\}/g, resultsCopy.intro)
+      .replace(/\{\{body\}\}/g, resultsCopy.body)
+      .replace(/\{\{urgency_band\}\}/g, urgencyBand)
+      .replace(/\{\{brand_color\}\}/g, config.funnel.brandColor)
+
+    return (
+      <div className="max-w-[480px] mx-auto bg-white min-h-screen">
+        {/* Custom CSS */}
+        {customCss && <style dangerouslySetInnerHTML={{ __html: customCss }} />}
+
+        {/* Header */}
+        <div
+          className="px-5 py-4 flex items-center justify-between"
+          style={{ backgroundColor: config.funnel.brandColor }}
+        >
+          <span className="font-bold text-white text-lg">{config.funnel.name}</span>
+          <a href="tel:1-800-319-0692" className="text-white text-sm opacity-90 flex items-center gap-1">
+            <span>📞</span> 1-800-319-0692
+          </a>
+        </div>
+
+        {/* Custom HTML Content */}
+        <div dangerouslySetInnerHTML={{ __html: processedHtml }} />
+
+        {/* Buybox Widget */}
+        <BuyboxWidget
+          config={config.buybox}
+          brandColor={config.funnel.brandColor}
+          conditionCode={condition.code}
+        />
+
+        {/* Testimonial */}
+        <TestimonialCard
+          condition={condition}
+          brandColor={config.funnel.brandColor}
+        />
+
+        {/* FAQ Section */}
+        <FAQSection brandColor={config.funnel.brandColor} />
+
+        {/* Footer */}
+        <div className="px-5 py-6 bg-gray-100 text-center">
+          <p className="text-xs text-gray-500">
+            © {new Date().getFullYear()} EMUAID. All rights reserved.
+          </p>
+          <p className="text-xs text-gray-400 mt-2 leading-relaxed">
+            These statements have not been evaluated by the FDA.
+            This product is not intended to diagnose, treat, cure, or prevent any disease.
+          </p>
+        </div>
+      </div>
+    )
+  }
 
   // Timeline based on urgency band
   const getTimeline = () => {

@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import ResultsPage from '@/components/results/ResultsPage'
+import OutcomePageWrapper from '@/components/results/OutcomePageWrapper'
 import acnescopeConfig from '@/config/funnels/acnescope.json'
 import { FunnelConfig } from '@/config/schema'
 
@@ -23,7 +23,7 @@ export default async function FolliculitisResultsPage({ searchParams }: PageProp
   const objectionContent = config.objectionContent[objectionKey]
 
   return (
-    <ResultsPage
+    <OutcomePageWrapper
       config={config}
       condition={condition}
       urgencyBand={u || 'M'}
