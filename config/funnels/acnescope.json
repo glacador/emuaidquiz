@@ -1,0 +1,453 @@
+{
+  "funnel": {
+    "id": "acnescope",
+    "name": "AcneScope",
+    "tagline": "Acne Skin Assessment",
+    "domain": "acnescope.com",
+    "brandColor": "#0066CC",
+    "brandColorLight": "#3388DD",
+    "brandColorBg": "#f0f5ff",
+    "hook": {
+      "headline": "Your Acne Treatment Might Be Making It Worse.",
+      "subheadline": "68% of \"Acne\" Cases Aren't Actually Acne.",
+      "stat": "68%"
+    },
+    "quizMeta": {
+      "questionCount": "12 questions",
+      "timeEstimate": "60 seconds",
+      "ctaText": "Click now to start →",
+      "socialProofCount": 3847
+    }
+  },
+  "conditions": [
+    {
+      "code": "A1",
+      "name": "Inflammatory Acne",
+      "slug": "inflammatory",
+      "shortName": "Inflammatory Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers fit an inflammatory acne pattern",
+        "intro": "Your answers show red, inflamed bumps—papules and pustules that are actively irritated. This isn't just clogged pores.",
+        "body": "**Why spot treatments alone don't work**\n\nInflammatory acne involves bacterial overgrowth AND immune response. Surface treatments can't reach the inflammation happening beneath.\n\n**What worked for people with your pattern**\n\n• Week 2: 71% said new breakouts were less frequent\n• Week 4: 83% said existing bumps were calmer\n• Week 6: 79% said skin looked clearer overall"
+      },
+      "scoring": { "baseWeight": 5 }
+    },
+    {
+      "code": "A2",
+      "name": "Comedonal Acne",
+      "slug": "comedonal",
+      "shortName": "Comedonal Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers fit a comedonal (clogged pore) pattern",
+        "intro": "Your answers show blackheads and whiteheads—non-inflamed clogged pores. The good news: this is the most treatable form.",
+        "body": "**Why physical exfoliation makes it worse**\n\nScrubbing spreads bacteria and causes micro-tears. You need chemical exfoliation that dissolves the plugs.\n\n**What worked for people with your pattern**\n\n• Week 2: 68% noticed fewer new blackheads\n• Week 4: 76% said pores looked smaller\n• Week 6: 82% said texture was smoother"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A3",
+      "name": "Cystic Acne",
+      "slug": "cystic",
+      "shortName": "Cystic Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers fit a deep cystic pattern",
+        "intro": "Your answers show deep, painful nodules under the skin. These form when infection goes deep into the follicle.",
+        "body": "**Why over-the-counter treatments fail**\n\nCystic acne sits too deep for topical treatments to reach. You need something that penetrates to the source.\n\n**What worked for people with your pattern**\n\n• Week 3: 64% said new cysts were smaller\n• Week 6: 72% said pain was reduced\n• Week 8: 69% said fewer new cysts forming"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A4",
+      "name": "Hormonal Acne",
+      "slug": "hormonal",
+      "shortName": "Hormonal Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers fit a hormonal acne pattern",
+        "intro": "Your answers show breakouts concentrated on jawline and chin, often cyclical. This is driven by hormone fluctuations, not hygiene.",
+        "body": "**Why cleansing harder doesn't help**\n\nHormonal acne starts from the inside. External treatments alone can't address the hormonal trigger.\n\n**What worked for people with your pattern**\n\n• Week 2: 58% noticed less monthly flare intensity\n• Week 4: 71% said jawline was clearer\n• Week 6: 67% said cycle-related breakouts reduced"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A5",
+      "name": "Fungal Acne",
+      "slug": "fungal",
+      "shortName": "Fungal Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest fungal acne, not bacterial",
+        "intro": "Your answers show uniform, itchy bumps—often on forehead, chest, or back. This is yeast overgrowth, not bacteria.",
+        "body": "**Why antibiotics make it worse**\n\nAntibiotics kill bacteria but let yeast flourish. Many people with 'treatment-resistant acne' actually have fungal acne.\n\n**What to do**\n\n• Stop all antibiotics (with doctor approval)\n• Check your products for oils/fatty acids that feed yeast\n• Start antifungal-compatible skincare"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A6",
+      "name": "Rosacea",
+      "slug": "rosacea",
+      "shortName": "Rosacea Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest rosacea, not acne",
+        "intro": "Your answers show flushing, redness, and bumps—especially on cheeks and nose. Acne treatments can make rosacea permanently worse.",
+        "body": "**Why acne treatments backfire**\n\nBenzoyl peroxide and retinoids are too harsh for rosacea skin. They trigger more inflammation and broken capillaries.\n\n**What to do**\n\n• Stop all harsh acne treatments immediately\n• Identify your triggers (heat, alcohol, spicy food, stress)\n• Start gentle, anti-inflammatory care"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A7",
+      "name": "Folliculitis",
+      "slug": "folliculitis",
+      "shortName": "Folliculitis Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers fit a folliculitis pattern",
+        "intro": "Your answers show bumps at hair follicles—often from shaving, friction, or bacteria. This isn't acne, though it looks similar.",
+        "body": "**Why acne treatments don't clear it**\n\nFolliculitis is an infection of the hair follicle. It needs antibacterial treatment, not pore-clearing.\n\n**What worked for people with your pattern**\n\n• Week 1: 74% noticed less irritation\n• Week 2: 81% said bumps were flattening\n• Week 4: 78% said skin was clear"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A8",
+      "name": "Keratosis Pilaris",
+      "slug": "keratosis-pilaris",
+      "shortName": "KP Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest keratosis pilaris, not acne",
+        "intro": "Your answers show rough, bumpy texture—often on upper arms, thighs, or cheeks. This is keratin buildup, not infection.",
+        "body": "**Why acne treatments irritate without helping**\n\nKP needs gentle exfoliation and hydration, not antibacterial or drying treatments.\n\n**What worked for people with your pattern**\n\n• Week 2: 69% noticed smoother texture\n• Week 4: 77% said bumps were less visible\n• Week 6: 73% said skin felt softer"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A9",
+      "name": "Perioral Dermatitis",
+      "slug": "perioral",
+      "shortName": "Perioral Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers fit a perioral dermatitis pattern",
+        "intro": "Your answers show bumps around mouth, nose, or chin—with the lip line usually clear. Heavy creams make this worse.",
+        "body": "**Why moisturizers backfire**\n\nPerioral dermatitis involves microbiome imbalance. Occlusive products trap moisture and feed the overgrowth.\n\n**What to do**\n\n• Stop all heavy creams immediately\n• Check your toothpaste (fluoride can trigger this)\n• Switch to lightweight, non-occlusive care"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A10",
+      "name": "Milia",
+      "slug": "milia",
+      "shortName": "Milia Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest milia, not acne",
+        "intro": "Your answers show tiny white bumps that don't pop like whiteheads. These are keratin cysts trapped under skin.",
+        "body": "**Why extraction doesn't work like with blackheads**\n\nMilia have no pore opening. They need professional extraction or specific exfoliation to dissolve.\n\n**What worked for people with your pattern**\n\n• Week 3: 62% noticed bumps getting smaller\n• Week 6: 71% said some had resolved\n• Week 8: 68% said skin was smoother"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A11",
+      "name": "Acne Mechanica",
+      "slug": "mechanica",
+      "shortName": "Friction Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers fit an acne mechanica (friction) pattern",
+        "intro": "Your answers show breakouts where something rubs—mask line, helmet area, chin strap zone, or sports gear contact.",
+        "body": "**Why it keeps coming back**\n\nFriction + sweat + bacteria = perfect storm. You need to address all three, not just treat the bumps.\n\n**What worked for people with your pattern**\n\n• Week 1: 78% noticed less irritation\n• Week 2: 82% said fewer new bumps in friction areas\n• Week 4: 76% said pattern was breaking"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "A12",
+      "name": "Mixed Pattern",
+      "slug": "mixed",
+      "shortName": "Mixed Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers show a mixed or unclear pattern",
+        "intro": "Your answers don't clearly match one subtype. That's common—your skin may involve multiple factors.",
+        "body": "**What to do**\n\n• Start with gentle, broad-spectrum care\n• Track your triggers carefully\n• Consider seeing a dermatologist for clarity\n\nMany people have overlapping patterns that need a multi-pronged approach."
+      },
+      "scoring": { "baseWeight": 0 }
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "type": "image-grid",
+      "title": "Which pattern looks most like your skin right now?",
+      "subtitle": "Tap to select.",
+      "helpText": "Different patterns need different treatments.",
+      "options": [
+        { "label": "Red, inflamed bumps", "sublabel": "Painful to touch", "value": "A", "imageKey": "inflammatory", "scores": { "A1": 12, "A3": 4 } },
+        { "label": "Blackheads & whiteheads", "sublabel": "Non-inflamed, clogged", "value": "B", "imageKey": "comedonal", "scores": { "A2": 12, "A1": 3 } },
+        { "label": "Deep, painful nodules", "sublabel": "Under the skin", "value": "C", "imageKey": "cystic", "scores": { "A3": 12, "A1": 4 } },
+        { "label": "Jawline & chin only", "sublabel": "Cyclical pattern", "value": "D", "imageKey": "hormonal", "scores": { "A4": 12 } },
+        { "label": "Uniform, itchy bumps", "sublabel": "Forehead, chest, back", "value": "E", "imageKey": "fungal", "scores": { "A5": 12 } },
+        { "label": "Redness & flushing", "sublabel": "Cheeks, nose area", "value": "F", "imageKey": "rosacea", "scores": { "A6": 12 } },
+        { "label": "None match well", "value": "G", "scores": { "A12": 8 } }
+      ]
+    },
+    {
+      "id": "2",
+      "type": "single",
+      "title": "Where do breakouts appear most often?",
+      "options": [
+        { "label": "T-zone (forehead, nose, chin)", "value": "A", "emoji": "🎯", "scores": { "A1": 4, "A2": 6 } },
+        { "label": "Cheeks and sides of face", "value": "B", "emoji": "😐", "scores": { "A6": 6, "A1": 3 } },
+        { "label": "Jawline and chin only", "value": "C", "emoji": "📍", "scores": { "A4": 10 } },
+        { "label": "Forehead only", "value": "D", "emoji": "🧠", "scores": { "A5": 6, "A2": 4 } },
+        { "label": "Body (chest, back, shoulders)", "value": "E", "emoji": "💪", "scores": { "A5": 5, "A7": 5, "A11": 4 } }
+      ]
+    },
+    {
+      "id": "3",
+      "type": "single",
+      "title": "How long has this been bothering you?",
+      "options": [
+        { "label": "Less than 2 weeks", "value": "A", "emoji": "📅", "urgencyAdd": 0 },
+        { "label": "2–8 weeks", "value": "B", "emoji": "📅", "urgencyAdd": 3 },
+        { "label": "2–6 months", "value": "C", "emoji": "📆", "urgencyAdd": 5 },
+        { "label": "Over 6 months or recurring", "value": "D", "emoji": "📆", "percentage": 67, "urgencyAdd": 10 }
+      ]
+    },
+    {
+      "id": "4",
+      "type": "single",
+      "title": "How does your skin feel right now?",
+      "options": [
+        { "label": "Painful—hurts to touch", "value": "A", "emoji": "😣", "scores": { "A1": 5, "A3": 8 }, "urgencyAdd": 7 },
+        { "label": "Itchy—want to scratch", "value": "B", "emoji": "🤚", "scores": { "A5": 8, "A8": 4 }, "urgencyAdd": 5 },
+        { "label": "Burning or tight", "value": "C", "emoji": "🔥", "scores": { "A6": 6, "A9": 4 }, "urgencyAdd": 3 },
+        { "label": "Just looks bad, minimal discomfort", "value": "D", "emoji": "👀", "scores": { "A2": 4, "A10": 3 }, "urgencyAdd": 0 }
+      ]
+    },
+    {
+      "id": "interstitial-1",
+      "type": "belief-card",
+      "icon": "🔬",
+      "stat": "68%",
+      "headline": "of recurring breakouts are misdiagnosed",
+      "subtext": "Generic treatments fail because they don't match your specific pattern.",
+      "duration": 3500
+    },
+    {
+      "id": "5",
+      "type": "single",
+      "title": "What seems to trigger or worsen breakouts?",
+      "options": [
+        { "label": "Menstrual cycle", "value": "A", "emoji": "📅", "scores": { "A4": 10 } },
+        { "label": "Stress or lack of sleep", "value": "B", "emoji": "😰", "scores": { "A1": 4, "A4": 4, "A6": 3 } },
+        { "label": "Certain foods (dairy, sugar)", "value": "C", "emoji": "🍕", "scores": { "A1": 3, "A5": 3 } },
+        { "label": "Masks, helmets, or friction", "value": "D", "emoji": "😷", "scores": { "A11": 10, "A7": 4 } },
+        { "label": "Sweating or humidity", "value": "E", "emoji": "💦", "scores": { "A5": 6, "A7": 5 } },
+        { "label": "No clear trigger", "value": "F", "emoji": "❓", "scores": { "A1": 3 } }
+      ]
+    },
+    {
+      "id": "6",
+      "type": "single",
+      "title": "Does your skin flush or turn red easily?",
+      "subtitle": "With heat, alcohol, spicy food, or embarrassment.",
+      "options": [
+        { "label": "Yes—noticeably red", "value": "A", "emoji": "🔴", "scores": { "A6": 10 } },
+        { "label": "Sometimes, mildly", "value": "B", "emoji": "🟠", "scores": { "A6": 4 } },
+        { "label": "No—my skin doesn't flush", "value": "C", "emoji": "⚪", "scores": {} }
+      ]
+    },
+    {
+      "id": "7",
+      "type": "single",
+      "title": "Are the bumps mostly the same size and shape?",
+      "subtitle": "Uniform bumps can indicate fungal involvement.",
+      "options": [
+        { "label": "Yes—very uniform, almost identical", "value": "A", "emoji": "✓", "scores": { "A5": 10, "A8": 5 } },
+        { "label": "No—mixed sizes and types", "value": "B", "emoji": "❌", "scores": { "A1": 3, "A2": 3 } }
+      ]
+    },
+    {
+      "id": "interstitial-2",
+      "type": "social-proof",
+      "name": "Jennifer M.",
+      "location": "Austin, TX",
+      "pattern": "fungal pattern",
+      "quote": "I spent 2 years treating 'acne' before realizing it was fungal. Within 3 weeks of the right approach, my skin was clearer than it had been in years.",
+      "timeAgo": "3 days ago",
+      "duration": 4000
+    },
+    {
+      "id": "8",
+      "type": "single",
+      "title": "Have antibiotics ever made it worse or had no effect?",
+      "options": [
+        { "label": "Yes—antibiotics made it worse", "value": "A", "emoji": "📈", "scores": { "A5": 12 } },
+        { "label": "Antibiotics didn't help at all", "value": "B", "emoji": "➖", "scores": { "A5": 6, "A6": 4 } },
+        { "label": "Never tried antibiotics", "value": "C", "emoji": "❓", "scores": {} },
+        { "label": "Antibiotics helped", "value": "D", "emoji": "✓", "scores": { "A1": 4, "A7": 4 } }
+      ]
+    },
+    {
+      "id": "9",
+      "type": "multi",
+      "title": "What have you tried? (Select all that apply)",
+      "options": [
+        { "label": "Benzoyl peroxide", "value": "a", "code": "AT1" },
+        { "label": "Salicylic acid", "value": "b", "code": "AT2" },
+        { "label": "Prescription retinoids", "value": "c", "code": "AT3" },
+        { "label": "Oral antibiotics", "value": "d", "code": "AT4" },
+        { "label": "Accutane/isotretinoin", "value": "e", "code": "AT5" },
+        { "label": "Nothing specific yet", "value": "f", "code": "AT0" }
+      ]
+    },
+    {
+      "id": "10",
+      "type": "single",
+      "title": "What's your biggest concern right now?",
+      "options": [
+        { "label": "I've wasted money on things that don't work", "value": "a", "code": "AF1" },
+        { "label": "I'm worried about side effects", "value": "b", "code": "AF2" },
+        { "label": "I'm skeptical anything will work for me", "value": "c", "code": "AF3" },
+        { "label": "I'm not sure what I actually have", "value": "d", "code": "AF4" }
+      ]
+    },
+    {
+      "id": "interstitial-3",
+      "type": "belief-card",
+      "icon": "✨",
+      "headline": "Your past failures weren't your fault",
+      "subtext": "Generic treatments can't target your specific pattern. That's about to change.",
+      "duration": 3000
+    },
+    {
+      "id": "11",
+      "type": "single",
+      "title": "How much does this affect your daily life?",
+      "options": [
+        { "label": "Significantly—I avoid social situations", "value": "A", "emoji": "😔", "urgencyAdd": 10 },
+        { "label": "Moderately—I think about it often", "value": "B", "emoji": "😐", "urgencyAdd": 6 },
+        { "label": "Mildly—it bothers me sometimes", "value": "C", "emoji": "🙂", "urgencyAdd": 3 },
+        { "label": "Barely—just want it gone", "value": "D", "emoji": "💪", "urgencyAdd": 0 }
+      ]
+    },
+    {
+      "id": "timeline",
+      "type": "single",
+      "title": "How quickly do you want to see results?",
+      "options": [
+        { "label": "As fast as possible", "value": "A", "emoji": "⚡", "urgencyAdd": 10, "priority": "speed" },
+        { "label": "Within a few weeks", "value": "B", "emoji": "📅", "urgencyAdd": 6, "priority": "moderate" },
+        { "label": "I can be patient if it works", "value": "C", "emoji": "🕐", "urgencyAdd": 3, "priority": "quality" }
+      ]
+    }
+  ],
+  "objectionContent": {
+    "a": {
+      "headline": "We know you've been burned before.",
+      "body": "That's why every order includes our 30-day guarantee. If it doesn't work for your pattern, you pay nothing."
+    },
+    "b": {
+      "headline": "Your skin's safety matters most.",
+      "body": "EMUAID uses natural ingredients with 50+ years of safe use. No harsh chemicals, no synthetic irritants."
+    },
+    "c": {
+      "headline": "Skepticism is healthy.",
+      "body": "Over 45,000 5-star reviews from people who felt exactly like you do right now. Your pattern has been solved before."
+    },
+    "d": {
+      "headline": "That's exactly why you took this quiz.",
+      "body": "We just analyzed your answers against 847,000+ cases. Your results page shows exactly what pattern you're dealing with."
+    }
+  },
+  "tracking": {
+    "klaviyoPublicKey": "YOUR_KLAVIYO_KEY",
+    "klaviyoListId": "YOUR_LIST_ID",
+    "metaPixelId": "YOUR_PIXEL_ID",
+    "ga4MeasurementId": "YOUR_GA4_ID",
+    "zerobounceEndpoint": "https://glacador--d5eab932ed5f11f09c9b42dde27851f2.web.val.run"
+  },
+  "buybox": {
+    "useSharedWidget": true,
+    "shopOrigin": "https://www.emuaid.com",
+    "offers": {
+      "complete": {
+        "label": "Complete System",
+        "product": "emuaidMAX Rescue Kit™",
+        "plans": [
+          {
+            "plan": "One Person",
+            "price": "$80.49",
+            "old": "$146.34",
+            "perDay": "$2.63 Per Day",
+            "badge": "45% off",
+            "variantId": "45837515456701",
+            "sellingPlanId": "2389213373",
+            "quantity": 1
+          },
+          {
+            "plan": "Two People",
+            "price": "$153.90",
+            "old": "$292.68",
+            "perDay": "$2.56 Per Day",
+            "badge": "47% off",
+            "variantId": "45837468074173",
+            "sellingPlanId": "2389213373",
+            "quantity": 2
+          }
+        ],
+        "tryOnce": {
+          "price": "$88.90",
+          "old": "$146.34",
+          "perDay": "$2.96 Per Day",
+          "variantId": "39278541734077",
+          "quantity": 1
+        }
+      },
+      "single": {
+        "label": "Single Solution",
+        "product": "emuaidMAX™",
+        "plans": [
+          {
+            "plan": "One Person",
+            "price": "$56.70",
+            "old": "$80",
+            "perDay": "$1.89 Per Day",
+            "badge": "29% off",
+            "variantId": "45837555237053",
+            "sellingPlanId": "1485406397",
+            "quantity": 1
+          },
+          {
+            "plan": "Two People",
+            "price": "$92.10",
+            "old": "$160",
+            "perDay": "$1.53 Per Day",
+            "badge": "42% off",
+            "variantId": "45837569786045",
+            "sellingPlanId": "1485406397",
+            "quantity": 2
+          }
+        ],
+        "tryOnce": {
+          "price": "$69.00",
+          "old": "$80",
+          "perDay": "$2.30 Per Day",
+          "variantId": "45837555237053",
+          "quantity": 1
+        }
+      }
+    }
+  },
+  "trustBadges": [
+    { "name": "Health", "logo": "/images/badges/health.svg" },
+    { "name": "USA Today", "logo": "/images/badges/usatoday.svg" },
+    { "name": "Medical News Today", "logo": "/images/badges/mnt.svg" },
+    { "name": "NIH", "logo": "/images/badges/nih.svg" },
+    { "name": "Harvard Health", "logo": "/images/badges/harvard.svg" }
+  ]
+}

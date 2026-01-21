@@ -1,0 +1,34 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "acnescope.com" }],
+      "destination": "/acnescope/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.acnescope.com" }],
+      "destination": "/acnescope/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "nailscope.com" }],
+      "destination": "/nailscope/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.nailscope.com" }],
+      "destination": "/nailscope/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "eczemap.com" }],
+      "destination": "/eczemap/:path*"
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.eczemap.com" }],
+      "destination": "/eczemap/:path*"
+    }
+  ]
+}
