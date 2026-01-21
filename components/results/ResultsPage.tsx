@@ -82,10 +82,21 @@ export default function ResultsPage({
   config,
   condition,
   urgencyBand,
-  urgencyScore,
   objectionContent,
 }: ResultsPageProps) {
   const { resultsCopy } = condition
+
+  // Timeline based on urgency band
+  const getTimeline = () => {
+    switch (urgencyBand) {
+      case 'H': return { weeks: '2-3', text: 'Early improvements expected' }
+      case 'MH': return { weeks: '3-4', text: 'Initial changes expected' }
+      case 'M': return { weeks: '4-5', text: 'Gradual progress expected' }
+      default: return { weeks: '4-6', text: 'Steady improvement expected' }
+    }
+  }
+
+  const timeline = getTimeline()
 
   return (
     <div className="max-w-[480px] mx-auto bg-white min-h-screen">
@@ -94,8 +105,10 @@ export default function ResultsPage({
         className="px-5 py-4 flex items-center justify-between"
         style={{ backgroundColor: config.funnel.brandColor }}
       >
-        <span className="font-bold text-white">{config.funnel.name}</span>
-        <span className="text-white text-xs opacity-90">📞 1-800-XXX-XXXX</span>
+        <span className="font-bold text-white text-lg">{config.funnel.name}</span>
+        <a href="tel:1-800-319-0692" className="text-white text-sm opacity-90 flex items-center gap-1">
+          <span>📞</span> 1-800-319-0692
+        </a>
       </div>
 
       {/* Results Header */}
@@ -107,7 +120,7 @@ export default function ResultsPage({
         }}
       >
         <div
-          className="text-xs font-semibold tracking-wider mb-2"
+          className="text-xs font-semibold tracking-wider mb-2 uppercase"
           style={{ color: config.funnel.brandColor }}
         >
           {resultsCopy.label}
@@ -127,9 +140,80 @@ export default function ResultsPage({
       {/* Trust Badges */}
       <TrustBadges badges={config.trustBadges} />
 
+      {/* Personalized Protocol Section */}
+      <div className="px-5 py-4">
+        <div
+          className="p-4 rounded-xl"
+          style={{ backgroundColor: `${config.funnel.brandColor}08` }}
+        >
+          <h3
+            className="text-sm font-bold mb-3"
+            style={{ color: config.funnel.brandColor }}
+          >
+            YOUR PERSONALIZED PROTOCOL
+          </h3>
+          <p className="text-sm text-gray-700 leading-relaxed">
+            Based on your {condition.shortName.toLowerCase()}, we&apos;ve identified a targeted approach
+            that addresses your specific concerns.
+          </p>
+        </div>
+      </div>
+
       {/* Body Content */}
       <div className="px-5 pb-5 text-sm text-gray-600 leading-relaxed">
         {formatBody(resultsCopy.body)}
+      </div>
+
+      {/* Based on Your Answers Section */}
+      <div className="px-5 py-4">
+        <h3 className="text-sm font-bold text-gray-800 mb-3">BASED ON YOUR ANSWERS:</h3>
+        <div className="flex flex-wrap gap-2">
+          <span
+            className="px-3 py-1.5 rounded-full text-sm font-medium"
+            style={{
+              backgroundColor: `${config.funnel.brandColor}15`,
+              color: config.funnel.brandColor,
+            }}
+          >
+            {timeline.weeks} weeks
+          </span>
+          <span
+            className="px-3 py-1.5 rounded-full text-sm font-medium"
+            style={{
+              backgroundColor: `${config.funnel.brandColor}15`,
+              color: config.funnel.brandColor,
+            }}
+          >
+            {timeline.text}
+          </span>
+          <span
+            className="px-3 py-1.5 rounded-full text-sm font-medium"
+            style={{
+              backgroundColor: `${config.funnel.brandColor}15`,
+              color: config.funnel.brandColor,
+            }}
+          >
+            {condition.shortName}
+          </span>
+        </div>
+      </div>
+
+      {/* Stats Section */}
+      <div className="px-5 py-4">
+        <div className="grid grid-cols-3 gap-3">
+          <div className="text-center p-3 rounded-xl bg-gray-50">
+            <div className="text-2xl font-black text-gray-900">30</div>
+            <div className="text-xs text-gray-600">Day Money Back</div>
+          </div>
+          <div className="text-center p-3 rounded-xl bg-gray-50">
+            <div className="text-2xl font-black text-gray-900">45K+</div>
+            <div className="text-xs text-gray-600">5-Star Reviews</div>
+          </div>
+          <div className="text-center p-3 rounded-xl bg-gray-50">
+            <div className="text-2xl font-black text-gray-900">FDA</div>
+            <div className="text-xs text-gray-600">Registered</div>
+          </div>
+        </div>
       </div>
 
       {/* Dynamic Objection Handler */}

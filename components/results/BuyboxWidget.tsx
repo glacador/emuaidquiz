@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import { BuyboxConfig } from '@/config/schema'
 
 interface BuyboxWidgetProps {
@@ -42,12 +43,14 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
     }
 
     // Add UTM parameters from current URL
-    const currentParams = new URLSearchParams(window.location.search)
-    currentParams.forEach((value, key) => {
-      if (key.startsWith('utm_') || key === 'g' || key === 'u' || key === 's' || key === 'f') {
-        params.set(key, value)
-      }
-    })
+    if (typeof window !== 'undefined') {
+      const currentParams = new URLSearchParams(window.location.search)
+      currentParams.forEach((value, key) => {
+        if (key.startsWith('utm_') || key === 'g' || key === 'u' || key === 's' || key === 'f') {
+          params.set(key, value)
+        }
+      })
+    }
 
     params.set('condition', conditionCode)
     params.set('return_to', '/checkout')
@@ -58,8 +61,8 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
   const handleCheckout = () => {
     // Fire analytics event
     if (typeof window !== 'undefined') {
-      (window as { dataLayer?: Record<string, unknown>[] }).dataLayer = (window as { dataLayer?: Record<string, unknown>[] }).dataLayer || []
-      ;(window as { dataLayer?: Record<string, unknown>[] }).dataLayer!.push({
+      (window as { dataLayer?: unknown[] }).dataLayer = (window as { dataLayer?: unknown[] }).dataLayer || []
+      ;(window as { dataLayer?: unknown[] }).dataLayer!.push({
         event: 'redirect_to_cart',
         offer_id: `${selectedOffer}-${isSubscription ? 'sub' : 'once'}`,
         variant_selected: isSubscription ? selectedPlan.variantId : offer.tryOnce.variantId,
@@ -68,6 +71,12 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
     }
 
     window.location.href = buildCheckoutUrl()
+  }
+
+  // Product images based on offer type
+  const productImages = {
+    complete: '/images/products/rescue-kit.png',
+    single: '/images/products/emuaidmax.png'
   }
 
   return (
@@ -79,8 +88,8 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
       {/* Offer Tabs */}
       <div className="flex border-4 border-black rounded-full overflow-hidden mb-6">
         <button
-          onClick={() => { setSelectedOffer('complete'); setSelectedPlanIndex(0); }}
-          className="flex-1 py-3 text-sm font-medium transition-colors"
+          onClick={() => { setSelectedOffer('complete'); setSelectedPlanIndex(0); setIsSubscription(true); }}
+          className="flex-1 py-3 text-sm font-bold transition-colors"
           style={{
             backgroundColor: selectedOffer === 'complete' ? brandColor : 'white',
             color: selectedOffer === 'complete' ? 'white' : '#333',
@@ -89,8 +98,8 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
           Complete System
         </button>
         <button
-          onClick={() => { setSelectedOffer('single'); setSelectedPlanIndex(0); }}
-          className="flex-1 py-3 text-sm font-medium transition-colors"
+          onClick={() => { setSelectedOffer('single'); setSelectedPlanIndex(0); setIsSubscription(true); }}
+          className="flex-1 py-3 text-sm font-bold transition-colors"
           style={{
             backgroundColor: selectedOffer === 'single' ? brandColor : 'white',
             color: selectedOffer === 'single' ? 'white' : '#333',
@@ -100,7 +109,20 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
         </button>
       </div>
 
-      {/* Product Name */}
+      {/* Product Image */}
+      <div className="flex justify-center mb-4">
+        <div className="relative w-48 h-48">
+          <Image
+            src={productImages[selectedOffer]}
+            alt={offer.product}
+            fill
+            className="object-contain"
+            priority
+          />
+        </div>
+      </div>
+
+      {/* Product Name Badge */}
       <div className="text-center mb-4">
         <span
           className="inline-block px-4 py-2 rounded-lg text-sm font-semibold"
@@ -121,35 +143,41 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
         </div>
 
         {/* Plan Options */}
-        {offer.plans.map((plan, index) => (
-          <button
-            key={plan.plan}
-            onClick={() => { setSelectedPlanIndex(index); setIsSubscription(true); }}
-            className="w-full p-4 rounded-xl mb-2 border-2 transition-all text-left relative"
-            style={{
-              borderColor: selectedPlanIndex === index && isSubscription ? '#333' : '#ddd',
-              backgroundColor: selectedPlanIndex === index && isSubscription ? `${brandColor}15` : 'white',
-            }}
-          >
-            <div className="flex justify-between items-start">
-              <div>
-                <div className="font-bold text-gray-800">{plan.plan}</div>
-                <div className="text-lg font-black text-gray-900">{plan.perDay}</div>
-                <div className="text-sm text-gray-600">
-                  Billed today: <span className="font-semibold">{plan.price}</span>
-                  {' '}
-                  <span className="text-red-500 line-through">{plan.old}</span>
+        <div className="space-y-3 mb-4">
+          {offer.plans.map((plan, index) => (
+            <button
+              key={plan.plan}
+              onClick={() => { setSelectedPlanIndex(index); setIsSubscription(true); }}
+              className="w-full p-4 rounded-xl border-3 transition-all text-left relative"
+              style={{
+                borderWidth: '3px',
+                borderColor: selectedPlanIndex === index && isSubscription ? '#333' : '#e5e7eb',
+                backgroundColor: selectedPlanIndex === index && isSubscription ? `${brandColor}10` : 'white',
+              }}
+            >
+              <div className="flex justify-between items-start">
+                <div className="flex-1">
+                  <div className="font-bold text-gray-800 text-base">{plan.plan}</div>
+                  <div className="text-xl font-black text-gray-900 mt-1">{plan.perDay}</div>
+                  <div className="text-sm text-gray-600 mt-1">
+                    Billed today: <span className="font-semibold">{plan.price}</span>
+                    {' '}
+                    <span className="text-red-500 line-through">{plan.old}</span>
+                  </div>
                 </div>
+                <span
+                  className="text-white text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap"
+                  style={{ backgroundColor: '#22c55e' }}
+                >
+                  {plan.badge}
+                </span>
               </div>
-              <span className="bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-                {plan.badge}
-              </span>
-            </div>
-          </button>
-        ))}
+            </button>
+          ))}
+        </div>
 
         {/* Benefits List */}
-        <ul className="space-y-2 mt-4 mb-4">
+        <ul className="space-y-2 mb-4">
           {[
             selectedOffer === 'complete' ? 'Complete Regimen for Maximum Support' : 'Best Seller: Our Strongest Formula',
             'FREE U.S. shipping today',
@@ -157,7 +185,7 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
             '30-day money back guarantee',
           ].map((benefit, i) => (
             <li key={i} className="flex items-center gap-2 text-sm text-gray-700">
-              <span className="w-5 h-5 rounded-full bg-green-500 text-white flex items-center justify-center text-xs">✓</span>
+              <span className="w-5 h-5 rounded-full bg-green-500 text-white flex items-center justify-center text-xs flex-shrink-0">✓</span>
               {benefit}
             </li>
           ))}
@@ -166,7 +194,7 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
         {/* CTA Button */}
         <button
           onClick={handleCheckout}
-          className="w-full py-4 rounded-xl text-white font-bold text-lg border-4 border-black"
+          className="w-full py-4 rounded-xl text-white font-bold text-lg border-4 border-black transition-transform active:scale-[0.98]"
           style={{
             backgroundColor: brandColor,
             boxShadow: '2px 4px 0 #000',
@@ -185,14 +213,15 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
 
         <button
           onClick={() => setIsSubscription(false)}
-          className="w-full p-4 rounded-xl mb-4 border-2 transition-all text-left"
+          className="w-full p-4 rounded-xl mb-4 transition-all text-left"
           style={{
-            borderColor: !isSubscription ? '#333' : '#ddd',
-            backgroundColor: !isSubscription ? `${brandColor}15` : 'white',
+            borderWidth: '3px',
+            borderColor: !isSubscription ? '#333' : '#e5e7eb',
+            backgroundColor: !isSubscription ? `${brandColor}10` : 'white',
           }}
         >
-          <div className="text-lg font-black text-gray-900">{offer.tryOnce.perDay}</div>
-          <div className="text-sm text-gray-600">
+          <div className="text-xl font-black text-gray-900">{offer.tryOnce.perDay}</div>
+          <div className="text-sm text-gray-600 mt-1">
             One-time price: <span className="font-semibold">{offer.tryOnce.price}</span>
             {' '}
             <span className="text-red-500 line-through">{offer.tryOnce.old}</span>
@@ -200,13 +229,13 @@ export default function BuyboxWidget({ config, brandColor, conditionCode }: Buyb
         </button>
 
         <div className="flex items-center gap-2 text-sm text-gray-500 mb-4">
-          <span className="w-5 h-5 rounded-full bg-red-500 text-white flex items-center justify-center text-xs">✗</span>
+          <span className="w-5 h-5 rounded-full bg-red-500 text-white flex items-center justify-center text-xs flex-shrink-0">✗</span>
           No FREE shipping
         </div>
 
         <button
           onClick={() => { setIsSubscription(false); handleCheckout(); }}
-          className="w-full py-4 rounded-xl text-white font-bold text-lg border-4 border-black"
+          className="w-full py-4 rounded-xl text-white font-bold text-lg border-4 border-black transition-transform active:scale-[0.98]"
           style={{
             backgroundColor: brandColor,
             boxShadow: '2px 4px 0 #000',
