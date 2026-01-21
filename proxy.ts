@@ -12,7 +12,7 @@ const DOMAIN_MAP: Record<string, string> = {
   // Add more domains as funnels are created
 }
 
-export function middleware(request: NextRequest) {
+export default function proxy(request: NextRequest) {
   const hostname = request.headers.get('host') || ''
   const pathname = request.nextUrl.pathname
 
