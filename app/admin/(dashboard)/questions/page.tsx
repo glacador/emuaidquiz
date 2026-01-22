@@ -14,37 +14,43 @@ export default async function QuestionsPage({ searchParams }: PageProps) {
   let selectedFunnel: { id: string; name: string } | null = null
   let error: string | null = null
 
-  try {
-    const supabase = await createClient()
+  // Check if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  if (!supabaseUrl || supabaseUrl.includes('placeholder')) {
+    error = 'Supabase is not configured. Please set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY environment variables.'
+  } else {
+    try {
+      const supabase = await createClient()
 
-    // Fetch funnels for dropdown
-    const { data: funnelData, error: funnelError } = await supabase
-      .from('funnels')
-      .select('id, name')
-      .order('name')
+      // Fetch funnels for dropdown
+      const { data: funnelData, error: funnelError } = await supabase
+        .from('funnels')
+        .select('id, name')
+        .order('name')
 
-    if (funnelError) throw funnelError
-    funnels = funnelData || []
+      if (funnelError) throw funnelError
+      funnels = funnelData || []
 
-    // Fetch questions if funnel is selected
-    if (funnelId) {
-      const { data, error: questionsError } = await supabase
-        .from('questions')
-        .select(`
-          *,
-          options:question_options(*)
-        `)
-        .eq('funnel_id', funnelId)
-        .order('sort_order')
+      // Fetch questions if funnel is selected
+      if (funnelId) {
+        const { data, error: questionsError } = await supabase
+          .from('questions')
+          .select(`
+            *,
+            options:question_options(*)
+          `)
+          .eq('funnel_id', funnelId)
+          .order('sort_order')
 
-      if (questionsError) throw questionsError
-      questions = data
+        if (questionsError) throw questionsError
+        questions = data
 
-      selectedFunnel = funnels.find(f => f.id === funnelId) || null
+        selectedFunnel = funnels.find(f => f.id === funnelId) || null
+      }
+    } catch (e) {
+      console.error('Database error:', e)
+      error = 'Unable to connect to database. Make sure Supabase is configured and tables are created.'
     }
-  } catch (e) {
-    console.error('Database error:', e)
-    error = 'Unable to connect to database. Make sure Supabase is configured and tables are created.'
   }
 
   if (error) {

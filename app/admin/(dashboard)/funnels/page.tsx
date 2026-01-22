@@ -2,19 +2,51 @@ import { createClient } from '@/lib/supabase/server'
 import Link from 'next/link'
 
 export default async function FunnelsPage() {
-  const supabase = await createClient()
+  let funnels: Array<{
+    id: string
+    name: string
+    tagline?: string
+    brand_color?: string
+    domain?: string
+    conditions?: { count: number }[]
+    questions?: { count: number }[]
+  }> | null = null
+  let dbError: string | null = null
 
-  const { data: funnels, error } = await supabase
-    .from('funnels')
-    .select(`
-      *,
-      conditions:conditions(count),
-      questions:questions(count)
-    `)
-    .order('created_at', { ascending: false })
+  // Check if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  if (!supabaseUrl || supabaseUrl.includes('placeholder')) {
+    dbError = 'Supabase is not configured. Please set environment variables in Vercel.'
+  } else {
+    try {
+      const supabase = await createClient()
 
-  if (error) {
-    console.error('Error fetching funnels:', error)
+      const { data, error } = await supabase
+        .from('funnels')
+        .select(`
+          *,
+          conditions:conditions(count),
+          questions:questions(count)
+        `)
+        .order('created_at', { ascending: false })
+
+      if (error) throw error
+      funnels = data
+    } catch (e) {
+      console.error('Error fetching funnels:', e)
+      dbError = 'Unable to connect to database. Please run the SQL migrations in Supabase.'
+    }
+  }
+
+  if (dbError) {
+    return (
+      <div>
+        <h1 className="text-3xl font-bold text-gray-900 mb-8">Funnels</h1>
+        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+          <p className="text-yellow-800">{dbError}</p>
+        </div>
+      </div>
+    )
   }
 
   return (

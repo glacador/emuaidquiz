@@ -1,28 +1,117 @@
 import { createClient } from '@/lib/supabase/server'
 
 export default async function AnalyticsPage() {
-  const supabase = await createClient()
+  // Check if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  if (!supabaseUrl || supabaseUrl.includes('placeholder')) {
+    return (
+      <div>
+        <h1 className="text-3xl font-bold text-gray-900 mb-8">Analytics</h1>
+        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+          <p className="text-yellow-800">Supabase is not configured. Please set environment variables in Vercel.</p>
+        </div>
+      </div>
+    )
+  }
 
-  // Fetch overall stats
-  const { count: totalSessions } = await supabase
-    .from('quiz_sessions')
-    .select('*', { count: 'exact', head: true })
+  let totalSessions: number | null = 0
+  let completedSessions: number | null = 0
+  let convertedSessions: number | null = 0
+  let funnelStats: { funnel_id: string; funnels: unknown }[] | null = null
+  let recentSessions: Array<{
+    id: string
+    email?: string
+    condition_code?: string
+    urgency_band?: string
+    converted?: boolean
+    created_at: string
+    funnels?: unknown
+  }> | null = null
+  let abTests: Array<{
+    id: string
+    name: string
+    status: string
+    variants?: Array<{
+      id: string
+      name: string
+      is_control?: boolean
+      results?: Array<{ converted: boolean }>
+    }>
+  }> | null = null
 
-  const { count: completedSessions } = await supabase
-    .from('quiz_sessions')
-    .select('*', { count: 'exact', head: true })
-    .not('completed_at', 'is', null)
+  try {
+    const supabase = await createClient()
 
-  const { count: convertedSessions } = await supabase
-    .from('quiz_sessions')
-    .select('*', { count: 'exact', head: true })
-    .eq('converted', true)
+    // Fetch overall stats
+    const totalRes = await supabase
+      .from('quiz_sessions')
+      .select('*', { count: 'exact', head: true })
+    totalSessions = totalRes.count
 
-  // Fetch sessions by funnel
-  const { data: funnelStats } = await supabase
-    .from('quiz_sessions')
-    .select('funnel_id, funnels(name)')
-    .not('funnel_id', 'is', null)
+    const completedRes = await supabase
+      .from('quiz_sessions')
+      .select('*', { count: 'exact', head: true })
+      .not('completed_at', 'is', null)
+    completedSessions = completedRes.count
+
+    const convertedRes = await supabase
+      .from('quiz_sessions')
+      .select('*', { count: 'exact', head: true })
+      .eq('converted', true)
+    convertedSessions = convertedRes.count
+
+    // Fetch sessions by funnel
+    const funnelStatsRes = await supabase
+      .from('quiz_sessions')
+      .select('funnel_id, funnels(name)')
+      .not('funnel_id', 'is', null)
+    funnelStats = funnelStatsRes.data
+
+    // Fetch recent sessions
+    const recentRes = await supabase
+      .from('quiz_sessions')
+      .select(`
+        id,
+        email,
+        condition_code,
+        urgency_band,
+        converted,
+        created_at,
+        funnels(name)
+      `)
+      .order('created_at', { ascending: false })
+      .limit(20)
+    recentSessions = recentRes.data
+
+    // A/B test performance
+    const abTestsRes = await supabase
+      .from('ab_tests')
+      .select(`
+        id,
+        name,
+        status,
+        variants:ab_test_variants(
+          id,
+          name,
+          is_control,
+          results:ab_test_results(
+            converted
+          )
+        )
+      `)
+      .eq('status', 'active')
+    abTests = abTestsRes.data
+  } catch (e) {
+    console.error('Analytics error:', e)
+    return (
+      <div>
+        <h1 className="text-3xl font-bold text-gray-900 mb-8">Analytics</h1>
+        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+          <p className="text-yellow-800">Unable to connect to database. Please run the SQL migrations in Supabase.</p>
+        </div>
+      </div>
+    )
+  }
 
   // Group by funnel
   const funnelCounts: Record<string, { name: string; count: number }> = {}
@@ -35,39 +124,6 @@ export default async function AnalyticsPage() {
     }
     funnelCounts[fid].count++
   })
-
-  // Fetch recent sessions
-  const { data: recentSessions } = await supabase
-    .from('quiz_sessions')
-    .select(`
-      id,
-      email,
-      condition_code,
-      urgency_band,
-      converted,
-      created_at,
-      funnels(name)
-    `)
-    .order('created_at', { ascending: false })
-    .limit(20)
-
-  // A/B test performance
-  const { data: abTests } = await supabase
-    .from('ab_tests')
-    .select(`
-      id,
-      name,
-      status,
-      variants:ab_test_variants(
-        id,
-        name,
-        is_control,
-        results:ab_test_results(
-          converted
-        )
-      )
-    `)
-    .eq('status', 'active')
 
   const completionRate = totalSessions
     ? ((completedSessions || 0) / totalSessions * 100).toFixed(1)

@@ -18,30 +18,36 @@ export default async function OutcomesPage({ searchParams }: PageProps) {
   }[] = []
   let error: string | null = null
 
-  try {
-    const supabase = await createClient()
+  // Check if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  if (!supabaseUrl || supabaseUrl.includes('placeholder')) {
+    error = 'Supabase is not configured. Please set environment variables in Vercel.'
+  } else {
+    try {
+      const supabase = await createClient()
 
-    const { data: funnelData, error: funnelError } = await supabase
-      .from('funnels')
-      .select('id, name')
-      .order('name')
+      const { data: funnelData, error: funnelError } = await supabase
+        .from('funnels')
+        .select('id, name')
+        .order('name')
 
-    if (funnelError) throw funnelError
-    funnels = funnelData || []
+      if (funnelError) throw funnelError
+      funnels = funnelData || []
 
-    if (funnelId) {
-      const { data: conditionData, error: conditionError } = await supabase
-        .from('conditions')
-        .select('id, name, slug, code, custom_html')
-        .eq('funnel_id', funnelId)
-        .order('sort_order')
+      if (funnelId) {
+        const { data: conditionData, error: conditionError } = await supabase
+          .from('conditions')
+          .select('id, name, slug, code, custom_html')
+          .eq('funnel_id', funnelId)
+          .order('sort_order')
 
-      if (conditionError) throw conditionError
-      conditions = conditionData || []
+        if (conditionError) throw conditionError
+        conditions = conditionData || []
+      }
+    } catch (e) {
+      console.error('Database error:', e)
+      error = 'Unable to connect to database. Make sure Supabase is configured.'
     }
-  } catch (e) {
-    console.error('Database error:', e)
-    error = 'Unable to connect to database. Make sure Supabase is configured.'
   }
 
   if (error) {

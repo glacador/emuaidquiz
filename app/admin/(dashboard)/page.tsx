@@ -10,31 +10,37 @@ export default async function AdminDashboard() {
   ]
   let dbError: string | null = null
 
-  try {
-    const supabase = await createClient()
+  // Check if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  if (!supabaseUrl || supabaseUrl.includes('placeholder')) {
+    dbError = 'Supabase is not configured. Please set environment variables in Vercel.'
+  } else {
+    try {
+      const supabase = await createClient()
 
-    // Fetch stats
-    const [funnelRes, questionRes, testRes, sessionRes] = await Promise.all([
-      supabase.from('funnels').select('*', { count: 'exact', head: true }),
-      supabase.from('questions').select('*', { count: 'exact', head: true }),
-      supabase.from('ab_tests').select('*', { count: 'exact', head: true }).eq('status', 'active'),
-      supabase.from('quiz_sessions').select('*', { count: 'exact', head: true }),
-    ])
+      // Fetch stats
+      const [funnelRes, questionRes, testRes, sessionRes] = await Promise.all([
+        supabase.from('funnels').select('*', { count: 'exact', head: true }),
+        supabase.from('questions').select('*', { count: 'exact', head: true }),
+        supabase.from('ab_tests').select('*', { count: 'exact', head: true }).eq('status', 'active'),
+        supabase.from('quiz_sessions').select('*', { count: 'exact', head: true }),
+      ])
 
-    // Check for errors
-    if (funnelRes.error || questionRes.error || testRes.error || sessionRes.error) {
-      throw new Error('Database query failed')
+      // Check for errors
+      if (funnelRes.error || questionRes.error || testRes.error || sessionRes.error) {
+        throw new Error('Database query failed')
+      }
+
+      stats = [
+        { label: 'Total Funnels', value: funnelRes.count || 0, icon: '🎯', href: '/admin/funnels' },
+        { label: 'Total Questions', value: questionRes.count || 0, icon: '❓', href: '/admin/questions' },
+        { label: 'Active A/B Tests', value: testRes.count || 0, icon: '🧪', href: '/admin/ab-tests' },
+        { label: 'Quiz Sessions', value: sessionRes.count || 0, icon: '📊', href: '/admin/analytics' },
+      ]
+    } catch (e) {
+      console.error('Dashboard error:', e)
+      dbError = 'Unable to connect to database. Please run the SQL migrations in Supabase.'
     }
-
-    stats = [
-      { label: 'Total Funnels', value: funnelRes.count || 0, icon: '🎯', href: '/admin/funnels' },
-      { label: 'Total Questions', value: questionRes.count || 0, icon: '❓', href: '/admin/questions' },
-      { label: 'Active A/B Tests', value: testRes.count || 0, icon: '🧪', href: '/admin/ab-tests' },
-      { label: 'Quiz Sessions', value: sessionRes.count || 0, icon: '📊', href: '/admin/analytics' },
-    ]
-  } catch (e) {
-    console.error('Dashboard error:', e)
-    dbError = 'Unable to connect to database. Please run the SQL migrations in Supabase.'
   }
 
   return (

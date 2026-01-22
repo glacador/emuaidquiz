@@ -3,22 +3,51 @@ import Link from 'next/link'
 import ABTestCard from '@/components/admin/ABTestCard'
 
 export default async function ABTestsPage() {
-  const supabase = await createClient()
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let tests: any[] | null = null
+  let dbError: string | null = null
 
-  const { data: tests } = await supabase
-    .from('ab_tests')
-    .select(`
-      *,
-      funnel:funnels(id, name),
-      variants:ab_test_variants(
-        id,
-        name,
-        weight,
-        is_control,
-        results:ab_test_results(count)
-      )
-    `)
-    .order('created_at', { ascending: false })
+  // Check if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  if (!supabaseUrl || supabaseUrl.includes('placeholder')) {
+    dbError = 'Supabase is not configured. Please set environment variables in Vercel.'
+  } else {
+    try {
+      const supabase = await createClient()
+
+      const { data, error } = await supabase
+        .from('ab_tests')
+        .select(`
+          *,
+          funnel:funnels(id, name),
+          variants:ab_test_variants(
+            id,
+            name,
+            weight,
+            is_control,
+            results:ab_test_results(count)
+          )
+        `)
+        .order('created_at', { ascending: false })
+
+      if (error) throw error
+      tests = data
+    } catch (e) {
+      console.error('Error fetching A/B tests:', e)
+      dbError = 'Unable to connect to database. Please run the SQL migrations in Supabase.'
+    }
+  }
+
+  if (dbError) {
+    return (
+      <div>
+        <h1 className="text-3xl font-bold text-gray-900 mb-8">A/B Tests</h1>
+        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4">
+          <p className="text-yellow-800">{dbError}</p>
+        </div>
+      </div>
+    )
+  }
 
   const activeTests = tests?.filter(t => t.status === 'active') || []
   const draftTests = tests?.filter(t => t.status === 'draft') || []
