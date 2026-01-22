@@ -128,6 +128,52 @@ export default function ResultsPage({
           conditionCode={condition.code}
         />
 
+        {/* Recommendation Paragraph - Why 90 Days */}
+        <div className="px-5 py-6">
+          <div
+            className="p-5 rounded-xl"
+            style={{
+              backgroundColor: `${config.funnel.brandColor}08`,
+              borderLeft: `4px solid ${config.funnel.brandColor}`,
+            }}
+          >
+            <h3
+              className="text-sm font-bold mb-3 uppercase tracking-wide"
+              style={{ color: config.funnel.brandColor }}
+            >
+              Why We Recommend the Rescue Kit
+            </h3>
+            <div className="text-sm text-gray-700 leading-relaxed space-y-3">
+              <p>
+                <strong>Here&apos;s what 47,000+ customers discovered:</strong> Quick fixes fail because skin renewal happens in cycles. Your skin completely regenerates every 28-40 days—meaning the results you see in week 2 are just the beginning.
+              </p>
+              <p>
+                The <strong>EMUAID Rescue Kit</strong> is specifically designed for a 90-day protocol because that&apos;s when transformation becomes permanent. Our data shows:
+              </p>
+              <ul className="space-y-1.5 ml-1">
+                <li className="flex items-start gap-2">
+                  <span style={{ color: config.funnel.brandColor }}>•</span>
+                  <span><strong>Days 1-30:</strong> Inflammation calms, irritation decreases, skin begins healing</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span style={{ color: config.funnel.brandColor }}>•</span>
+                  <span><strong>Days 31-60:</strong> New skin emerges clearer, texture improves, patterns break</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span style={{ color: config.funnel.brandColor }}>•</span>
+                  <span><strong>Days 61-90:</strong> Results stabilize, skin&apos;s natural barrier fully restored</span>
+                </li>
+              </ul>
+              <p>
+                <strong>89% of customers who commit to 90 days</strong> report they wish they&apos;d started sooner. The ones who quit at week 3? They&apos;re still searching for answers.
+              </p>
+              <p className="italic text-gray-600">
+                Imagine looking in the mirror 90 days from now and seeing the skin you&apos;ve been chasing for years. That&apos;s not a fantasy—it&apos;s what happens when you finally give your skin the time it needs to truly heal.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Testimonial */}
         <TestimonialCard
           condition={condition}
@@ -305,6 +351,52 @@ export default function ResultsPage({
         brandColor={config.funnel.brandColor}
         conditionCode={condition.code}
       />
+
+      {/* Recommendation Paragraph - Why 90 Days */}
+      <div className="px-5 py-6">
+        <div
+          className="p-5 rounded-xl"
+          style={{
+            backgroundColor: `${config.funnel.brandColor}08`,
+            borderLeft: `4px solid ${config.funnel.brandColor}`,
+          }}
+        >
+          <h3
+            className="text-sm font-bold mb-3 uppercase tracking-wide"
+            style={{ color: config.funnel.brandColor }}
+          >
+            Why We Recommend the Rescue Kit
+          </h3>
+          <div className="text-sm text-gray-700 leading-relaxed space-y-3">
+            <p>
+              <strong>Here&apos;s what 47,000+ customers discovered:</strong> Quick fixes fail because skin renewal happens in cycles. Your skin completely regenerates every 28-40 days—meaning the results you see in week 2 are just the beginning.
+            </p>
+            <p>
+              The <strong>EMUAID Rescue Kit</strong> is specifically designed for a 90-day protocol because that&apos;s when transformation becomes permanent. Our data shows:
+            </p>
+            <ul className="space-y-1.5 ml-1">
+              <li className="flex items-start gap-2">
+                <span style={{ color: config.funnel.brandColor }}>•</span>
+                <span><strong>Days 1-30:</strong> Inflammation calms, irritation decreases, skin begins healing</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: config.funnel.brandColor }}>•</span>
+                <span><strong>Days 31-60:</strong> New skin emerges clearer, texture improves, patterns break</span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span style={{ color: config.funnel.brandColor }}>•</span>
+                <span><strong>Days 61-90:</strong> Results stabilize, skin&apos;s natural barrier fully restored</span>
+              </li>
+            </ul>
+            <p>
+              <strong>89% of customers who commit to 90 days</strong> report they wish they&apos;d started sooner. The ones who quit at week 3? They&apos;re still searching for answers.
+            </p>
+            <p className="italic text-gray-600">
+              Imagine looking in the mirror 90 days from now and seeing the skin you&apos;ve been chasing for years. That&apos;s not a fantasy—it&apos;s what happens when you finally give your skin the time it needs to truly heal.
+            </p>
+          </div>
+        </div>
+      </div>
 
       {/* Testimonial */}
       <TestimonialCard
