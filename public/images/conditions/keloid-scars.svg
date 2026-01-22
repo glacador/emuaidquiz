@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Skin background -->
+  <rect width="100" height="100" rx="8" fill="#FFE4D6"/>
+  <!-- Keloid scars - firm, raised, rubbery scar tissue -->
+
+  <!-- Large keloid 1 - irregular raised shape -->
+  <path d="M20 35 Q15 30 20 25 Q30 20 40 25 Q45 30 42 40 Q40 50 30 48 Q20 45 20 35Z"
+        fill="#E8A090"/>
+  <path d="M22 34 Q18 30 22 26 Q30 22 38 26 Q42 30 40 38 Q38 46 30 45 Q22 43 22 34Z"
+        fill="#D4887A"/>
+  <!-- Highlight for raised appearance -->
+  <path d="M25 28 Q30 25 35 28" stroke="#F0B8A8" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Large keloid 2 -->
+  <path d="M55 25 Q50 22 55 18 Q65 15 75 20 Q82 28 78 38 Q72 45 62 42 Q52 38 55 25Z"
+        fill="#E8A090"/>
+  <path d="M57 26 Q53 23 57 20 Q65 17 73 21 Q79 28 76 36 Q71 42 63 40 Q55 37 57 26Z"
+        fill="#D4887A"/>
+  <path d="M60 22 Q67 20 72 24" stroke="#F0B8A8" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Medium keloid 3 -->
+  <path d="M15 65 Q12 60 18 55 Q28 52 35 58 Q40 65 35 72 Q28 78 20 75 Q12 72 15 65Z"
+        fill="#E8A090"/>
+  <path d="M17 64 Q15 60 20 57 Q28 55 33 60 Q37 66 33 71 Q28 75 22 73 Q16 70 17 64Z"
+        fill="#D4887A"/>
+  <path d="M20 58 Q26 56 30 60" stroke="#F0B8A8" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Small keloid 4 -->
+  <ellipse cx="65" cy="70" rx="15" ry="10" fill="#E8A090"/>
+  <ellipse cx="65" cy="69" rx="12" ry="8" fill="#D4887A"/>
+  <path d="M58 66 Q65 64 72 66" stroke="#F0B8A8" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Small scattered keloids -->
+  <ellipse cx="48" cy="50" rx="6" ry="4" fill="#E8A090"/>
+  <ellipse cx="48" cy="49.5" rx="5" ry="3" fill="#D4887A"/>
+
+  <ellipse cx="85" cy="55" rx="7" ry="5" fill="#E8A090"/>
+  <ellipse cx="85" cy="54.5" rx="5.5" ry="4" fill="#D4887A"/>
+
+  <!-- Texture lines to show raised fibrous tissue -->
+  <path d="M25 32 L28 38" stroke="#C87868" stroke-width="0.5" opacity="0.5"/>
+  <path d="M32 30 L35 36" stroke="#C87868" stroke-width="0.5" opacity="0.5"/>
+  <path d="M62 28 L66 34" stroke="#C87868" stroke-width="0.5" opacity="0.5"/>
+  <path d="M68 26 L71 32" stroke="#C87868" stroke-width="0.5" opacity="0.5"/>
+</svg>

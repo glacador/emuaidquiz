@@ -390,20 +390,20 @@
     },
     {
       "id": "4",
-      "type": "single",
+      "type": "image-grid",
       "title": "What do the bumps look like?",
       "subtitle": "Select the best match.",
       "options": [
-        { "label": "Red, inflamed pimples with pus", "value": "A", "emoji": "🔴", "scores": { "A1": 8, "B2": 6, "A7": 5, "B4": 4 } },
-        { "label": "Blackheads and whiteheads (non-inflamed)", "value": "B", "emoji": "⚫", "scores": { "A2": 12, "A10": 4 } },
-        { "label": "Deep, painful lumps under skin", "value": "C", "emoji": "😣", "scores": { "A3": 10, "B13": 8, "B10": 5 } },
-        { "label": "Uniform, tiny itchy bumps", "value": "D", "emoji": "🔵", "scores": { "A5": 7, "B5": 10, "A8": 6 } },
-        { "label": "Ingrown hairs curling into skin", "value": "E", "emoji": "🔃", "scores": { "B1": 12, "B4": 4 } },
-        { "label": "Rough, sandpaper-like texture", "value": "F", "emoji": "🏜️", "scores": { "A8": 12, "B7": 4 } },
-        { "label": "Small yellowish bumps with central dip", "value": "G", "emoji": "🟡", "scores": { "B11": 15 } },
-        { "label": "Tiny hard white bumps (won't pop)", "value": "H", "emoji": "⚪", "scores": { "A10": 12 } },
-        { "label": "Keloid-like firm raised scars", "value": "I", "emoji": "🟤", "scores": { "B12": 12, "B9": 6 } },
-        { "label": "Severe interconnected nodules/tunnels", "value": "J", "emoji": "🔗", "scores": { "B13": 12, "B9": 6 } }
+        { "label": "Red, inflamed pimples with pus", "value": "A", "image": "/images/conditions/inflamed-pimples.svg", "scores": { "A1": 8, "B2": 6, "A7": 5, "B4": 4 } },
+        { "label": "Blackheads and whiteheads", "value": "B", "image": "/images/conditions/blackheads-whiteheads.svg", "scores": { "A2": 12, "A10": 4 } },
+        { "label": "Deep, painful lumps under skin", "value": "C", "image": "/images/conditions/deep-nodules.svg", "scores": { "A3": 10, "B13": 8, "B10": 5 } },
+        { "label": "Uniform, tiny itchy bumps", "value": "D", "image": "/images/conditions/uniform-bumps.svg", "scores": { "A5": 7, "B5": 10, "A8": 6 } },
+        { "label": "Ingrown hairs curling into skin", "value": "E", "image": "/images/conditions/ingrown-hairs.svg", "scores": { "B1": 12, "B4": 4 } },
+        { "label": "Rough, sandpaper-like texture", "value": "F", "image": "/images/conditions/rough-texture.svg", "scores": { "A8": 12, "B7": 4 } },
+        { "label": "Yellowish bumps with central dip", "value": "G", "image": "/images/conditions/yellowish-bumps.svg", "scores": { "B11": 15 } },
+        { "label": "Tiny hard white bumps", "value": "H", "image": "/images/conditions/white-bumps.svg", "scores": { "A10": 12 } },
+        { "label": "Keloid-like firm raised scars", "value": "I", "image": "/images/conditions/keloid-scars.svg", "scores": { "B12": 12, "B9": 6 } },
+        { "label": "Severe interconnected nodules", "value": "J", "image": "/images/conditions/interconnected-nodules.svg", "scores": { "B13": 12, "B9": 6 } }
       ]
     },
     {

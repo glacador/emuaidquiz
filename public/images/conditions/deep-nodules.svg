@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Skin background -->
+  <rect width="100" height="100" rx="8" fill="#FFE4D6"/>
+  <!-- Deep under-skin lumps (darker, larger, no visible head) -->
+  <ellipse cx="35" cy="40" rx="16" ry="12" fill="#D7CCC8" opacity="0.7"/>
+  <ellipse cx="35" cy="40" rx="12" ry="9" fill="#BCAAA4"/>
+  <ellipse cx="70" cy="35" rx="12" ry="10" fill="#D7CCC8" opacity="0.7"/>
+  <ellipse cx="70" cy="35" rx="9" ry="7" fill="#BCAAA4"/>
+  <ellipse cx="55" cy="65" rx="18" ry="14" fill="#D7CCC8" opacity="0.7"/>
+  <ellipse cx="55" cy="65" rx="14" ry="10" fill="#A1887F"/>
+  <!-- Slight redness on surface -->
+  <ellipse cx="35" cy="40" rx="10" ry="7" fill="#FFCDD2" opacity="0.4"/>
+  <ellipse cx="55" cy="65" rx="12" ry="8" fill="#FFCDD2" opacity="0.5"/>
+  <!-- Pain indicators (small lines) -->
+  <path d="M20 25 L15 20 M25 22 L22 17" stroke="#EF9A9A" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M75 55 L80 50 M78 60 L85 57" stroke="#EF9A9A" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
