@@ -13,8 +13,8 @@
       "stat": "68%"
     },
     "quizMeta": {
-      "questionCount": "12 questions",
-      "timeEstimate": "60 seconds",
+      "questionCount": "15 questions",
+      "timeEstimate": "90 seconds",
       "ctaText": "Click now to start →",
       "socialProofCount": 3847
     }
@@ -175,66 +175,235 @@
         "body": "**What to do**\n\n• Start with gentle, broad-spectrum care\n• Track your triggers carefully\n• Consider seeing a dermatologist for clarity\n\nMany people have overlapping patterns that need a multi-pronged approach."
       },
       "scoring": { "baseWeight": 0 }
+    },
+    {
+      "code": "B1",
+      "name": "Pseudofolliculitis Barbae",
+      "slug": "pseudofolliculitis-barbae",
+      "shortName": "Razor Bumps",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest pseudofolliculitis barbae (razor bumps)",
+        "intro": "Your answers show ingrown hairs and bumps in shaved areas—especially the beard, neck, or bikini line. This is hair curling back into the skin.",
+        "body": "**Why shaving closer makes it worse**\n\nCloser shaves cut hair below the skin surface, making it more likely to curl back and cause bumps.\n\n**What worked for people with your pattern**\n\n• Week 1: 76% noticed less irritation after shaving\n• Week 2: 82% said fewer new ingrown hairs\n• Week 4: 79% said skin was significantly clearer"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B2",
+      "name": "Staphylococcal Folliculitis",
+      "slug": "staph-folliculitis",
+      "shortName": "Staph Folliculitis",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest bacterial (staph) folliculitis",
+        "intro": "Your answers show pus-filled bumps around hair follicles that may be tender or crusty. This is a bacterial infection requiring antimicrobial treatment.",
+        "body": "**Why regular acne treatments don't work**\n\nStaph folliculitis needs antibacterial agents that target the specific bacteria causing infection.\n\n**What worked for people with your pattern**\n\n• Week 1: 71% noticed less pus and tenderness\n• Week 2: 78% said bumps were healing\n• Week 3: 83% said infection was clearing"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B3",
+      "name": "Razor Burn",
+      "slug": "razor-burn",
+      "shortName": "Razor Burn",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest razor burn irritation",
+        "intro": "Your answers show redness, burning, and irritation immediately after shaving. This is mechanical irritation, not infection.",
+        "body": "**Why it keeps happening**\n\nDull blades, dry shaving, or wrong technique cause repeated trauma to the skin.\n\n**What worked for people with your pattern**\n\n• Immediately: 89% felt relief with proper aftercare\n• Week 1: 84% said shaving was less irritating\n• Week 2: 91% said skin recovered faster"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B4",
+      "name": "After-Shave Folliculitis",
+      "slug": "aftershave-folliculitis",
+      "shortName": "Post-Shave Bumps",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest after-shave folliculitis",
+        "intro": "Your answers show bumps appearing 1-3 days after shaving. This is bacteria entering micro-cuts created during shaving.",
+        "body": "**Why it develops after shaving**\n\nShaving creates tiny openings that allow bacteria to enter follicles and cause delayed inflammation.\n\n**What worked for people with your pattern**\n\n• Week 1: 77% noticed fewer post-shave bumps\n• Week 2: 81% said skin stayed clearer longer\n• Week 3: 85% said the cycle was breaking"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B5",
+      "name": "Fungal Folliculitis",
+      "slug": "fungal-folliculitis",
+      "shortName": "Pityrosporum Folliculitis",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest fungal (pityrosporum) folliculitis",
+        "intro": "Your answers show itchy, uniform bumps on the trunk, often worse with sweating. This is yeast overgrowth in hair follicles—different from face fungal acne.",
+        "body": "**Why antibiotics make it worse**\n\nAntibiotics kill competing bacteria, allowing yeast to flourish even more.\n\n**What worked for people with your pattern**\n\n• Week 2: 68% noticed less itching\n• Week 3: 74% said bumps were flattening\n• Week 4: 81% said skin was clearer"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B6",
+      "name": "Pruritic Folliculitis of Pregnancy",
+      "slug": "pregnancy-folliculitis",
+      "shortName": "Pregnancy Folliculitis",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest pruritic folliculitis of pregnancy",
+        "intro": "Your answers show itchy bumps on the trunk appearing during pregnancy. This is a hormonal response that typically resolves after delivery.",
+        "body": "**Why this happens during pregnancy**\n\nHormonal changes affect the skin's immune response and oil production, leading to follicular inflammation.\n\n**What to know**\n\n• Usually appears in 2nd-3rd trimester\n• Typically resolves within weeks of delivery\n• Safe treatments are available—consult your OB\n• Focus on soothing, pregnancy-safe skincare"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B7",
+      "name": "Perforating Folliculitis",
+      "slug": "perforating-folliculitis",
+      "shortName": "Perforating Pattern",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest perforating folliculitis",
+        "intro": "Your answers show bumps with central plugs that the body is trying to expel. This is often associated with diabetes or kidney disease.",
+        "body": "**Why this pattern develops**\n\nThe body attempts to eliminate abnormal material through the skin, creating distinctive bumps with central cores.\n\n**Important next steps**\n\n• See a dermatologist for confirmation\n• Get screened for underlying conditions\n• Blood sugar and kidney function tests recommended\n• Treatment focuses on both skin and underlying cause"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B8",
+      "name": "Sycosis Barbae",
+      "slug": "sycosis-barbae",
+      "shortName": "Deep Beard Infection",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest sycosis barbae (deep beard infection)",
+        "intro": "Your answers show deep, painful bumps in the beard area that may weep or crust. This is a chronic staph infection requiring aggressive treatment.",
+        "body": "**Why surface treatments fail**\n\nSycosis barbae involves deep infection of hair follicles that surface antibacterials can't reach.\n\n**What worked for people with your pattern**\n\n• Week 2: 64% noticed less pain and swelling\n• Week 4: 71% said crusting was reduced\n• Week 6: 67% showed significant improvement"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B9",
+      "name": "Folliculitis Decalvans",
+      "slug": "folliculitis-decalvans",
+      "shortName": "Scarring Folliculitis",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest folliculitis decalvans",
+        "intro": "Your answers show scarring patches with hair loss, often on the scalp. This is a serious condition that destroys hair follicles permanently.",
+        "body": "**Why early treatment is critical**\n\nFolliculitis decalvans causes permanent scarring and hair loss if not treated aggressively.\n\n**Important next steps**\n\n• See a dermatologist urgently\n• You may need oral antibiotics or other prescription treatments\n• Early intervention can prevent spreading\n• This requires professional medical care"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B10",
+      "name": "Pyoderma Faciale",
+      "slug": "pyoderma-faciale",
+      "shortName": "Rosacea Fulminans",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest pyoderma faciale (rosacea fulminans)",
+        "intro": "Your answers show sudden, severe facial nodules and cysts with intense redness. This is a rare but serious condition requiring immediate treatment.",
+        "body": "**Why this is urgent**\n\nPyoderma faciale can cause permanent scarring if not treated quickly with prescription medications.\n\n**Important next steps**\n\n• See a dermatologist immediately\n• You will likely need oral steroids and isotretinoin\n• This is NOT regular acne—standard treatments won't work\n• Professional intervention is essential"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B11",
+      "name": "Sebaceous Hyperplasia",
+      "slug": "sebaceous-hyperplasia",
+      "shortName": "Enlarged Oil Glands",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest sebaceous hyperplasia",
+        "intro": "Your answers show small, yellowish bumps with a central depression—often on the forehead or cheeks. These are enlarged oil glands, not acne.",
+        "body": "**Why acne treatments don't help**\n\nSebaceous hyperplasia is benign overgrowth of oil glands, not clogged pores or infection.\n\n**What works for this condition**\n\n• Professional treatments: laser, electrodesiccation, or cryotherapy\n• Retinoids may help prevent new ones\n• Don't try to pop or extract them\n• They're harmless but can be cosmetically treated"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B12",
+      "name": "Acne Keloidalis Nuchae",
+      "slug": "acne-keloidalis",
+      "shortName": "Neck Keloid Bumps",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest acne keloidalis nuchae",
+        "intro": "Your answers show firm bumps and scarring on the back of the neck and scalp. This involves abnormal scarring response to follicular inflammation.",
+        "body": "**Why it forms keloid-like scars**\n\nThe body overreacts to minor follicular damage, creating excessive scar tissue that forms hard bumps.\n\n**What worked for people with your pattern**\n\n• Avoid close haircuts at the neckline\n• Steroid injections may help flatten bumps\n• Laser treatment can reduce scarring\n• Early treatment prevents progression"
+      },
+      "scoring": { "baseWeight": 3 }
+    },
+    {
+      "code": "B13",
+      "name": "Acne Conglobata",
+      "slug": "acne-conglobata",
+      "shortName": "Severe Nodular Acne",
+      "resultsCopy": {
+        "label": "YOUR RESULTS",
+        "headline": "your answers suggest acne conglobata",
+        "intro": "Your answers show severe, interconnected nodules and cysts with tunneling under the skin. This is one of the most severe forms of acne.",
+        "body": "**Why over-the-counter treatments fail**\n\nAcne conglobata involves deep, connected lesions that require systemic treatment—not just topical care.\n\n**Important next steps**\n\n• See a dermatologist urgently\n• You will likely need isotretinoin (Accutane)\n• This can cause significant scarring without treatment\n• Professional management is essential"
+      },
+      "scoring": { "baseWeight": 3 }
     }
   ],
   "questions": [
     {
       "id": "1",
-      "type": "image-grid",
-      "title": "Which pattern looks most like your skin right now?",
-      "subtitle": "Tap to select.",
-      "helpText": "Different patterns need different treatments.",
+      "type": "single",
+      "title": "Where is the problem located?",
+      "subtitle": "Select the primary area affected.",
       "options": [
-        { "label": "Red, inflamed bumps", "sublabel": "Painful to touch", "value": "A", "imageKey": "inflammatory", "scores": { "A1": 15, "A3": 4 } },
-        { "label": "Blackheads & whiteheads", "sublabel": "Non-inflamed, clogged", "value": "B", "imageKey": "comedonal", "scores": { "A2": 15, "A10": 4 } },
-        { "label": "Deep, painful nodules", "sublabel": "Under the skin", "value": "C", "imageKey": "cystic", "scores": { "A3": 15, "A1": 4 } },
-        { "label": "Jawline & chin only", "sublabel": "Cyclical pattern", "value": "D", "imageKey": "hormonal", "scores": { "A4": 15, "A9": 4 } },
-        { "label": "Uniform, itchy bumps", "sublabel": "Forehead, chest, back", "value": "E", "imageKey": "fungal", "scores": { "A5": 15, "A8": 4 } },
-        { "label": "Redness & flushing", "sublabel": "Cheeks, nose area", "value": "F", "imageKey": "rosacea", "scores": { "A6": 15, "A9": 3 } },
-        { "label": "Rough, bumpy texture", "sublabel": "Arms, thighs, cheeks", "value": "G", "imageKey": "kp", "scores": { "A8": 15, "A5": 3 } },
-        { "label": "Bumps around mouth", "sublabel": "Lip line usually clear", "value": "H", "imageKey": "perioral", "scores": { "A9": 15, "A6": 3 } },
-        { "label": "Tiny white bumps", "sublabel": "Won't pop like whiteheads", "value": "I", "imageKey": "milia", "scores": { "A10": 15, "A2": 3 } },
-        { "label": "Friction area bumps", "sublabel": "Mask line, helmet, straps", "value": "J", "imageKey": "mechanica", "scores": { "A11": 15, "A7": 4 } },
-        { "label": "Hair follicle bumps", "sublabel": "After shaving/friction", "value": "K", "imageKey": "folliculitis", "scores": { "A7": 15, "A11": 3 } },
-        { "label": "None match well", "value": "L", "scores": { "A12": 12 } }
+        { "label": "Face (general)", "value": "A", "emoji": "😊", "scores": { "A1": 5, "A2": 5, "A3": 4, "A6": 4, "B10": 3 } },
+        { "label": "Beard/mustache area", "value": "B", "emoji": "🧔", "scores": { "B1": 10, "B2": 6, "B4": 6, "B8": 8, "A7": 5 } },
+        { "label": "Jawline and chin", "value": "C", "emoji": "📍", "scores": { "A4": 10, "A9": 5, "B1": 4 } },
+        { "label": "Around mouth/nose", "value": "D", "emoji": "👄", "scores": { "A9": 10, "A6": 4 } },
+        { "label": "Scalp", "value": "E", "emoji": "🗣️", "scores": { "B9": 10, "A7": 5, "B2": 4 } },
+        { "label": "Back of neck/nape", "value": "F", "emoji": "🔙", "scores": { "B12": 12, "B1": 4, "A7": 3 } },
+        { "label": "Chest/back/shoulders", "value": "G", "emoji": "💪", "scores": { "A5": 6, "B5": 6, "A7": 5, "A11": 4, "B13": 4 } },
+        { "label": "Arms or thighs", "value": "H", "emoji": "🦵", "scores": { "A8": 12, "A7": 4, "B7": 3 } },
+        { "label": "Bikini/groin area", "value": "I", "emoji": "🩱", "scores": { "B1": 10, "A7": 6, "B4": 5 } }
       ]
     },
     {
       "id": "2",
       "type": "single",
-      "title": "Where do breakouts appear most often?",
+      "title": "Do you shave the affected area?",
       "options": [
-        { "label": "T-zone (forehead, nose, chin)", "value": "A", "emoji": "🎯", "scores": { "A1": 5, "A2": 6 } },
-        { "label": "Cheeks and sides of face", "value": "B", "emoji": "😐", "scores": { "A6": 6, "A8": 5 } },
-        { "label": "Jawline and chin only", "value": "C", "emoji": "📍", "scores": { "A4": 8, "A9": 4 } },
-        { "label": "Around mouth and nose", "value": "D", "emoji": "👄", "scores": { "A9": 8, "A6": 3 } },
-        { "label": "Forehead only", "value": "E", "emoji": "🧠", "scores": { "A5": 5, "A2": 4 } },
-        { "label": "Upper arms or thighs", "value": "F", "emoji": "💪", "scores": { "A8": 8, "A7": 3 } },
-        { "label": "Body (chest, back, shoulders)", "value": "G", "emoji": "🏃", "scores": { "A5": 4, "A7": 6, "A11": 5 } },
-        { "label": "Eye area (tiny bumps)", "value": "H", "emoji": "👁️", "scores": { "A10": 8, "A2": 3 } }
+        { "label": "Yes, regularly (daily/every few days)", "value": "A", "emoji": "🪒", "scores": { "B1": 8, "B3": 6, "B4": 6, "B8": 5 } },
+        { "label": "Yes, occasionally", "value": "B", "emoji": "📅", "scores": { "B1": 4, "B4": 4, "A7": 3 } },
+        { "label": "No, I don't shave this area", "value": "C", "emoji": "❌", "scores": { "A1": 3, "A2": 3, "A5": 3, "A6": 3 } },
+        { "label": "I wax or use other hair removal", "value": "D", "emoji": "✨", "scores": { "A7": 6, "B1": 4, "B4": 3 } }
       ]
     },
     {
       "id": "3",
       "type": "single",
-      "title": "How long has this been bothering you?",
+      "title": "When do the bumps typically appear?",
       "options": [
-        { "label": "Less than 2 weeks", "value": "A", "emoji": "📅", "urgencyAdd": 0 },
-        { "label": "2–8 weeks", "value": "B", "emoji": "📅", "urgencyAdd": 3 },
-        { "label": "2–6 months", "value": "C", "emoji": "📆", "urgencyAdd": 5 },
-        { "label": "Over 6 months or recurring", "value": "D", "emoji": "📆", "percentage": 67, "urgencyAdd": 10 }
+        { "label": "Immediately after shaving (within hours)", "value": "A", "emoji": "⚡", "scores": { "B3": 12, "B1": 4 } },
+        { "label": "1-3 days after shaving", "value": "B", "emoji": "📅", "scores": { "B1": 10, "B4": 8, "B8": 4 } },
+        { "label": "Not related to shaving", "value": "C", "emoji": "❓", "scores": { "A1": 4, "A5": 4, "A6": 4, "B5": 3 } },
+        { "label": "Around my menstrual cycle", "value": "D", "emoji": "🔄", "scores": { "A4": 12 } },
+        { "label": "During pregnancy", "value": "E", "emoji": "🤰", "scores": { "B6": 15 } },
+        { "label": "They're always there", "value": "F", "emoji": "📆", "scores": { "A8": 5, "B11": 5, "B12": 4, "A2": 3 } }
       ]
     },
     {
       "id": "4",
       "type": "single",
-      "title": "How does your skin feel right now?",
+      "title": "What do the bumps look like?",
+      "subtitle": "Select the best match.",
       "options": [
-        { "label": "Painful—hurts to touch", "value": "A", "emoji": "😣", "scores": { "A1": 6, "A3": 8 }, "urgencyAdd": 7 },
-        { "label": "Itchy—want to scratch", "value": "B", "emoji": "🤚", "scores": { "A5": 5, "A8": 6 }, "urgencyAdd": 5 },
-        { "label": "Burning or tight", "value": "C", "emoji": "🔥", "scores": { "A6": 6, "A9": 5 }, "urgencyAdd": 3 },
-        { "label": "Rough or sandpapery", "value": "D", "emoji": "🏜️", "scores": { "A8": 7, "A2": 3 }, "urgencyAdd": 2 },
-        { "label": "Just looks bad, minimal discomfort", "value": "E", "emoji": "👀", "scores": { "A2": 5, "A10": 6 }, "urgencyAdd": 0 }
+        { "label": "Red, inflamed pimples with pus", "value": "A", "emoji": "🔴", "scores": { "A1": 8, "B2": 6, "A7": 5, "B4": 4 } },
+        { "label": "Blackheads and whiteheads (non-inflamed)", "value": "B", "emoji": "⚫", "scores": { "A2": 12, "A10": 4 } },
+        { "label": "Deep, painful lumps under skin", "value": "C", "emoji": "😣", "scores": { "A3": 10, "B13": 8, "B10": 5 } },
+        { "label": "Uniform, tiny itchy bumps", "value": "D", "emoji": "🔵", "scores": { "A5": 7, "B5": 10, "A8": 6 } },
+        { "label": "Ingrown hairs curling into skin", "value": "E", "emoji": "🔃", "scores": { "B1": 12, "B4": 4 } },
+        { "label": "Rough, sandpaper-like texture", "value": "F", "emoji": "🏜️", "scores": { "A8": 12, "B7": 4 } },
+        { "label": "Small yellowish bumps with central dip", "value": "G", "emoji": "🟡", "scores": { "B11": 15 } },
+        { "label": "Tiny hard white bumps (won't pop)", "value": "H", "emoji": "⚪", "scores": { "A10": 12 } },
+        { "label": "Keloid-like firm raised scars", "value": "I", "emoji": "🟤", "scores": { "B12": 12, "B9": 6 } },
+        { "label": "Severe interconnected nodules/tunnels", "value": "J", "emoji": "🔗", "scores": { "B13": 12, "B9": 6 } }
       ]
     },
     {
@@ -249,84 +418,106 @@
     {
       "id": "5",
       "type": "single",
-      "title": "What seems to trigger or worsen breakouts?",
+      "title": "How does the affected area feel?",
       "options": [
-        { "label": "Menstrual cycle", "value": "A", "emoji": "📅", "scores": { "A4": 8 } },
-        { "label": "Stress or lack of sleep", "value": "B", "emoji": "😰", "scores": { "A1": 4, "A4": 4, "A6": 4 } },
-        { "label": "Certain foods (dairy, sugar)", "value": "C", "emoji": "🍕", "scores": { "A1": 4, "A5": 3 } },
-        { "label": "Masks, helmets, or friction", "value": "D", "emoji": "😷", "scores": { "A11": 8, "A7": 5 } },
-        { "label": "Sweating or humidity", "value": "E", "emoji": "💦", "scores": { "A5": 5, "A7": 5 } },
-        { "label": "Heavy creams or makeup", "value": "F", "emoji": "💄", "scores": { "A9": 7, "A10": 5 } },
-        { "label": "Shaving or hair removal", "value": "G", "emoji": "🪒", "scores": { "A7": 8, "A11": 4 } },
-        { "label": "No clear trigger", "value": "H", "emoji": "❓", "scores": { "A12": 4 } }
+        { "label": "Very painful—hurts to touch", "value": "A", "emoji": "😣", "scores": { "A3": 6, "B8": 6, "B13": 5, "B10": 5 }, "urgencyAdd": 7 },
+        { "label": "Itchy—I want to scratch", "value": "B", "emoji": "🤚", "scores": { "A5": 6, "B5": 6, "B6": 5, "A8": 4 }, "urgencyAdd": 5 },
+        { "label": "Burning or stinging", "value": "C", "emoji": "🔥", "scores": { "B3": 8, "A6": 6, "A9": 5 }, "urgencyAdd": 4 },
+        { "label": "Tender when touched", "value": "D", "emoji": "👆", "scores": { "A1": 5, "B2": 5, "B4": 5 }, "urgencyAdd": 3 },
+        { "label": "No discomfort, just visible", "value": "E", "emoji": "👀", "scores": { "A2": 5, "A10": 6, "B11": 5, "A8": 4 }, "urgencyAdd": 0 }
       ]
     },
     {
       "id": "6",
       "type": "single",
-      "title": "Does your skin flush or turn red easily?",
-      "subtitle": "With heat, alcohol, spicy food, or embarrassment.",
+      "title": "Is there any pus, crusting, or weeping?",
       "options": [
-        { "label": "Yes—noticeably red", "value": "A", "emoji": "🔴", "scores": { "A6": 8, "A9": 3 } },
-        { "label": "Sometimes, mildly", "value": "B", "emoji": "🟠", "scores": { "A6": 4, "A1": 2 } },
-        { "label": "No—my skin doesn't flush", "value": "C", "emoji": "⚪", "scores": { "A2": 3, "A5": 2 } }
+        { "label": "Yes, pus-filled bumps", "value": "A", "emoji": "🟡", "scores": { "B2": 8, "A1": 6, "B4": 5 } },
+        { "label": "Yes, crusty or weeping areas", "value": "B", "emoji": "🩹", "scores": { "B8": 10, "B9": 6, "B2": 4 } },
+        { "label": "No, just red bumps or texture", "value": "C", "emoji": "🔴", "scores": { "A6": 4, "A8": 5, "B1": 4 } },
+        { "label": "No, just under-skin lumps", "value": "D", "emoji": "⚫", "scores": { "A3": 6, "B13": 5 } }
       ]
     },
     {
       "id": "7",
       "type": "single",
-      "title": "Are the bumps mostly the same size and shape?",
-      "subtitle": "Uniform bumps can indicate specific conditions.",
+      "title": "Does your skin flush or turn red easily?",
+      "subtitle": "With heat, alcohol, spicy food, or embarrassment.",
       "options": [
-        { "label": "Yes—very uniform, almost identical", "value": "A", "emoji": "✓", "scores": { "A5": 5, "A8": 6, "A10": 5 } },
-        { "label": "Mostly uniform with some variation", "value": "B", "emoji": "〰️", "scores": { "A7": 5, "A9": 4 } },
-        { "label": "No—mixed sizes and types", "value": "C", "emoji": "❌", "scores": { "A1": 4, "A2": 4, "A3": 3 } }
+        { "label": "Yes—noticeably red, often", "value": "A", "emoji": "🔴", "scores": { "A6": 10, "B10": 5, "A9": 3 } },
+        { "label": "Sometimes, mildly", "value": "B", "emoji": "🟠", "scores": { "A6": 4, "A1": 2 } },
+        { "label": "No—my skin doesn't flush", "value": "C", "emoji": "⚪", "scores": { "A2": 2, "A5": 2, "B1": 2 } }
+      ]
+    },
+    {
+      "id": "8",
+      "type": "single",
+      "title": "Is there any hair loss or scarring in the area?",
+      "options": [
+        { "label": "Yes, permanent hair loss in patches", "value": "A", "emoji": "👨‍🦲", "scores": { "B9": 12, "B12": 6 } },
+        { "label": "Yes, significant scarring", "value": "B", "emoji": "🩹", "scores": { "B12": 8, "B9": 6, "B13": 5, "A3": 4 } },
+        { "label": "Some scarring from picking", "value": "C", "emoji": "😬", "scores": { "A1": 3, "A3": 4, "B8": 3 } },
+        { "label": "No hair loss or scarring", "value": "D", "emoji": "✓", "scores": { "A2": 3, "A5": 3, "B3": 4, "B1": 3 } }
       ]
     },
     {
       "id": "interstitial-2",
       "type": "social-proof",
-      "name": "Jennifer M.",
-      "location": "Austin, TX",
-      "pattern": "fungal pattern",
-      "quote": "I spent 2 years treating 'acne' before realizing it was fungal. Within 3 weeks of the right approach, my skin was clearer than it had been in years.",
-      "timeAgo": "3 days ago",
+      "name": "Marcus T.",
+      "location": "Atlanta, GA",
+      "pattern": "razor bump pattern",
+      "quote": "I thought I just had bad skin until I learned about pseudofolliculitis. The right approach cleared my beard line in 2 weeks.",
+      "timeAgo": "5 days ago",
       "duration": 4000
     },
     {
-      "id": "8",
-      "type": "single",
-      "title": "Have antibiotics ever made it worse or had no effect?",
-      "options": [
-        { "label": "Yes—antibiotics made it worse", "value": "A", "emoji": "📈", "scores": { "A5": 6, "A6": 3 } },
-        { "label": "Antibiotics didn't help at all", "value": "B", "emoji": "➖", "scores": { "A5": 4, "A6": 4, "A8": 3 } },
-        { "label": "Never tried antibiotics", "value": "C", "emoji": "❓", "scores": { "A2": 2, "A10": 2 } },
-        { "label": "Antibiotics helped temporarily", "value": "D", "emoji": "⏱️", "scores": { "A1": 5, "A7": 4 } },
-        { "label": "Antibiotics helped long-term", "value": "E", "emoji": "✓", "scores": { "A1": 5, "A7": 5, "A3": 3 } }
-      ]
-    },
-    {
       "id": "9",
-      "type": "multi",
-      "title": "What have you tried? (Select all that apply)",
+      "type": "single",
+      "title": "Have antibiotics helped or made it worse?",
       "options": [
-        { "label": "Benzoyl peroxide", "value": "a", "code": "AT1" },
-        { "label": "Salicylic acid", "value": "b", "code": "AT2" },
-        { "label": "Prescription retinoids", "value": "c", "code": "AT3" },
-        { "label": "Oral antibiotics", "value": "d", "code": "AT4" },
-        { "label": "Accutane/isotretinoin", "value": "e", "code": "AT5" },
-        { "label": "Nothing specific yet", "value": "f", "code": "AT0" }
+        { "label": "Antibiotics made it WORSE", "value": "A", "emoji": "📈", "scores": { "A5": 8, "B5": 8 } },
+        { "label": "Antibiotics helped temporarily", "value": "B", "emoji": "⏱️", "scores": { "B2": 6, "A1": 5, "A7": 4 } },
+        { "label": "Antibiotics helped long-term", "value": "C", "emoji": "✓", "scores": { "B2": 8, "B8": 6, "A7": 5 } },
+        { "label": "Antibiotics had no effect", "value": "D", "emoji": "➖", "scores": { "A5": 4, "B5": 4, "A8": 4, "B11": 3 } },
+        { "label": "Never tried antibiotics", "value": "E", "emoji": "❓", "scores": { "A2": 2, "A10": 2, "B3": 2 } }
       ]
     },
     {
       "id": "10",
       "type": "single",
-      "title": "What's your biggest concern right now?",
+      "title": "How severe would you rate your condition?",
       "options": [
-        { "label": "I've wasted money on things that don't work", "value": "a", "code": "AF1" },
-        { "label": "I'm worried about side effects", "value": "b", "code": "AF2" },
-        { "label": "I'm skeptical anything will work for me", "value": "c", "code": "AF3" },
-        { "label": "I'm not sure what I actually have", "value": "d", "code": "AF4" }
+        { "label": "Mild—occasional small bumps", "value": "A", "emoji": "🙂", "scores": { "A2": 4, "B3": 4, "A8": 4, "B11": 3 } },
+        { "label": "Moderate—noticeable but manageable", "value": "B", "emoji": "😐", "scores": { "A1": 4, "B1": 4, "A5": 4, "B4": 3 } },
+        { "label": "Severe—significantly affects appearance", "value": "C", "emoji": "😟", "scores": { "A3": 5, "B8": 5, "B13": 5, "B10": 4 } },
+        { "label": "Very severe—widespread or disfiguring", "value": "D", "emoji": "😢", "scores": { "B13": 10, "B10": 8, "B9": 6 }, "urgencyAdd": 10 }
+      ]
+    },
+    {
+      "id": "11",
+      "type": "single",
+      "title": "What seems to trigger or worsen it?",
+      "options": [
+        { "label": "Shaving or hair removal", "value": "A", "emoji": "🪒", "scores": { "B1": 8, "B3": 6, "B4": 6, "B8": 4 } },
+        { "label": "Sweating or humidity", "value": "B", "emoji": "💦", "scores": { "A5": 5, "B5": 8, "A7": 5, "A11": 6 } },
+        { "label": "Friction (masks, helmets, clothing)", "value": "C", "emoji": "😷", "scores": { "A11": 12, "A7": 6 } },
+        { "label": "Heavy creams or makeup", "value": "D", "emoji": "💄", "scores": { "A9": 8, "A10": 5, "A5": 3 } },
+        { "label": "Hormonal changes", "value": "E", "emoji": "🔄", "scores": { "A4": 10, "B6": 4 } },
+        { "label": "Stress", "value": "F", "emoji": "😰", "scores": { "A1": 4, "A4": 4, "A6": 4, "B10": 3 } },
+        { "label": "No clear trigger", "value": "G", "emoji": "❓", "scores": { "A12": 8, "B11": 4, "B7": 4, "A8": 3 } }
+      ]
+    },
+    {
+      "id": "12",
+      "type": "single",
+      "title": "Do you have any underlying health conditions?",
+      "subtitle": "Some skin conditions are linked to other health issues.",
+      "options": [
+        { "label": "Diabetes or pre-diabetes", "value": "A", "emoji": "🩸", "scores": { "B7": 10, "B2": 4 } },
+        { "label": "Kidney problems", "value": "B", "emoji": "🫘", "scores": { "B7": 10 } },
+        { "label": "Currently pregnant", "value": "C", "emoji": "🤰", "scores": { "B6": 15 } },
+        { "label": "PCOS or hormonal imbalance", "value": "D", "emoji": "⚖️", "scores": { "A4": 8 } },
+        { "label": "None of these / Not sure", "value": "E", "emoji": "✓", "scores": {} }
       ]
     },
     {
@@ -338,18 +529,29 @@
       "duration": 3000
     },
     {
-      "id": "11",
+      "id": "13",
       "type": "single",
-      "title": "How much does this affect your daily life?",
+      "title": "How long has this been going on?",
       "options": [
-        { "label": "Significantly—I avoid social situations", "value": "A", "emoji": "😔", "urgencyAdd": 10 },
-        { "label": "Moderately—I think about it often", "value": "B", "emoji": "😐", "urgencyAdd": 6 },
-        { "label": "Mildly—it bothers me sometimes", "value": "C", "emoji": "🙂", "urgencyAdd": 3 },
-        { "label": "Barely—just want it gone", "value": "D", "emoji": "💪", "urgencyAdd": 0 }
+        { "label": "Just started (days to weeks)", "value": "A", "emoji": "📅", "scores": { "B3": 4, "B4": 3 }, "urgencyAdd": 0 },
+        { "label": "A few months", "value": "B", "emoji": "📆", "scores": { "A1": 3, "B1": 3, "A5": 3 }, "urgencyAdd": 3 },
+        { "label": "6 months to a year", "value": "C", "emoji": "🗓️", "scores": { "B12": 4, "B8": 4, "A8": 3 }, "urgencyAdd": 6 },
+        { "label": "Years—chronic problem", "value": "D", "emoji": "⏳", "scores": { "B9": 5, "B12": 5, "A8": 4, "B11": 4 }, "urgencyAdd": 10 }
       ]
     },
     {
-      "id": "timeline",
+      "id": "14",
+      "type": "single",
+      "title": "What's your biggest concern right now?",
+      "options": [
+        { "label": "Scarring—I'm worried about permanent marks", "value": "A", "emoji": "😰", "scores": { "B13": 4, "B9": 4, "B12": 4, "A3": 3 }, "code": "AF1" },
+        { "label": "Appearance—it's affecting my confidence", "value": "B", "emoji": "😔", "code": "AF2" },
+        { "label": "Pain/discomfort—it physically bothers me", "value": "C", "emoji": "😣", "scores": { "A3": 3, "B8": 3, "B10": 3 }, "code": "AF3" },
+        { "label": "Diagnosis—I don't know what I have", "value": "D", "emoji": "❓", "scores": { "A12": 3 }, "code": "AF4" }
+      ]
+    },
+    {
+      "id": "15",
       "type": "single",
       "title": "How quickly do you want to see results?",
       "options": [
