@@ -31,7 +31,7 @@
         "intro": "Your answers show red, inflamed bumps—papules and pustules that are actively irritated. This isn't just clogged pores.",
         "body": "**Why spot treatments alone don't work**\n\nInflammatory acne involves bacterial overgrowth AND immune response. Surface treatments can't reach the inflammation happening beneath.\n\n**What worked for people with your pattern**\n\n• Week 2: 71% said new breakouts were less frequent\n• Week 4: 83% said existing bumps were calmer\n• Week 6: 79% said skin looked clearer overall"
       },
-      "scoring": { "baseWeight": 5 }
+      "scoring": { "baseWeight": 3 }
     },
     {
       "code": "A2",
@@ -185,13 +185,18 @@
       "subtitle": "Tap to select.",
       "helpText": "Different patterns need different treatments.",
       "options": [
-        { "label": "Red, inflamed bumps", "sublabel": "Painful to touch", "value": "A", "imageKey": "inflammatory", "scores": { "A1": 12, "A3": 4 } },
-        { "label": "Blackheads & whiteheads", "sublabel": "Non-inflamed, clogged", "value": "B", "imageKey": "comedonal", "scores": { "A2": 12, "A1": 3 } },
-        { "label": "Deep, painful nodules", "sublabel": "Under the skin", "value": "C", "imageKey": "cystic", "scores": { "A3": 12, "A1": 4 } },
-        { "label": "Jawline & chin only", "sublabel": "Cyclical pattern", "value": "D", "imageKey": "hormonal", "scores": { "A4": 12 } },
-        { "label": "Uniform, itchy bumps", "sublabel": "Forehead, chest, back", "value": "E", "imageKey": "fungal", "scores": { "A5": 12 } },
-        { "label": "Redness & flushing", "sublabel": "Cheeks, nose area", "value": "F", "imageKey": "rosacea", "scores": { "A6": 12 } },
-        { "label": "None match well", "value": "G", "scores": { "A12": 8 } }
+        { "label": "Red, inflamed bumps", "sublabel": "Painful to touch", "value": "A", "imageKey": "inflammatory", "scores": { "A1": 15, "A3": 4 } },
+        { "label": "Blackheads & whiteheads", "sublabel": "Non-inflamed, clogged", "value": "B", "imageKey": "comedonal", "scores": { "A2": 15, "A10": 4 } },
+        { "label": "Deep, painful nodules", "sublabel": "Under the skin", "value": "C", "imageKey": "cystic", "scores": { "A3": 15, "A1": 4 } },
+        { "label": "Jawline & chin only", "sublabel": "Cyclical pattern", "value": "D", "imageKey": "hormonal", "scores": { "A4": 15, "A9": 4 } },
+        { "label": "Uniform, itchy bumps", "sublabel": "Forehead, chest, back", "value": "E", "imageKey": "fungal", "scores": { "A5": 15, "A8": 4 } },
+        { "label": "Redness & flushing", "sublabel": "Cheeks, nose area", "value": "F", "imageKey": "rosacea", "scores": { "A6": 15, "A9": 3 } },
+        { "label": "Rough, bumpy texture", "sublabel": "Arms, thighs, cheeks", "value": "G", "imageKey": "kp", "scores": { "A8": 15, "A5": 3 } },
+        { "label": "Bumps around mouth", "sublabel": "Lip line usually clear", "value": "H", "imageKey": "perioral", "scores": { "A9": 15, "A6": 3 } },
+        { "label": "Tiny white bumps", "sublabel": "Won't pop like whiteheads", "value": "I", "imageKey": "milia", "scores": { "A10": 15, "A2": 3 } },
+        { "label": "Friction area bumps", "sublabel": "Mask line, helmet, straps", "value": "J", "imageKey": "mechanica", "scores": { "A11": 15, "A7": 4 } },
+        { "label": "Hair follicle bumps", "sublabel": "After shaving/friction", "value": "K", "imageKey": "folliculitis", "scores": { "A7": 15, "A11": 3 } },
+        { "label": "None match well", "value": "L", "scores": { "A12": 12 } }
       ]
     },
     {
@@ -199,11 +204,14 @@
       "type": "single",
       "title": "Where do breakouts appear most often?",
       "options": [
-        { "label": "T-zone (forehead, nose, chin)", "value": "A", "emoji": "🎯", "scores": { "A1": 4, "A2": 6 } },
-        { "label": "Cheeks and sides of face", "value": "B", "emoji": "😐", "scores": { "A6": 6, "A1": 3 } },
-        { "label": "Jawline and chin only", "value": "C", "emoji": "📍", "scores": { "A4": 10 } },
-        { "label": "Forehead only", "value": "D", "emoji": "🧠", "scores": { "A5": 6, "A2": 4 } },
-        { "label": "Body (chest, back, shoulders)", "value": "E", "emoji": "💪", "scores": { "A5": 5, "A7": 5, "A11": 4 } }
+        { "label": "T-zone (forehead, nose, chin)", "value": "A", "emoji": "🎯", "scores": { "A1": 5, "A2": 6 } },
+        { "label": "Cheeks and sides of face", "value": "B", "emoji": "😐", "scores": { "A6": 6, "A8": 5 } },
+        { "label": "Jawline and chin only", "value": "C", "emoji": "📍", "scores": { "A4": 8, "A9": 4 } },
+        { "label": "Around mouth and nose", "value": "D", "emoji": "👄", "scores": { "A9": 8, "A6": 3 } },
+        { "label": "Forehead only", "value": "E", "emoji": "🧠", "scores": { "A5": 5, "A2": 4 } },
+        { "label": "Upper arms or thighs", "value": "F", "emoji": "💪", "scores": { "A8": 8, "A7": 3 } },
+        { "label": "Body (chest, back, shoulders)", "value": "G", "emoji": "🏃", "scores": { "A5": 4, "A7": 6, "A11": 5 } },
+        { "label": "Eye area (tiny bumps)", "value": "H", "emoji": "👁️", "scores": { "A10": 8, "A2": 3 } }
       ]
     },
     {
@@ -222,10 +230,11 @@
       "type": "single",
       "title": "How does your skin feel right now?",
       "options": [
-        { "label": "Painful—hurts to touch", "value": "A", "emoji": "😣", "scores": { "A1": 5, "A3": 8 }, "urgencyAdd": 7 },
-        { "label": "Itchy—want to scratch", "value": "B", "emoji": "🤚", "scores": { "A5": 8, "A8": 4 }, "urgencyAdd": 5 },
-        { "label": "Burning or tight", "value": "C", "emoji": "🔥", "scores": { "A6": 6, "A9": 4 }, "urgencyAdd": 3 },
-        { "label": "Just looks bad, minimal discomfort", "value": "D", "emoji": "👀", "scores": { "A2": 4, "A10": 3 }, "urgencyAdd": 0 }
+        { "label": "Painful—hurts to touch", "value": "A", "emoji": "😣", "scores": { "A1": 6, "A3": 8 }, "urgencyAdd": 7 },
+        { "label": "Itchy—want to scratch", "value": "B", "emoji": "🤚", "scores": { "A5": 5, "A8": 6 }, "urgencyAdd": 5 },
+        { "label": "Burning or tight", "value": "C", "emoji": "🔥", "scores": { "A6": 6, "A9": 5 }, "urgencyAdd": 3 },
+        { "label": "Rough or sandpapery", "value": "D", "emoji": "🏜️", "scores": { "A8": 7, "A2": 3 }, "urgencyAdd": 2 },
+        { "label": "Just looks bad, minimal discomfort", "value": "E", "emoji": "👀", "scores": { "A2": 5, "A10": 6 }, "urgencyAdd": 0 }
       ]
     },
     {
@@ -242,12 +251,14 @@
       "type": "single",
       "title": "What seems to trigger or worsen breakouts?",
       "options": [
-        { "label": "Menstrual cycle", "value": "A", "emoji": "📅", "scores": { "A4": 10 } },
-        { "label": "Stress or lack of sleep", "value": "B", "emoji": "😰", "scores": { "A1": 4, "A4": 4, "A6": 3 } },
-        { "label": "Certain foods (dairy, sugar)", "value": "C", "emoji": "🍕", "scores": { "A1": 3, "A5": 3 } },
-        { "label": "Masks, helmets, or friction", "value": "D", "emoji": "😷", "scores": { "A11": 10, "A7": 4 } },
-        { "label": "Sweating or humidity", "value": "E", "emoji": "💦", "scores": { "A5": 6, "A7": 5 } },
-        { "label": "No clear trigger", "value": "F", "emoji": "❓", "scores": { "A1": 3 } }
+        { "label": "Menstrual cycle", "value": "A", "emoji": "📅", "scores": { "A4": 8 } },
+        { "label": "Stress or lack of sleep", "value": "B", "emoji": "😰", "scores": { "A1": 4, "A4": 4, "A6": 4 } },
+        { "label": "Certain foods (dairy, sugar)", "value": "C", "emoji": "🍕", "scores": { "A1": 4, "A5": 3 } },
+        { "label": "Masks, helmets, or friction", "value": "D", "emoji": "😷", "scores": { "A11": 8, "A7": 5 } },
+        { "label": "Sweating or humidity", "value": "E", "emoji": "💦", "scores": { "A5": 5, "A7": 5 } },
+        { "label": "Heavy creams or makeup", "value": "F", "emoji": "💄", "scores": { "A9": 7, "A10": 5 } },
+        { "label": "Shaving or hair removal", "value": "G", "emoji": "🪒", "scores": { "A7": 8, "A11": 4 } },
+        { "label": "No clear trigger", "value": "H", "emoji": "❓", "scores": { "A12": 4 } }
       ]
     },
     {
@@ -256,19 +267,20 @@
       "title": "Does your skin flush or turn red easily?",
       "subtitle": "With heat, alcohol, spicy food, or embarrassment.",
       "options": [
-        { "label": "Yes—noticeably red", "value": "A", "emoji": "🔴", "scores": { "A6": 10 } },
-        { "label": "Sometimes, mildly", "value": "B", "emoji": "🟠", "scores": { "A6": 4 } },
-        { "label": "No—my skin doesn't flush", "value": "C", "emoji": "⚪", "scores": {} }
+        { "label": "Yes—noticeably red", "value": "A", "emoji": "🔴", "scores": { "A6": 8, "A9": 3 } },
+        { "label": "Sometimes, mildly", "value": "B", "emoji": "🟠", "scores": { "A6": 4, "A1": 2 } },
+        { "label": "No—my skin doesn't flush", "value": "C", "emoji": "⚪", "scores": { "A2": 3, "A5": 2 } }
       ]
     },
     {
       "id": "7",
       "type": "single",
       "title": "Are the bumps mostly the same size and shape?",
-      "subtitle": "Uniform bumps can indicate fungal involvement.",
+      "subtitle": "Uniform bumps can indicate specific conditions.",
       "options": [
-        { "label": "Yes—very uniform, almost identical", "value": "A", "emoji": "✓", "scores": { "A5": 10, "A8": 5 } },
-        { "label": "No—mixed sizes and types", "value": "B", "emoji": "❌", "scores": { "A1": 3, "A2": 3 } }
+        { "label": "Yes—very uniform, almost identical", "value": "A", "emoji": "✓", "scores": { "A5": 5, "A8": 6, "A10": 5 } },
+        { "label": "Mostly uniform with some variation", "value": "B", "emoji": "〰️", "scores": { "A7": 5, "A9": 4 } },
+        { "label": "No—mixed sizes and types", "value": "C", "emoji": "❌", "scores": { "A1": 4, "A2": 4, "A3": 3 } }
       ]
     },
     {
@@ -286,10 +298,11 @@
       "type": "single",
       "title": "Have antibiotics ever made it worse or had no effect?",
       "options": [
-        { "label": "Yes—antibiotics made it worse", "value": "A", "emoji": "📈", "scores": { "A5": 12 } },
-        { "label": "Antibiotics didn't help at all", "value": "B", "emoji": "➖", "scores": { "A5": 6, "A6": 4 } },
-        { "label": "Never tried antibiotics", "value": "C", "emoji": "❓", "scores": {} },
-        { "label": "Antibiotics helped", "value": "D", "emoji": "✓", "scores": { "A1": 4, "A7": 4 } }
+        { "label": "Yes—antibiotics made it worse", "value": "A", "emoji": "📈", "scores": { "A5": 6, "A6": 3 } },
+        { "label": "Antibiotics didn't help at all", "value": "B", "emoji": "➖", "scores": { "A5": 4, "A6": 4, "A8": 3 } },
+        { "label": "Never tried antibiotics", "value": "C", "emoji": "❓", "scores": { "A2": 2, "A10": 2 } },
+        { "label": "Antibiotics helped temporarily", "value": "D", "emoji": "⏱️", "scores": { "A1": 5, "A7": 4 } },
+        { "label": "Antibiotics helped long-term", "value": "E", "emoji": "✓", "scores": { "A1": 5, "A7": 5, "A3": 3 } }
       ]
     },
     {
