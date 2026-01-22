@@ -20,23 +20,27 @@ export default async function OutcomePageWrapper({
   let customHtml: string | null = null
   let customCss: string | null = null
 
-  try {
-    const supabase = await createClient()
+  // Only attempt to fetch from database if Supabase is configured
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  if (supabaseUrl && !supabaseUrl.includes('placeholder')) {
+    try {
+      const supabase = await createClient()
 
-    // Fetch custom HTML/CSS from database based on condition slug and funnel
-    const { data, error } = await supabase
-      .from('conditions')
-      .select('custom_html, custom_css')
-      .eq('slug', condition.slug)
-      .maybeSingle()
+      // Fetch custom HTML/CSS from database based on condition slug and funnel
+      const { data, error } = await supabase
+        .from('conditions')
+        .select('custom_html, custom_css')
+        .eq('slug', condition.slug)
+        .maybeSingle()
 
-    if (!error && data) {
-      customHtml = data.custom_html
-      customCss = data.custom_css
+      if (!error && data) {
+        customHtml = data.custom_html
+        customCss = data.custom_css
+      }
+    } catch {
+      // If database is not available, fall back to default template
+      // This is expected when the conditions table doesn't exist yet
     }
-  } catch (e) {
-    // If database is not available, fall back to default template
-    console.error('Failed to fetch custom HTML:', e)
   }
 
   return (
