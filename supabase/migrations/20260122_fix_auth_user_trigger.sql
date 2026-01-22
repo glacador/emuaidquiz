@@ -14,16 +14,20 @@
 -- JOIN pg_class c ON t.tgrelid = c.oid
 -- WHERE c.relname = 'users' AND c.relnamespace = (SELECT oid FROM pg_namespace WHERE nspname = 'auth');
 
--- Step 2: Drop common problematic triggers
+-- Step 2: Drop the problematic triggers found in your database
+-- FOUND: on_auth_user_created -> handle_new_user
+-- FOUND: on_auth_user_created_unlock_journeys -> unlock_default_journeys (THIS IS THE PROBLEM)
 DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
+DROP TRIGGER IF EXISTS on_auth_user_created_unlock_journeys ON auth.users;
 DROP TRIGGER IF EXISTS handle_new_user ON auth.users;
 DROP TRIGGER IF EXISTS create_profile_on_signup ON auth.users;
 DROP TRIGGER IF EXISTS on_user_created ON auth.users;
 DROP TRIGGER IF EXISTS tr_auth_user_created ON auth.users;
 DROP TRIGGER IF EXISTS create_user_profile ON auth.users;
 
--- Step 3: Drop associated functions
+-- Step 3: Drop associated functions (including unlock_default_journeys which references non-existent tables)
 DROP FUNCTION IF EXISTS public.handle_new_user() CASCADE;
+DROP FUNCTION IF EXISTS public.unlock_default_journeys() CASCADE;
 DROP FUNCTION IF EXISTS public.create_profile_for_user() CASCADE;
 DROP FUNCTION IF EXISTS public.on_auth_user_created() CASCADE;
 DROP FUNCTION IF EXISTS public.create_user_profile() CASCADE;
