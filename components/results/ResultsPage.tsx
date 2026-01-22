@@ -1,6 +1,7 @@
 'use client'
 
 import { FunnelConfig, Condition, ObjectionContent } from '@/config/schema'
+import BeforeAfter from './BeforeAfter'
 import BuyboxWidget from './BuyboxWidget'
 import FAQSection from './FAQSection'
 import TestimonialCard from './TestimonialCard'
@@ -120,6 +121,9 @@ export default function ResultsPage({
 
         {/* Custom HTML Content */}
         <div dangerouslySetInnerHTML={{ __html: processedHtml }} />
+
+        {/* Before/After Illustration */}
+        <BeforeAfter condition={condition} brandColor={config.funnel.brandColor} />
 
         {/* Buybox Widget */}
         <BuyboxWidget
@@ -250,6 +254,9 @@ export default function ResultsPage({
 
       {/* Trust Badges */}
       <TrustBadges badges={config.trustBadges} />
+
+      {/* Before/After Illustration */}
+      <BeforeAfter condition={condition} brandColor={config.funnel.brandColor} />
 
       {/* Personalized Protocol Section */}
       <div className="px-5 py-4">

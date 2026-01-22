@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Face with severe interconnected nodules -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Severe interconnected nodules with sinus tracts -->
+  <ellipse cx="55" cy="65" rx="10" ry="8" fill="#B71C1C"/>
+  <ellipse cx="75" cy="70" rx="12" ry="9" fill="#C62828"/>
+  <!-- Connecting sinus tract -->
+  <path d="M63 68 Q68 72 70 70" stroke="#8B0000" stroke-width="3" fill="none"/>
+  <ellipse cx="98" cy="68" rx="10" ry="8" fill="#B71C1C"/>
+  <path d="M85 72 Q90 70 92 68" stroke="#8B0000" stroke-width="3" fill="none"/>
+  <ellipse cx="50" cy="90" rx="11" ry="9" fill="#C62828"/>
+  <ellipse cx="72" cy="95" rx="14" ry="10" fill="#B71C1C"/>
+  <path d="M58 92 Q64 95 68 94" stroke="#8B0000" stroke-width="4" fill="none"/>
+  <ellipse cx="100" cy="92" rx="12" ry="9" fill="#C62828"/>
+  <path d="M83 96 Q90 94 94 92" stroke="#8B0000" stroke-width="4" fill="none"/>
+  <ellipse cx="60" cy="115" rx="10" ry="8" fill="#B71C1C"/>
+  <ellipse cx="85" cy="118" rx="12" ry="9" fill="#C62828"/>
+  <path d="M68 116 Q75 118 80 118" stroke="#8B0000" stroke-width="3" fill="none"/>
+  <ellipse cx="105" cy="112" rx="9" ry="7" fill="#B71C1C"/>
+  <!-- Pus/drainage -->
+  <circle cx="55" cy="64" r="3" fill="#FFF59D"/>
+  <circle cx="72" cy="94" r="4" fill="#FFF59D"/>
+  <circle cx="100" cy="91" r="3" fill="#FFF59D"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Dramatically improved with treatment -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <!-- Some residual scarring but healthy -->
+  <ellipse cx="225" cy="75" rx="6" ry="4" fill="#F5DDD0" opacity="0.4"/>
+  <ellipse cx="255" cy="80" rx="5" ry="3" fill="#F5DDD0" opacity="0.4"/>
+  <ellipse cx="240" cy="95" rx="7" ry="4" fill="#F5DDD0" opacity="0.4"/>
+  <ellipse cx="230" cy="105" rx="5" ry="3" fill="#F5DDD0" opacity="0.4"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

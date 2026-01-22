@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Face with redness on cheeks and nose -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Rosacea flushing on cheeks and nose -->
+  <ellipse cx="55" cy="80" rx="18" ry="20" fill="#FFCDD2" opacity="0.8"/>
+  <ellipse cx="105" cy="80" rx="18" ry="20" fill="#FFCDD2" opacity="0.8"/>
+  <ellipse cx="80" cy="90" rx="10" ry="12" fill="#FFCDD2" opacity="0.9"/>
+  <!-- Visible blood vessels -->
+  <path d="M50 75 Q55 80 50 85" stroke="#E57373" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M58 78 Q62 83 58 88" stroke="#E57373" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M102 75 Q107 80 102 85" stroke="#E57373" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M110 78 Q105 83 110 88" stroke="#E57373" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <!-- Small papules -->
+  <circle cx="52" cy="85" r="3" fill="#EF5350"/>
+  <circle cx="60" cy="78" r="2.5" fill="#EF5350"/>
+  <circle cx="100" cy="82" r="3" fill="#EF5350"/>
+  <circle cx="108" cy="88" r="2.5" fill="#EF5350"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Calm, even skin tone -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="225" cy="75" rx="8" ry="6" fill="#FFF5F0" opacity="0.6"/>
+  <ellipse cx="255" cy="80" rx="6" ry="5" fill="#FFF5F0" opacity="0.6"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

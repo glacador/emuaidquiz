@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Face with mask line acne pattern -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Mask outline (dotted) showing friction zone -->
+  <path d="M45 70 Q50 65 60 63 L100 63 Q110 65 115 70 L115 110 Q110 120 80 125 Q50 120 45 110 Z"
+        stroke="#999" stroke-width="1" stroke-dasharray="3,3" fill="none"/>
+  <!-- Acne following mask lines -->
+  <circle cx="48" cy="80" r="4" fill="#EF5350"/>
+  <circle cx="52" cy="90" r="3.5" fill="#E57373"/>
+  <circle cx="48" cy="100" r="4" fill="#EF5350"/>
+  <circle cx="55" cy="108" r="3" fill="#E57373"/>
+  <circle cx="112" cy="80" r="4" fill="#EF5350"/>
+  <circle cx="108" cy="90" r="3.5" fill="#E57373"/>
+  <circle cx="112" cy="100" r="4" fill="#EF5350"/>
+  <circle cx="105" cy="108" r="3" fill="#E57373"/>
+  <!-- Along chin strap area -->
+  <circle cx="65" cy="120" r="3" fill="#E57373"/>
+  <circle cx="80" cy="122" r="3.5" fill="#EF5350"/>
+  <circle cx="95" cy="120" r="3" fill="#E57373"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Clear skin -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="225" cy="75" rx="8" ry="6" fill="#FFF5F0" opacity="0.6"/>
+  <ellipse cx="255" cy="80" rx="6" ry="5" fill="#FFF5F0" opacity="0.6"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

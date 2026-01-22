@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Pregnant belly with pruritic folliculitis -->
+  <ellipse cx="80" cy="90" rx="40" ry="50" fill="#FFE4D6"/>
+  <!-- Pregnancy bump contour -->
+  <ellipse cx="80" cy="95" rx="35" ry="42" fill="#FFEEE6" opacity="0.3"/>
+  <!-- Itchy bumps on abdomen -->
+  <circle cx="55" cy="70" r="3" fill="#FFAB91"/>
+  <circle cx="65" cy="75" r="2.5" fill="#FFAB91"/>
+  <circle cx="48" cy="85" r="3" fill="#FFAB91"/>
+  <circle cx="60" cy="90" r="2.5" fill="#FFAB91"/>
+  <circle cx="52" cy="100" r="3" fill="#FFAB91"/>
+  <circle cx="105" cy="70" r="3" fill="#FFAB91"/>
+  <circle cx="95" cy="75" r="2.5" fill="#FFAB91"/>
+  <circle cx="112" cy="85" r="3" fill="#FFAB91"/>
+  <circle cx="100" cy="90" r="2.5" fill="#FFAB91"/>
+  <circle cx="108" cy="100" r="3" fill="#FFAB91"/>
+  <circle cx="75" cy="110" r="2.5" fill="#FFAB91"/>
+  <circle cx="85" cy="115" r="2.5" fill="#FFAB91"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Clear comfortable pregnancy skin -->
+  <ellipse cx="240" cy="90" rx="40" ry="50" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="95" rx="35" ry="42" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="240" cy="90" rx="25" ry="30" fill="#FFF5F0" opacity="0.4"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

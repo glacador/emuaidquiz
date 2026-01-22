@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40" fill="none">
+  <rect width="140" height="40" fill="white"/>
+  <!-- USA Today logo with blue circle -->
+  <circle cx="20" cy="20" r="14" fill="#009BFF"/>
+  <text x="42" y="18" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#009BFF">USA</text>
+  <text x="42" y="30" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#009BFF">TODAY</text>
+</svg>

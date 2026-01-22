@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" fill="none">
+  <rect width="160" height="40" fill="white"/>
+  <!-- Harvard Health logo with shield -->
+  <path d="M8 8h16v20l-8 6-8-6V8z" fill="#A51C30"/>
+  <text x="11" y="22" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="white">H</text>
+  <text x="30" y="17" font-family="Georgia, serif" font-size="12" font-weight="600" fill="#A51C30">HARVARD</text>
+  <text x="30" y="30" font-family="Georgia, serif" font-size="11" fill="#333">Health</text>
+</svg>

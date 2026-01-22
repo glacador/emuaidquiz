@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Face with mixed skin concerns -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- T-zone oiliness/comedones -->
+  <circle cx="70" cy="60" r="2" fill="#4A4A4A"/>
+  <circle cx="80" cy="58" r="1.5" fill="#4A4A4A"/>
+  <circle cx="90" cy="60" r="2" fill="#4A4A4A"/>
+  <circle cx="80" cy="75" r="1.5" fill="#4A4A4A"/>
+  <!-- Inflammatory on cheeks -->
+  <circle cx="55" cy="80" r="5" fill="#EF5350"/>
+  <circle cx="56" cy="79" r="2" fill="#FFCDD2"/>
+  <circle cx="105" cy="82" r="5" fill="#EF5350"/>
+  <circle cx="106" cy="81" r="2" fill="#FFCDD2"/>
+  <!-- Dry patches -->
+  <ellipse cx="48" cy="95" rx="8" ry="5" fill="#F5DDD0" opacity="0.7"/>
+  <ellipse cx="112" cy="95" rx="8" ry="5" fill="#F5DDD0" opacity="0.7"/>
+  <!-- Hormonal on jawline -->
+  <circle cx="55" cy="115" r="4" fill="#E57373"/>
+  <circle cx="70" cy="120" r="3" fill="#E57373"/>
+  <circle cx="90" cy="120" r="3" fill="#E57373"/>
+  <circle cx="105" cy="115" r="4" fill="#E57373"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Balanced clear skin -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="225" cy="75" rx="8" ry="6" fill="#FFF5F0" opacity="0.6"/>
+  <ellipse cx="255" cy="80" rx="6" ry="5" fill="#FFF5F0" opacity="0.6"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

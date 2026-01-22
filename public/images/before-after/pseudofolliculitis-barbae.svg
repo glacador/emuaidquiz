@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Beard area with razor bumps/ingrown hairs -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#8B6914"/>
+  <!-- Beard stubble area -->
+  <path d="M45 95 Q50 85 60 80 L100 80 Q110 85 115 95 L115 125 Q100 140 80 142 Q60 140 45 125 Z" fill="#5D4A0B"/>
+  <!-- Ingrown hair bumps -->
+  <circle cx="55" cy="100" r="4" fill="#C62828"/>
+  <circle cx="65" cy="95" r="3.5" fill="#D32F2F"/>
+  <circle cx="75" cy="105" r="4" fill="#C62828"/>
+  <circle cx="85" cy="98" r="3.5" fill="#D32F2F"/>
+  <circle cx="95" cy="105" r="4" fill="#C62828"/>
+  <circle cx="105" cy="100" r="3.5" fill="#D32F2F"/>
+  <circle cx="60" cy="115" r="3" fill="#C62828"/>
+  <circle cx="75" cy="120" r="3.5" fill="#D32F2F"/>
+  <circle cx="90" cy="118" r="3" fill="#C62828"/>
+  <circle cx="100" cy="112" r="3.5" fill="#D32F2F"/>
+  <!-- Curled ingrown hairs -->
+  <path d="M55 100 Q52 96 56 94" stroke="#333" stroke-width="0.5" fill="none"/>
+  <path d="M85 98 Q82 94 86 92" stroke="#333" stroke-width="0.5" fill="none"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Clear beard area -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#8B6914"/>
+  <path d="M205 95 Q210 85 220 80 L260 80 Q270 85 275 95 L275 125 Q260 140 240 142 Q220 140 205 125 Z" fill="#5D4A0B"/>
+  <!-- Clean shaved look -->
+  <path d="M210 100 Q215 90 225 85 L255 85 Q265 90 270 100 L270 120 Q260 132 240 134 Q220 132 210 120 Z" fill="#6D5410" opacity="0.3"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

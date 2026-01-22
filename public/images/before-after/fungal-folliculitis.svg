@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Chest/back with pityrosporum folliculitis -->
+  <rect x="35" y="40" width="90" height="100" rx="8" fill="#FFE4D6"/>
+  <!-- Uniform itchy bumps on trunk (characteristic of fungal) -->
+  <circle cx="48" cy="52" r="3" fill="#FFAB91"/>
+  <circle cx="58" cy="55" r="3" fill="#FFAB91"/>
+  <circle cx="68" cy="52" r="3" fill="#FFAB91"/>
+  <circle cx="78" cy="55" r="3" fill="#FFAB91"/>
+  <circle cx="88" cy="52" r="3" fill="#FFAB91"/>
+  <circle cx="98" cy="55" r="3" fill="#FFAB91"/>
+  <circle cx="108" cy="52" r="3" fill="#FFAB91"/>
+  <circle cx="50" cy="65" r="3" fill="#FFAB91"/>
+  <circle cx="60" cy="68" r="3" fill="#FFAB91"/>
+  <circle cx="70" cy="65" r="3" fill="#FFAB91"/>
+  <circle cx="80" cy="68" r="3" fill="#FFAB91"/>
+  <circle cx="90" cy="65" r="3" fill="#FFAB91"/>
+  <circle cx="100" cy="68" r="3" fill="#FFAB91"/>
+  <circle cx="52" cy="80" r="3" fill="#FFAB91"/>
+  <circle cx="62" cy="83" r="3" fill="#FFAB91"/>
+  <circle cx="72" cy="80" r="3" fill="#FFAB91"/>
+  <circle cx="82" cy="83" r="3" fill="#FFAB91"/>
+  <circle cx="92" cy="80" r="3" fill="#FFAB91"/>
+  <circle cx="102" cy="83" r="3" fill="#FFAB91"/>
+  <circle cx="54" cy="95" r="3" fill="#FFAB91"/>
+  <circle cx="64" cy="98" r="3" fill="#FFAB91"/>
+  <circle cx="74" cy="95" r="3" fill="#FFAB91"/>
+  <circle cx="84" cy="98" r="3" fill="#FFAB91"/>
+  <circle cx="94" cy="95" r="3" fill="#FFAB91"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Clear chest/back -->
+  <rect x="195" y="40" width="90" height="100" rx="8" fill="#FFE4D6"/>
+  <rect x="200" y="45" width="80" height="90" rx="6" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="240" cy="75" rx="25" ry="20" fill="#FFF5F0" opacity="0.4"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Back of neck/nape with keloid bumps -->
+  <rect x="40" y="45" width="80" height="95" rx="5" fill="#8B6914"/>
+  <!-- Hairline at top -->
+  <rect x="40" y="40" width="80" height="20" rx="3" fill="#3D2B0A"/>
+  <!-- Keloid bumps and scarring on nape -->
+  <ellipse cx="55" cy="80" rx="8" ry="6" fill="#6D4C0A"/>
+  <ellipse cx="55" cy="80" rx="6" ry="4" fill="#7D5C1A" opacity="0.7"/>
+  <ellipse cx="75" cy="75" rx="10" ry="7" fill="#5D3C00"/>
+  <ellipse cx="75" cy="75" rx="7" ry="5" fill="#6D4C0A" opacity="0.7"/>
+  <ellipse cx="100" cy="82" rx="9" ry="6" fill="#6D4C0A"/>
+  <ellipse cx="100" cy="82" rx="6" ry="4" fill="#7D5C1A" opacity="0.7"/>
+  <ellipse cx="60" cy="100" rx="7" ry="5" fill="#5D3C00"/>
+  <ellipse cx="85" cy="95" rx="11" ry="8" fill="#6D4C0A"/>
+  <ellipse cx="85" cy="95" rx="8" ry="5" fill="#7D5C1A" opacity="0.7"/>
+  <ellipse cx="105" cy="105" rx="8" ry="6" fill="#5D3C00"/>
+  <!-- Active inflamed bumps -->
+  <circle cx="70" cy="110" r="5" fill="#C62828"/>
+  <circle cx="90" cy="115" r="4" fill="#D32F2F"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Controlled, flattened keloids -->
+  <rect x="200" y="45" width="80" height="95" rx="5" fill="#8B6914"/>
+  <!-- Hairline at top -->
+  <rect x="200" y="40" width="80" height="20" rx="3" fill="#3D2B0A"/>
+  <!-- Flattened/improved keloid areas -->
+  <ellipse cx="230" cy="80" rx="8" ry="3" fill="#7D5C1A" opacity="0.4"/>
+  <ellipse cx="255" cy="85" rx="7" ry="3" fill="#7D5C1A" opacity="0.4"/>
+  <ellipse cx="245" cy="100" rx="9" ry="3" fill="#7D5C1A" opacity="0.4"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

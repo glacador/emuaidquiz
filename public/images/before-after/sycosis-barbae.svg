@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Beard area with deep staph infection -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Beard area outline -->
+  <path d="M50 80 Q55 75 65 72 L95 72 Q105 75 110 80 L110 125 Q100 138 80 140 Q60 138 50 125 Z" fill="#D4C4B0" opacity="0.3"/>
+  <!-- Deep infected pustules with crusting -->
+  <circle cx="55" cy="90" r="7" fill="#C62828"/>
+  <circle cx="55" cy="89" r="4" fill="#FFF59D"/>
+  <ellipse cx="55" cy="95" rx="5" ry="2" fill="#FFB74D" opacity="0.7"/>
+  <circle cx="75" cy="100" r="8" fill="#B71C1C"/>
+  <circle cx="75" cy="99" r="4.5" fill="#FFF59D"/>
+  <ellipse cx="75" cy="106" rx="6" ry="2" fill="#FFB74D" opacity="0.7"/>
+  <circle cx="100" cy="95" r="7" fill="#C62828"/>
+  <circle cx="100" cy="94" r="4" fill="#FFF59D"/>
+  <ellipse cx="100" cy="100" rx="5" ry="2" fill="#FFB74D" opacity="0.7"/>
+  <circle cx="65" cy="120" r="6" fill="#B71C1C"/>
+  <circle cx="65" cy="119" r="3.5" fill="#FFF59D"/>
+  <circle cx="90" cy="118" r="6" fill="#C62828"/>
+  <circle cx="90" cy="117" r="3.5" fill="#FFF59D"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Healed beard area -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <path d="M210 80 Q215 75 225 72 L255 72 Q265 75 270 80 L270 125 Q260 138 240 140 Q220 138 210 125 Z" fill="#D4C4B0" opacity="0.2"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

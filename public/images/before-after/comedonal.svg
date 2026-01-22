@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Face with blackheads and whiteheads -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Blackheads (small dark dots) -->
+  <circle cx="65" cy="65" r="2" fill="#4A4A4A"/>
+  <circle cx="72" cy="68" r="1.5" fill="#5A5A5A"/>
+  <circle cx="88" cy="63" r="2" fill="#4A4A4A"/>
+  <circle cx="95" cy="70" r="1.5" fill="#5A5A5A"/>
+  <circle cx="60" cy="85" r="2" fill="#4A4A4A"/>
+  <circle cx="68" cy="90" r="1.5" fill="#5A5A5A"/>
+  <!-- Whiteheads (small flesh-colored bumps) -->
+  <circle cx="78" cy="75" r="3" fill="#F5DDD0"/>
+  <circle cx="79" cy="74" r="1.5" fill="#FFF"/>
+  <circle cx="92" cy="88" r="3.5" fill="#F5DDD0"/>
+  <circle cx="93" cy="87" r="1.5" fill="#FFF"/>
+  <circle cx="70" cy="100" r="3" fill="#F5DDD0"/>
+  <circle cx="85" cy="105" r="2.5" fill="#F5DDD0"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Smooth clear skin -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="225" cy="75" rx="8" ry="6" fill="#FFF5F0" opacity="0.6"/>
+  <ellipse cx="255" cy="80" rx="6" ry="5" fill="#FFF5F0" opacity="0.6"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

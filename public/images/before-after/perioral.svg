@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Face with perioral dermatitis around mouth -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Mouth -->
+  <ellipse cx="80" cy="110" rx="12" ry="5" fill="#E8B0A0"/>
+  <!-- Clear zone right at lip line (characteristic of perioral) -->
+  <ellipse cx="80" cy="110" rx="15" ry="8" fill="#FFE4D6"/>
+  <ellipse cx="80" cy="110" rx="12" ry="5" fill="#E8B0A0"/>
+  <!-- Bumps around mouth but not touching lips -->
+  <circle cx="58" cy="105" r="3" fill="#FFAB91"/>
+  <circle cx="52" cy="112" r="2.5" fill="#FFAB91"/>
+  <circle cx="55" cy="120" r="3" fill="#FFAB91"/>
+  <circle cx="65" cy="125" r="2.5" fill="#FFAB91"/>
+  <circle cx="95" cy="125" r="3" fill="#FFAB91"/>
+  <circle cx="105" cy="120" r="2.5" fill="#FFAB91"/>
+  <circle cx="108" cy="112" r="3" fill="#FFAB91"/>
+  <circle cx="102" cy="105" r="2.5" fill="#FFAB91"/>
+  <!-- Around nose -->
+  <circle cx="70" cy="92" r="2.5" fill="#FFAB91"/>
+  <circle cx="90" cy="92" r="2.5" fill="#FFAB91"/>
+  <circle cx="75" cy="98" r="2" fill="#FFAB91"/>
+  <circle cx="85" cy="98" r="2" fill="#FFAB91"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Clear skin around mouth -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <!-- Mouth -->
+  <ellipse cx="240" cy="110" rx="12" ry="5" fill="#E8B0A0"/>
+  <ellipse cx="225" cy="75" rx="8" ry="6" fill="#FFF5F0" opacity="0.6"/>
+  <ellipse cx="255" cy="80" rx="6" ry="5" fill="#FFF5F0" opacity="0.6"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

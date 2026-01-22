@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Face with deep cystic bumps -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Deep cystic nodules (large, deep red/purple) -->
+  <ellipse cx="60" cy="72" rx="10" ry="8" fill="#C62828"/>
+  <ellipse cx="60" cy="73" rx="8" ry="6" fill="#D32F2F" opacity="0.7"/>
+  <ellipse cx="95" cy="80" rx="12" ry="9" fill="#C62828"/>
+  <ellipse cx="95" cy="81" rx="9" ry="7" fill="#D32F2F" opacity="0.7"/>
+  <ellipse cx="72" cy="100" rx="11" ry="8" fill="#B71C1C"/>
+  <ellipse cx="72" cy="101" rx="8" ry="6" fill="#C62828" opacity="0.7"/>
+  <ellipse cx="88" cy="115" rx="8" ry="6" fill="#C62828"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Healed smooth skin -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="225" cy="75" rx="8" ry="6" fill="#FFF5F0" opacity="0.6"/>
+  <ellipse cx="255" cy="80" rx="6" ry="5" fill="#FFF5F0" opacity="0.6"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

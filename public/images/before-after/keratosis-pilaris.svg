@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Arm with rough bumpy texture (chicken skin) -->
+  <rect x="40" y="45" width="80" height="90" rx="20" fill="#FFE4D6"/>
+  <!-- Rough texture pattern - tiny keratin plugs -->
+  <circle cx="50" cy="55" r="2" fill="#E8D0C0"/>
+  <circle cx="58" cy="52" r="2" fill="#E8D0C0"/>
+  <circle cx="66" cy="56" r="2" fill="#E8D0C0"/>
+  <circle cx="74" cy="53" r="2" fill="#E8D0C0"/>
+  <circle cx="82" cy="57" r="2" fill="#E8D0C0"/>
+  <circle cx="90" cy="54" r="2" fill="#E8D0C0"/>
+  <circle cx="98" cy="58" r="2" fill="#E8D0C0"/>
+  <circle cx="106" cy="55" r="2" fill="#E8D0C0"/>
+  <circle cx="52" cy="65" r="2" fill="#E8D0C0"/>
+  <circle cx="60" cy="62" r="2" fill="#E8D0C0"/>
+  <circle cx="68" cy="66" r="2" fill="#E8D0C0"/>
+  <circle cx="76" cy="63" r="2" fill="#E8D0C0"/>
+  <circle cx="84" cy="67" r="2" fill="#E8D0C0"/>
+  <circle cx="92" cy="64" r="2" fill="#E8D0C0"/>
+  <circle cx="100" cy="68" r="2" fill="#E8D0C0"/>
+  <circle cx="54" cy="75" r="2" fill="#EAAA91"/>
+  <circle cx="62" cy="72" r="2" fill="#EAAA91"/>
+  <circle cx="70" cy="76" r="2" fill="#EAAA91"/>
+  <circle cx="78" cy="73" r="2" fill="#EAAA91"/>
+  <circle cx="86" cy="77" r="2" fill="#EAAA91"/>
+  <circle cx="94" cy="74" r="2" fill="#EAAA91"/>
+  <circle cx="102" cy="78" r="2" fill="#EAAA91"/>
+  <circle cx="56" cy="85" r="2" fill="#E8D0C0"/>
+  <circle cx="64" cy="82" r="2" fill="#E8D0C0"/>
+  <circle cx="72" cy="86" r="2" fill="#E8D0C0"/>
+  <circle cx="80" cy="83" r="2" fill="#E8D0C0"/>
+  <circle cx="88" cy="87" r="2" fill="#E8D0C0"/>
+  <circle cx="96" cy="84" r="2" fill="#E8D0C0"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Smooth arm -->
+  <rect x="200" y="45" width="80" height="90" rx="20" fill="#FFE4D6"/>
+  <rect x="205" y="50" width="70" height="80" rx="18" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="230" cy="75" rx="20" ry="15" fill="#FFF5F0" opacity="0.4"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Skin with pus-filled staph infection bumps -->
+  <ellipse cx="80" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <!-- Infected pustules with yellow pus -->
+  <circle cx="55" cy="65" r="6" fill="#EF5350"/>
+  <circle cx="55" cy="64" r="3" fill="#FFF59D"/>
+  <circle cx="72" cy="75" r="7" fill="#E53935"/>
+  <circle cx="72" cy="74" r="3.5" fill="#FFF59D"/>
+  <circle cx="95" cy="68" r="5" fill="#EF5350"/>
+  <circle cx="95" cy="67" r="2.5" fill="#FFF59D"/>
+  <circle cx="60" cy="90" r="6" fill="#E53935"/>
+  <circle cx="60" cy="89" r="3" fill="#FFF59D"/>
+  <circle cx="85" cy="95" r="7" fill="#EF5350"/>
+  <circle cx="85" cy="94" r="3.5" fill="#FFF59D"/>
+  <circle cx="105" cy="85" r="5" fill="#EF5350"/>
+  <circle cx="105" cy="84" r="2.5" fill="#FFF59D"/>
+  <circle cx="70" cy="110" r="5" fill="#E53935"/>
+  <circle cx="70" cy="109" r="2.5" fill="#FFF59D"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Healed clear skin -->
+  <ellipse cx="240" cy="85" rx="45" ry="55" fill="#FFE4D6"/>
+  <ellipse cx="240" cy="85" rx="40" ry="50" fill="#FFEEE6" opacity="0.5"/>
+  <ellipse cx="225" cy="75" rx="8" ry="6" fill="#FFF5F0" opacity="0.6"/>
+  <ellipse cx="255" cy="80" rx="6" ry="5" fill="#FFF5F0" opacity="0.6"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>

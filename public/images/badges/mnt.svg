@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" fill="none">
+  <rect width="180" height="40" fill="white"/>
+  <!-- Medical News Today logo -->
+  <rect x="4" y="8" width="24" height="24" rx="4" fill="#FF6B35"/>
+  <text x="10" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">M</text>
+  <text x="36" y="18" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#333">Medical News</text>
+  <text x="36" y="30" font-family="Arial, sans-serif" font-size="10" font-weight="600" fill="#FF6B35">Today</text>
+</svg>

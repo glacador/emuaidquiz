@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" fill="none">
+  <!-- Background -->
+  <rect width="320" height="160" fill="#f8f9fa"/>
+
+  <!-- Before Section -->
+  <rect x="10" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="80" y="30" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle" font-weight="600">BEFORE</text>
+
+  <!-- Before - Scalp with scarring hair loss -->
+  <ellipse cx="80" cy="85" rx="45" ry="45" fill="#E8D0C0"/>
+  <!-- Hair around edges -->
+  <g fill="#4A3728">
+    <ellipse cx="45" cy="65" rx="8" ry="12"/>
+    <ellipse cx="55" cy="55" rx="8" ry="12"/>
+    <ellipse cx="70" cy="50" rx="8" ry="10"/>
+    <ellipse cx="90" cy="50" rx="8" ry="10"/>
+    <ellipse cx="105" cy="55" rx="8" ry="12"/>
+    <ellipse cx="115" cy="65" rx="8" ry="12"/>
+    <ellipse cx="40" cy="85" rx="6" ry="10"/>
+    <ellipse cx="120" cy="85" rx="6" ry="10"/>
+  </g>
+  <!-- Scarring bald patches (folliculitis decalvans) -->
+  <ellipse cx="70" cy="75" rx="15" ry="12" fill="#F5E0D0"/>
+  <ellipse cx="70" cy="75" rx="12" ry="9" fill="#FFE8E0" opacity="0.5"/>
+  <ellipse cx="95" cy="85" rx="12" ry="10" fill="#F5E0D0"/>
+  <ellipse cx="95" cy="85" rx="9" ry="7" fill="#FFE8E0" opacity="0.5"/>
+  <!-- Inflamed edges -->
+  <ellipse cx="70" cy="75" rx="16" ry="13" fill="none" stroke="#EF5350" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="95" cy="85" rx="13" ry="11" fill="none" stroke="#EF5350" stroke-width="2" opacity="0.6"/>
+  <!-- Pustules at edges -->
+  <circle cx="58" cy="70" r="3" fill="#EF5350"/>
+  <circle cx="82" cy="68" r="2.5" fill="#EF5350"/>
+  <circle cx="105" cy="80" r="3" fill="#EF5350"/>
+
+  <!-- After Section -->
+  <rect x="170" y="10" width="140" height="140" rx="12" fill="#fff" stroke="#e0e0e0"/>
+  <text x="240" y="30" font-family="Arial, sans-serif" font-size="10" fill="#4CAF50" text-anchor="middle" font-weight="600">AFTER</text>
+
+  <!-- After - Controlled, no active inflammation -->
+  <ellipse cx="240" cy="85" rx="45" ry="45" fill="#E8D0C0"/>
+  <!-- Hair -->
+  <g fill="#4A3728">
+    <ellipse cx="205" cy="65" rx="8" ry="12"/>
+    <ellipse cx="215" cy="55" rx="8" ry="12"/>
+    <ellipse cx="230" cy="50" rx="8" ry="10"/>
+    <ellipse cx="250" cy="50" rx="8" ry="10"/>
+    <ellipse cx="265" cy="55" rx="8" ry="12"/>
+    <ellipse cx="275" cy="65" rx="8" ry="12"/>
+    <ellipse cx="200" cy="85" rx="6" ry="10"/>
+    <ellipse cx="280" cy="85" rx="6" ry="10"/>
+  </g>
+  <!-- Healed areas (scarring remains but no inflammation) -->
+  <ellipse cx="230" cy="75" rx="12" ry="9" fill="#F0E0D5"/>
+  <ellipse cx="255" cy="85" rx="10" ry="8" fill="#F0E0D5"/>
+
+  <!-- Arrow -->
+  <path d="M155 80 L165 80 M162 75 L167 80 L162 85" stroke="#4CAF50" stroke-width="2" fill="none"/>
+</svg>
