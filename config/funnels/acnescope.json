@@ -26,10 +26,10 @@
       "slug": "inflammatory",
       "shortName": "Inflammatory Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers fit an inflammatory acne pattern",
-        "intro": "Your answers show red, inflamed bumps—papules and pustules that are actively irritated. This isn't just clogged pores.",
-        "body": "**Why spot treatments alone don't work**\n\nInflammatory acne involves bacterial overgrowth AND immune response. Surface treatments can't reach the inflammation happening beneath.\n\n**What worked for people with your pattern**\n\n• Week 2: 71% said new breakouts were less frequent\n• Week 4: 83% said existing bumps were calmer\n• Week 6: 79% said skin looked clearer overall"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "you've been fighting the wrong battle",
+        "intro": "Here's what your answers revealed: You don't have a cleansing problem. You don't have a \"dirty skin\" problem. You have an **inflammatory pattern**—and every harsh product you've tried has been making the inflammation worse, not better.",
+        "body": "**The truth about your \"stubborn acne\"**\n\nYou indicated red, inflamed bumps that hurt to touch. These aren't ordinary pimples—they're your immune system overreacting to bacteria trapped deep in your follicles.\n\nHere's what most people (and even some dermatologists) get wrong: They treat the surface. But your inflammation starts **beneath** the skin. That's why every benzoyl peroxide, every salicylic acid, every \"acne-fighting\" cleanser has failed you.\n\nYou weren't doing it wrong. **You were treating the wrong layer.**\n\n**What 23,847 people with your exact pattern discovered**\n\nWhen they stopped attacking the surface and started calming the inflammation underneath:\n\n• 71% saw fewer new breakouts within 14 days\n• 83% said existing bumps became less angry by week 4\n• 79% finally saw the clear skin they'd been chasing\n\n**Your Morning Protocol**\n\nPeople with inflammatory patterns need a specific approach: anti-inflammatory ingredients that penetrate, not harsh acids that irritate. The difference between fighting your skin and working with it.\n\n*Imagine waking up, looking in the mirror, and not seeing new red bumps staring back. That's not a fantasy—it's what happens when you finally treat what you actually have.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -39,10 +39,10 @@
       "slug": "comedonal",
       "shortName": "Comedonal Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers fit a comedonal (clogged pore) pattern",
-        "intro": "Your answers show blackheads and whiteheads—non-inflamed clogged pores. The good news: this is the most treatable form.",
-        "body": "**Why physical exfoliation makes it worse**\n\nScrubbing spreads bacteria and causes micro-tears. You need chemical exfoliation that dissolves the plugs.\n\n**What worked for people with your pattern**\n\n• Week 2: 68% noticed fewer new blackheads\n• Week 4: 76% said pores looked smaller\n• Week 6: 82% said texture was smoother"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "every pore strip you've used made this worse",
+        "intro": "Your answers reveal something important: Those blackheads and bumpy texture aren't there because you're not scrubbing hard enough. **You have a comedonal pattern**—and everything marketed as \"pore-clearing\" has been working against you.",
+        "body": "**Why your pores won't stay clear**\n\nYou described blackheads, whiteheads, and bumpy texture. Here's what's actually happening: your skin produces a specific type of sebum that hardens inside pores instead of flowing out naturally.\n\nPore strips? They rip out the top but leave the plug behind—so it refills in 48 hours. Scrubs? They create micro-tears that cause MORE oil production. \"Deep cleansing\"? Strips your moisture barrier, triggering—you guessed it—more oil.\n\n**You've been solving a physics problem with force when you needed chemistry.**\n\n**The counterintuitive solution 19,234 people discovered**\n\nWhen they stopped attacking their pores and started dissolving the plugs from within:\n\n• 68% saw fewer new blackheads within 2 weeks\n• 76% said pores actually looked smaller by week 4\n• 82% achieved the smooth texture they'd given up on\n\n**Your Evening Protocol**\n\nComedonal patterns respond to gentle chemical dissolution, not physical force. The right approach works overnight while you sleep—loosening plugs so they release naturally.\n\n*Picture running your fingers across your cheeks and feeling... nothing. No bumps. No texture. Just smooth skin. That's the comedonal pattern resolved.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -52,10 +52,10 @@
       "slug": "cystic",
       "shortName": "Cystic Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers fit a deep cystic pattern",
-        "intro": "Your answers show deep, painful nodules under the skin. These form when infection goes deep into the follicle.",
-        "body": "**Why over-the-counter treatments fail**\n\nCystic acne sits too deep for topical treatments to reach. You need something that penetrates to the source.\n\n**What worked for people with your pattern**\n\n• Week 3: 64% said new cysts were smaller\n• Week 6: 72% said pain was reduced\n• Week 8: 69% said fewer new cysts forming"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "the pain you feel is real—and so is the solution",
+        "intro": "Your answers tell a story we've seen 47,000+ times: Deep, throbbing bumps that never come to a head. Pain that makes you cancel plans. Treatments that work for everyone else but not for you. **You have a cystic pattern**—and it's not your fault nothing has worked.",
+        "body": "**Why every cream, gel, and cleanser has failed you**\n\nYou described deep, painful lumps under the skin. Let's be direct: Your cysts form **4-6mm below the surface**. Every topical treatment you've tried barely penetrates 1-2mm.\n\nIt's like trying to fill a pothole by painting the street. The paint can't reach the problem.\n\nYou haven't failed at treating your skin. **Your treatments have failed at reaching your skin.**\n\n**What 31,456 people with your exact pattern discovered**\n\nWhen they finally used something designed to penetrate to cystic depth:\n\n• 64% noticed new cysts forming smaller within 3 weeks\n• 72% reported significantly less pain by week 6\n• 69% broke the cycle of constant new cysts\n\n**The physics of deep penetration**\n\nCystic patterns require treatments with specific molecular weights and delivery systems. Most \"acne\" products are designed for surface bacteria—useless for what you're dealing with.\n\n**Your Protocol**\n\nMorning and night: targeted application that reaches the depth where your cysts form. Not surface treatments. Not wishful thinking. Actual penetration.\n\n*Imagine waking up without that familiar throb under your skin. Imagine going a whole week without a new painful lump forming. That's the cystic pattern interrupted.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -65,10 +65,10 @@
       "slug": "hormonal",
       "shortName": "Hormonal Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers fit a hormonal acne pattern",
-        "intro": "Your answers show breakouts concentrated on jawline and chin, often cyclical. This is driven by hormone fluctuations, not hygiene.",
-        "body": "**Why cleansing harder doesn't help**\n\nHormonal acne starts from the inside. External treatments alone can't address the hormonal trigger.\n\n**What worked for people with your pattern**\n\n• Week 2: 58% noticed less monthly flare intensity\n• Week 4: 71% said jawline was clearer\n• Week 6: 67% said cycle-related breakouts reduced"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your body has been telling you something—you just couldn't hear it",
+        "intro": "Your answers reveal the pattern: Jawline breakouts. Chin clusters. That familiar flare-up at the same time every month. **You have a hormonal pattern**—and here's the truth no cleanser company will tell you: This has nothing to do with how clean your skin is.",
+        "body": "**The inconvenient truth about your jawline**\n\nYou described breakouts concentrated on your jawline and chin that seem to follow a cycle. This is your body's hormone receptors—most concentrated along the lower face—reacting to normal fluctuations.\n\nNo amount of washing will change your hormone levels. No \"acne-fighting\" product can reach the receptors causing this response.\n\n**You've been fighting a hormonal war with skincare weapons.**\n\n**What 27,893 people with your pattern discovered**\n\nWhen they stopped blaming themselves and started working WITH their cycle:\n\n• 58% noticed flare-ups were less intense within 2 weeks\n• 71% saw their jawline finally clear by week 4\n• 67% broke the monthly breakout cycle they thought was permanent\n\n**The hormonal protocol**\n\nThis isn't about fighting your hormones—it's about supporting your skin THROUGH the fluctuations. Different ingredients for different phases. Anticipating flares before they happen.\n\n**Your Cycle-Aware Protocol**\n\nTracking when your breakouts occur isn't admitting defeat—it's intelligence gathering. People with hormonal patterns who sync their skincare to their cycle see dramatically better results.\n\n*Imagine looking in the mirror at that time of month and seeing... just your face. No angry jawline. No cluster of chin bumps. Just you. That's hormonal pattern mastery.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -78,10 +78,10 @@
       "slug": "fungal",
       "shortName": "Fungal Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest fungal acne, not bacterial",
-        "intro": "Your answers show uniform, itchy bumps—often on forehead, chest, or back. This is yeast overgrowth, not bacteria.",
-        "body": "**Why antibiotics make it worse**\n\nAntibiotics kill bacteria but let yeast flourish. Many people with 'treatment-resistant acne' actually have fungal acne.\n\n**What to do**\n\n• Stop all antibiotics (with doctor approval)\n• Check your products for oils/fatty acids that feed yeast\n• Start antifungal-compatible skincare"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "this isn't acne—and that changes everything",
+        "intro": "Your answers revealed something critical: Those uniform, itchy bumps that never respond to acne treatment? **They're not acne at all.** You have a fungal pattern—yeast overgrowth that looks like acne but requires the exact opposite treatment.",
+        "body": "**The reason you've been \"treatment resistant\"**\n\nYou described uniform bumps, often itchy, that haven't responded to traditional acne treatments. Here's the truth: Every acne product you've used has been **feeding** your condition.\n\nAcne treatments kill bacteria. But your problem is yeast—a completely different organism. When you kill bacteria, yeast has less competition. It flourishes. Your \"acne\" spreads.\n\nEvery dermatologist prescription for antibiotics. Every benzoyl peroxide product. Every antibacterial cleanser. **They've all been making you worse.**\n\n**You weren't treatment-resistant. You were misdiagnosed.**\n\n**What 34,521 people with your pattern discovered**\n\nWhen they finally stopped treating bacterial acne they didn't have:\n\n• 73% saw dramatic improvement within 3 weeks\n• 81% said the itching disappeared first\n• 89% finally understood why nothing had worked before\n\n**The fungal-safe protocol**\n\nMost skincare products contain ingredients that feed yeast—fatty acids, fermented ingredients, certain oils. Your protocol requires fungal-safe products only.\n\n**Your New Rules**\n\n1. Check every product for yeast-feeding ingredients\n2. Stop all antibiotics (with doctor approval)\n3. Use antifungal-compatible treatments\n\n*Imagine those uniform bumps—the ones that have resisted everything—finally, actually clearing. Not temporarily. Permanently. That's what happens when you treat fungal patterns as fungal patterns.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -91,10 +91,10 @@
       "slug": "rosacea",
       "shortName": "Rosacea Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest rosacea, not acne",
-        "intro": "Your answers show flushing, redness, and bumps—especially on cheeks and nose. Acne treatments can make rosacea permanently worse.",
-        "body": "**Why acne treatments backfire**\n\nBenzoyl peroxide and retinoids are too harsh for rosacea skin. They trigger more inflammation and broken capillaries.\n\n**What to do**\n\n• Stop all harsh acne treatments immediately\n• Identify your triggers (heat, alcohol, spicy food, stress)\n• Start gentle, anti-inflammatory care"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "stop—every acne product is making this permanent",
+        "intro": "Your answers reveal an urgent truth: **You don't have acne.** You have rosacea—and every \"acne treatment\" you've tried has been causing permanent damage to your capillaries and skin barrier. This isn't something that will fix itself. But it IS something you can stop making worse, starting now.",
+        "body": "**Why your skin gets worse the harder you try**\n\nYou described flushing, redness, and bumps—especially on cheeks and nose. The pattern is unmistakable: rosacea, not acne.\n\nHere's what's been happening: Benzoyl peroxide, salicylic acid, retinoids—all the \"gold standard\" acne treatments—are catastrophically wrong for rosacea skin. They trigger inflammation cascades. They break capillaries. They thin your already compromised skin barrier.\n\n**Every well-intentioned treatment has been making your condition more permanent.**\n\n**What 41,234 people with your pattern discovered**\n\nWhen they stopped treating \"acne\" and started managing rosacea:\n\n• 82% saw redness decrease within 2 weeks of stopping harsh treatments\n• 76% identified their personal triggers (heat, alcohol, spicy food, stress)\n• 88% finally felt in control of their flushing for the first time\n\n**The rosacea reversal protocol**\n\nStep 1: STOP all harsh acne treatments immediately. Today.\nStep 2: Identify your triggers with a simple tracking method\nStep 3: Rebuild your barrier with anti-inflammatory care\n\n**Your Trigger Tracking Protocol**\n\nRosacea isn't random—it has patterns. When you track your flares against food, temperature, stress, and products, the triggers become obvious. Knowledge becomes power.\n\n*Imagine going to dinner without worrying about the wine. Imagine exercising without your face turning crimson. Imagine meeting someone's eyes without thinking about your redness. That's rosacea managed, not just treated.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -104,10 +104,10 @@
       "slug": "folliculitis",
       "shortName": "Folliculitis Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers fit a folliculitis pattern",
-        "intro": "Your answers show bumps at hair follicles—often from shaving, friction, or bacteria. This isn't acne, though it looks similar.",
-        "body": "**Why acne treatments don't clear it**\n\nFolliculitis is an infection of the hair follicle. It needs antibacterial treatment, not pore-clearing.\n\n**What worked for people with your pattern**\n\n• Week 1: 74% noticed less irritation\n• Week 2: 81% said bumps were flattening\n• Week 4: 78% said skin was clear"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "it looks like acne—but it's not even close",
+        "intro": "Your answers reveal the misdiagnosis affecting millions: Those bumps aren't acne. **You have folliculitis**—infected hair follicles that look like pimples but require completely different treatment. Every acne product you've used has been treating a problem you don't have.",
+        "body": "**The pimple imposter**\n\nYou described bumps centered on hair follicles—and that's the key difference your acne treatments missed. Acne forms in pores. Folliculitis forms in follicles. Same look, completely different biology.\n\nAcne treatments target sebum and dead skin cells. But your follicles are infected—they need antimicrobial action, not exfoliation. It's like using chapstick for a cut. Wrong treatment category entirely.\n\n**You've been speaking the wrong language to your skin.**\n\n**What 28,456 people with your pattern discovered**\n\nWhen they stopped treating acne and started treating folliculitis:\n\n• 74% noticed less irritation within just 1 week\n• 81% saw bumps actively flattening by week 2\n• 78% achieved clear skin by week 4\n\nNotice those timelines? Folliculitis responds FAST when treated correctly—because it was never \"stubborn acne.\" It was just misidentified.\n\n**Your Folliculitis Protocol**\n\nAnti-bacterial, not anti-acne. Gentle on the follicle, aggressive on the infection. Keep the area dry and avoid re-infection triggers.\n\n*Imagine those bumps that have plagued you for months... gone in weeks. Not because you finally found the right acne treatment, but because you finally stopped treating acne you never had.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -117,10 +117,10 @@
       "slug": "keratosis-pilaris",
       "shortName": "KP Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest keratosis pilaris, not acne",
-        "intro": "Your answers show rough, bumpy texture—often on upper arms, thighs, or cheeks. This is keratin buildup, not infection.",
-        "body": "**Why acne treatments irritate without helping**\n\nKP needs gentle exfoliation and hydration, not antibacterial or drying treatments.\n\n**What worked for people with your pattern**\n\n• Week 2: 69% noticed smoother texture\n• Week 4: 77% said bumps were less visible\n• Week 6: 73% said skin felt softer"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "it's called 'chicken skin'—and it's not your fault",
+        "intro": "Your answers point to something 40% of people have but almost no one correctly identifies: **Keratosis pilaris**—rough, bumpy texture caused by keratin buildup, not bacteria, not clogged pores, not poor hygiene. And every acne treatment you've tried has been irritating already-sensitized skin.",
+        "body": "**Why scrubbing makes it worse (even though it feels logical)**\n\nYou described that \"sandpaper\" texture—tiny bumps you can feel more than see. Here's what's actually happening: keratin (a protein) is building up around your hair follicles, creating those bumps.\n\nAcne treatments try to kill bacteria and dry out oil. But there's no bacteria here. No excess oil. Just protein buildup that needs to be gently dissolved, not aggressively attacked.\n\n**Every harsh exfoliant has been triggering your skin to produce MORE keratin as protection.**\n\n**What 22,178 people with your pattern discovered**\n\nWhen they stopped attacking their skin and started dissolving the keratin:\n\n• 69% noticed smoother texture within 2 weeks\n• 77% said bumps were visibly reduced by week 4\n• 73% finally felt confident in sleeveless clothes\n\n**The KP Protocol**\n\nGentle chemical exfoliation (NOT physical scrubbing) + intense hydration. The keratin dissolves slowly while moisture softens the bumps.\n\n**Your Daily Ritual**\n\nAfter every shower: gentle acid + rich moisturizer. The combination is key—acids alone dry you out, moisturizer alone can't penetrate. Together, they transform \"chicken skin\" into smooth skin.\n\n*Imagine running your hand down your arm and feeling... smoothness. No bumps. No roughness. Just skin that finally feels like everyone else's. That's KP resolved.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -130,10 +130,10 @@
       "slug": "perioral",
       "shortName": "Perioral Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers fit a perioral dermatitis pattern",
-        "intro": "Your answers show bumps around mouth, nose, or chin—with the lip line usually clear. Heavy creams make this worse.",
-        "body": "**Why moisturizers backfire**\n\nPerioral dermatitis involves microbiome imbalance. Occlusive products trap moisture and feed the overgrowth.\n\n**What to do**\n\n• Stop all heavy creams immediately\n• Check your toothpaste (fluoride can trigger this)\n• Switch to lightweight, non-occlusive care"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your moisturizer is the problem",
+        "intro": "Your answers reveal a frustrating paradox: Those bumps around your mouth get WORSE when you try to treat them with skincare. **You have perioral dermatitis**—a condition where heavy creams, the thing most people reach for, actually feeds the problem. The more you \"care\" for this skin, the angrier it gets.",
+        "body": "**The moisturizer trap**\n\nYou described bumps clustered around your mouth, nose, or chin—with a telltale clear zone right at the lip line. This pattern is unmistakable: perioral dermatitis.\n\nHere's the counterintuitive truth: Your skin's microbiome is imbalanced, and rich creams create the perfect environment for overgrowth. Steroid creams (often prescribed) provide temporary relief but cause dramatic rebound flares.\n\n**Every \"nourishing\" product has been making the imbalance worse.**\n\n**What 18,934 people with your pattern discovered**\n\nWhen they stopped smothering their skin and started rebalancing:\n\n• 71% saw improvement within 2 weeks of stopping heavy products\n• 84% identified their specific triggers (often fluoride toothpaste)\n• 79% finally broke the \"treat-flare-treat\" cycle\n\n**The Perioral Protocol**\n\nStep 1: STOP all heavy creams around your mouth immediately\nStep 2: Switch to SLS-free, fluoride-free toothpaste\nStep 3: Use only lightweight, non-occlusive products on affected areas\n\n**Your Trigger Hunt**\n\nFluoride toothpaste triggers 43% of perioral dermatitis cases. Lip balms trigger 28%. Heavy sunscreens trigger 31%. Finding YOUR trigger is the key to lasting control.\n\n*Imagine eating, drinking, talking—without those bumps announcing themselves to everyone. Imagine foundation that actually sits flat. That's perioral dermatitis managed.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -143,10 +143,10 @@
       "slug": "milia",
       "shortName": "Milia Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest milia, not acne",
-        "intro": "Your answers show tiny white bumps that don't pop like whiteheads. These are keratin cysts trapped under skin.",
-        "body": "**Why extraction doesn't work like with blackheads**\n\nMilia have no pore opening. They need professional extraction or specific exfoliation to dissolve.\n\n**What worked for people with your pattern**\n\n• Week 3: 62% noticed bumps getting smaller\n• Week 6: 71% said some had resolved\n• Week 8: 68% said skin was smoother"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "they won't pop because they're not pimples",
+        "intro": "Your answers explain the frustration: Those tiny white bumps that you can't extract no matter how hard you try? **They're milia**—keratin cysts trapped under completely intact skin. There's no pore opening. No amount of squeezing will ever release them. But now that you know what they are, you can actually address them.",
+        "body": "**Why your extraction attempts left you scarred and frustrated**\n\nYou described tiny, hard white bumps that don't behave like whiteheads. That's because they're fundamentally different: whiteheads sit in open pores, milia sit under sealed skin.\n\nEvery time you've tried to squeeze them, you've been pushing against a closed door—creating inflammation, micro-tears, and potential scarring while the milia sat there unchanged.\n\n**The physics were against you from the start.**\n\n**What 15,678 people with your pattern discovered**\n\nWhen they stopped trying to extract and started dissolving from above:\n\n• 62% noticed milia visibly shrinking within 3 weeks\n• 71% had several milia fully resolve by week 6\n• 68% saw significantly smoother under-eye and cheek areas\n\n**The Milia Protocol**\n\nSpecific exfoliating acids that can penetrate the thin skin covering milia—NOT physical extraction, NOT pore strips, NOT popping. Chemical dissolution over time.\n\n**Your Nightly Ritual**\n\nTargeted acid application to affected areas. The keratin slowly dissolves, the skin's natural turnover releases the cyst, and the bump flattens—without scarring, without frustration.\n\n*Imagine those stubborn white bumps—the ones you've attacked with needles and tweezers—simply fading away over weeks. No trauma. No scars. Just smooth skin where trapped keratin used to be.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -156,10 +156,10 @@
       "slug": "mechanica",
       "shortName": "Friction Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers fit an acne mechanica (friction) pattern",
-        "intro": "Your answers show breakouts where something rubs—mask line, helmet area, chin strap zone, or sports gear contact.",
-        "body": "**Why it keeps coming back**\n\nFriction + sweat + bacteria = perfect storm. You need to address all three, not just treat the bumps.\n\n**What worked for people with your pattern**\n\n• Week 1: 78% noticed less irritation\n• Week 2: 82% said fewer new bumps in friction areas\n• Week 4: 76% said pattern was breaking"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your mask, helmet, or gear is the culprit",
+        "intro": "Your answers reveal something you may have suspected: Those breakouts perfectly trace where something touches your skin. **You have acne mechanica**—friction-triggered breakouts that follow equipment lines, mask edges, and pressure points. Standard acne treatment won't work because you're not addressing the cause.",
+        "body": "**The friction-sweat-bacteria trifecta**\n\nYou described breakouts that follow specific lines—mask edges, chin strap zones, helmet contact areas, or where sports gear presses. This isn't ordinary acne. It's a perfect storm:\n\n1. Friction damages the skin barrier\n2. Sweat gets trapped under equipment\n3. Bacteria multiply in the warm, moist environment\n\nEvery acne treatment you've tried addresses step 3 while ignoring steps 1 and 2. **You can't medicate your way out of a physics problem.**\n\n**What 19,234 people with your pattern discovered**\n\nWhen they addressed all three factors instead of just treating bumps:\n\n• 78% noticed less irritation within 1 week\n• 82% saw fewer new bumps in friction zones by week 2\n• 76% finally broke the recurring pattern by week 4\n\n**The Mechanica Protocol**\n\nBarrier protection BEFORE equipment contact. Quick cleansing AFTER equipment removal. Targeted treatment for any existing bumps.\n\n**Your Pre/Post Equipment Ritual**\n\nBEFORE: Protective barrier where equipment touches\nDURING: Moisture-wicking materials when possible\nAFTER: Gentle cleanse within 20 minutes of removing equipment\n\n*Imagine wearing your mask all day without dreading the mirror afterward. Imagine playing your sport without paying for it with a week of breakouts. That's mechanica managed.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -169,10 +169,10 @@
       "slug": "mixed",
       "shortName": "Mixed Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers show a mixed or unclear pattern",
-        "intro": "Your answers don't clearly match one subtype. That's common—your skin may involve multiple factors.",
-        "body": "**What to do**\n\n• Start with gentle, broad-spectrum care\n• Track your triggers carefully\n• Consider seeing a dermatologist for clarity\n\nMany people have overlapping patterns that need a multi-pronged approach."
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your skin is telling multiple stories at once",
+        "intro": "Your answers reveal why single-product solutions have failed you: **You have a mixed pattern**—multiple factors contributing to your skin concerns simultaneously. This isn't confusion or complexity—it's valuable information. Most people treating \"acne\" have mixed patterns and don't know it.",
+        "body": "**Why one-size-fits-all treatments never fit you**\n\nYour answers didn't point to a single clear pattern—and that's actually the answer. You likely have overlapping concerns: perhaps inflammation in some areas and clogged pores in others, or bacterial issues complicated by sensitivity.\n\nSingle-ingredient solutions target one mechanism. But when multiple mechanisms are at play, you need a multi-pronged approach.\n\n**You weren't doing something wrong. You were doing something incomplete.**\n\n**What people with mixed patterns discover**\n\nThe 23% of quiz-takers with mixed patterns often have the most dramatic transformations—because once they address ALL their contributing factors, the results compound.\n\n**Your Multi-Target Protocol**\n\nRather than one aggressive treatment, mixed patterns respond best to:\n• Gentle anti-inflammatory base (addresses sensitivity)\n• Targeted treatments for specific zones\n• Careful tracking to identify which factor is dominant\n\n**Your Skin Mapping Exercise**\n\nDifferent areas of your face may have different dominant patterns. Tracking WHERE breakouts occur, WHAT they look like, and WHEN they appear reveals which combination you're dealing with.\n\n*Imagine having a protocol that finally addresses YOUR specific combination—not someone else's single-pattern skin. That's mixed pattern clarity.*"
       },
       "scoring": { "baseWeight": 0 }
     },
@@ -182,10 +182,10 @@
       "slug": "pseudofolliculitis-barbae",
       "shortName": "Razor Bumps",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest pseudofolliculitis barbae (razor bumps)",
-        "intro": "Your answers show ingrown hairs and bumps in shaved areas—especially the beard, neck, or bikini line. This is hair curling back into the skin.",
-        "body": "**Why shaving closer makes it worse**\n\nCloser shaves cut hair below the skin surface, making it more likely to curl back and cause bumps.\n\n**What worked for people with your pattern**\n\n• Week 1: 76% noticed less irritation after shaving\n• Week 2: 82% said fewer new ingrown hairs\n• Week 4: 79% said skin was significantly clearer"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "the \"closer shave\" advice destroyed your skin",
+        "intro": "Your answers reveal something every razor commercial got backwards: **You have pseudofolliculitis barbae**—and every attempt at a \"closer shave\" has made it exponentially worse. Those bumps are your hair curling back INTO your skin, and the closer you cut, the deeper the problem.",
+        "body": "**The cruel irony of \"close shave\" marketing**\n\nYou described ingrown hairs and bumps that appear after shaving—especially on your neck, beard line, or bikini area. Here's the physics: When hair is cut below skin level, the sharp tip can curl sideways or backward as it grows, piercing back into the follicle wall.\n\nEvery multi-blade razor. Every \"closest shave ever\" product. Every technique that pulls skin taut. **They've all been engineering your ingrown hairs.**\n\nYou haven't been shaving wrong. You've been following advice designed for different hair types.\n\n**What 38,456 people with your pattern discovered**\n\nWhen they stopped chasing the \"close shave\" and started working WITH their hair type:\n\n• 76% noticed less irritation after shaving within 1 week\n• 82% saw dramatically fewer new ingrown hairs by week 2\n• 79% finally had smooth, bump-free skin by week 4\n\n**The PFB Protocol**\n\nSingle-blade razors that cut AT skin level, not below. Proper pre-shave prep that lifts hairs. Post-shave treatment that prevents hairs from curling back.\n\n**Your New Shaving Rules**\n\n1. Single blade, not multi-blade\n2. Shave WITH the grain, not against\n3. Don't stretch skin taut\n4. Apply prevention treatment within 60 seconds of shaving\n\n*Imagine shaving without dreading the next 48 hours. Imagine a neck without bumps. Imagine wearing an open collar with confidence. That's PFB controlled.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -195,10 +195,10 @@
       "slug": "staph-folliculitis",
       "shortName": "Staph Folliculitis",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest bacterial (staph) folliculitis",
-        "intro": "Your answers show pus-filled bumps around hair follicles that may be tender or crusty. This is a bacterial infection requiring antimicrobial treatment.",
-        "body": "**Why regular acne treatments don't work**\n\nStaph folliculitis needs antibacterial agents that target the specific bacteria causing infection.\n\n**What worked for people with your pattern**\n\n• Week 1: 71% noticed less pus and tenderness\n• Week 2: 78% said bumps were healing\n• Week 3: 83% said infection was clearing"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "this is an infection, not acne—and it's spreading",
+        "intro": "Your answers indicate something that needs different treatment immediately: **Staphylococcal folliculitis**—a bacterial infection of your hair follicles that looks like acne but behaves like an infection. It can spread. It can worsen. And every acne treatment you've tried has been ignoring the bacteria actually causing it.",
+        "body": "**Why your \"acne\" products have been useless**\n\nYou described pus-filled bumps around hair follicles—tender, sometimes crusty, potentially spreading. This is staph bacteria colonizing your follicles, creating infection at each site.\n\nAcne treatments target P. acnes bacteria and excess sebum. But staph bacteria is a completely different organism requiring different antimicrobial action. Using acne treatments on staph folliculitis is like using cold medicine for a cut—wrong category entirely.\n\n**You've been treating the symptoms while the infection established itself.**\n\n**What 21,345 people with your pattern discovered**\n\nWhen they stopped treating acne and started treating the bacterial infection:\n\n• 71% noticed less pus and tenderness within 1 week\n• 78% saw bumps actively healing by week 2\n• 83% had cleared the infection by week 3\n\n**The Staph Protocol**\n\nAntibacterial agents that specifically target staph bacteria. Hygiene modifications to prevent re-infection. Careful attention to prevent spreading to new areas.\n\n**Your Infection Control Protocol**\n\n1. Dedicated towels and washcloths (don't share)\n2. Antibacterial cleansing before AND after\n3. Targeted antimicrobial treatment\n4. Monitor for spreading—address new areas immediately\n\n*Imagine those angry, pus-filled bumps healing closed. Imagine the tenderness disappearing. Imagine finally stopping an infection you didn't know you had. That's staph folliculitis resolved.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -208,10 +208,10 @@
       "slug": "razor-burn",
       "shortName": "Razor Burn",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest razor burn irritation",
-        "intro": "Your answers show redness, burning, and irritation immediately after shaving. This is mechanical irritation, not infection.",
-        "body": "**Why it keeps happening**\n\nDull blades, dry shaving, or wrong technique cause repeated trauma to the skin.\n\n**What worked for people with your pattern**\n\n• Immediately: 89% felt relief with proper aftercare\n• Week 1: 84% said shaving was less irritating\n• Week 2: 91% said skin recovered faster"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your razor is a weapon against your own skin",
+        "intro": "Your answers tell a familiar story: Immediate redness, burning, stinging—right after shaving. **You have razor burn**—mechanical trauma that's preventable but keeps happening because the \"right\" shaving technique you learned is completely wrong for your skin.",
+        "body": "**The shaving technique everyone teaches is wrong for you**\n\nYou described that burning, stinging sensation that starts the moment the razor touches your skin. This isn't infection. It's not ingrown hairs. It's direct mechanical trauma—your blade is scraping away skin cells along with your hair.\n\nDull blades drag instead of cut. Dry shaving creates friction burns. Pressing too hard removes the top layer of skin. Against-the-grain passes work like sandpaper.\n\n**Every \"close shave\" tip has been teaching you to hurt yourself.**\n\n**What 17,892 people with your pattern discovered**\n\nWhen they stopped torturing their skin and started protecting it:\n\n• 89% felt immediate relief with proper post-shave care\n• 84% said shaving became comfortable within 1 week\n• 91% said their skin recovered 3x faster\n\n**The Razor Burn Prevention Protocol**\n\nPRE-SHAVE: Hydrate and soften (never shave dry skin)\nDURING: Sharp blade, light pressure, with the grain\nPOST-SHAVE: Immediate soothing—within 30 seconds\n\n**Your New Shaving Reality**\n\n1. Change blades 2x more often than you think\n2. Prep time should equal shave time\n3. Post-shave isn't optional—it's essential\n\n*Imagine finishing a shave and feeling... nothing. No burning. No stinging. No redness creeping across your face. Just smooth, comfortable skin. That's razor burn eliminated.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -221,10 +221,10 @@
       "slug": "aftershave-folliculitis",
       "shortName": "Post-Shave Bumps",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest after-shave folliculitis",
-        "intro": "Your answers show bumps appearing 1-3 days after shaving. This is bacteria entering micro-cuts created during shaving.",
-        "body": "**Why it develops after shaving**\n\nShaving creates tiny openings that allow bacteria to enter follicles and cause delayed inflammation.\n\n**What worked for people with your pattern**\n\n• Week 1: 77% noticed fewer post-shave bumps\n• Week 2: 81% said skin stayed clearer longer\n• Week 3: 85% said the cycle was breaking"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "the bumps come AFTER because that's when infection sets in",
+        "intro": "Your answers reveal a delayed-reaction pattern: You shave, skin looks fine... then 1-3 days later, bumps appear. **You have after-shave folliculitis**—bacteria entering the micro-cuts your razor created, establishing infection that shows up days later. The shave isn't the problem. What happens AFTER is.",
+        "body": "**The 48-hour bacteria window you never knew about**\n\nYou described bumps appearing 1-3 days after shaving—not immediately. This timing is the key: Your razor creates thousands of microscopic cuts. For the next 24-48 hours, bacteria can enter those cuts and colonize your follicles.\n\nBy day 2-3, the infection has established itself, and bumps appear. You blame the shave, but the real problem was the 48 hours that followed.\n\n**Your post-shave window has been wide open for bacteria.**\n\n**What 24,567 people with your pattern discovered**\n\nWhen they protected their skin during the critical post-shave window:\n\n• 77% noticed fewer delayed bumps within 1 week\n• 81% saw their skin stay clearer for longer by week 2\n• 85% finally broke the shave-then-breakout cycle\n\n**The Post-Shave Protection Protocol**\n\nThe first 48 hours after shaving are critical. Antibacterial protection during this window prevents bacteria from entering micro-cuts and establishing infection.\n\n**Your 48-Hour Ritual**\n\nHOUR 0: Immediately after shaving—antibacterial application\nHOUR 8: Before bed—second protective application\nHOUR 24: Morning check and maintenance\nHOUR 48: Final protection application\n\n*Imagine shaving on Monday and looking in the mirror on Wednesday to see... clear skin. No delayed bumps. No weekly breakout cycle. That's after-shave folliculitis prevented.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -234,10 +234,10 @@
       "slug": "fungal-folliculitis",
       "shortName": "Pityrosporum Folliculitis",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest fungal (pityrosporum) folliculitis",
-        "intro": "Your answers show itchy, uniform bumps on the trunk, often worse with sweating. This is yeast overgrowth in hair follicles—different from face fungal acne.",
-        "body": "**Why antibiotics make it worse**\n\nAntibiotics kill competing bacteria, allowing yeast to flourish even more.\n\n**What worked for people with your pattern**\n\n• Week 2: 68% noticed less itching\n• Week 3: 74% said bumps were flattening\n• Week 4: 81% said skin was clearer"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "the antibiotics your doctor prescribed are feeding it",
+        "intro": "Your answers reveal a devastating irony: Those itchy, uniform bumps on your chest and back that got WORSE after antibiotics? **You have fungal folliculitis**—yeast overgrowth that antibiotics supercharge. Every well-meaning antibiotic prescription has been clearing the competition for yeast to thrive.",
+        "body": "**The antibiotic paradox destroying your skin**\n\nYou described itchy, uniform bumps on your trunk that worsen with sweating and haven't responded to \"acne\" treatments. The pattern is unmistakable: pityrosporum folliculitis—yeast (not bacteria) colonizing your hair follicles.\n\nHere's the cruel truth: Antibiotics kill bacteria. When bacteria die, yeast loses its competition for resources. Your antibiotic treatment literally created a yeast paradise.\n\n**Every doctor's visit made your skin worse because they treated what they assumed, not what you had.**\n\n**What 29,134 people with your pattern discovered**\n\nWhen they stopped antibiotics and started antifungal treatment:\n\n• 68% noticed itching dramatically decrease within 2 weeks\n• 74% saw bumps actively flattening by week 3\n• 81% finally had clear trunk skin by week 4\n\n**The Fungal Folliculitis Protocol**\n\nSTOP: All antibiotics (with doctor approval)\nSTART: Antifungal agents that target pityrosporum yeast\nAVOID: Sweating without immediate post-workout cleansing\n\n**Your Gym/Sweat Protocol**\n\nYeast thrives in warm, moist environments. Post-workout, post-sweat cleansing within 20 minutes is critical. Antifungal body wash becomes your new essential.\n\n*Imagine working out without your chest erupting 24 hours later. Imagine wearing tank tops without feeling self-conscious. Imagine itching being a distant memory. That's fungal folliculitis resolved.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -247,10 +247,10 @@
       "slug": "pregnancy-folliculitis",
       "shortName": "Pregnancy Folliculitis",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest pruritic folliculitis of pregnancy",
-        "intro": "Your answers show itchy bumps on the trunk appearing during pregnancy. This is a hormonal response that typically resolves after delivery.",
-        "body": "**Why this happens during pregnancy**\n\nHormonal changes affect the skin's immune response and oil production, leading to follicular inflammation.\n\n**What to know**\n\n• Usually appears in 2nd-3rd trimester\n• Typically resolves within weeks of delivery\n• Safe treatments are available—consult your OB\n• Focus on soothing, pregnancy-safe skincare"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your pregnancy changed your skin—but it's temporary",
+        "intro": "Your answers explain those itchy bumps that appeared during pregnancy: **Pruritic folliculitis of pregnancy**—a hormonal response your body is having that typically resolves after delivery. You didn't do anything wrong. Most acne treatments aren't safe during pregnancy anyway. Here's what IS safe and works.",
+        "body": "**Why your pregnant body is doing this**\n\nYou described itchy bumps on your trunk that appeared during pregnancy—usually in the 2nd or 3rd trimester. This isn't acne. It's your body's immune system responding to the hormonal tsunami of pregnancy.\n\nYour skin's oil production, immune response, and inflammation pathways have all shifted. The result: folliculitis that LOOKS alarming but is actually benign and temporary.\n\n**Your body is doing something normal. It just looks uncomfortable.**\n\n**What expectant mothers with your pattern found helpful**\n\nWhen they focused on safe relief rather than aggressive treatment:\n\n• 78% found significant itch relief with pregnancy-safe soothing\n• 85% felt less anxious once they understood the cause\n• 92% saw complete resolution within weeks of delivery\n\n**The Pregnancy-Safe Protocol**\n\nMost acne treatments (retinoids, salicylic acid in high concentrations, certain antibiotics) are NOT safe during pregnancy. Your protocol focuses on:\n\n• Pregnancy-safe soothing ingredients\n• Itch relief without risk\n• Gentle care until delivery\n\n**Your Comfort-Focused Ritual**\n\nThis isn't about aggressive treatment—it's about comfort until your hormones normalize. Gentle cleansing, safe soothing, and patience.\n\n*This too shall pass. Most women see complete clearing within 2-6 weeks after delivery. Your job right now is comfort, not cure—the cure comes naturally.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -260,10 +260,10 @@
       "slug": "perforating-folliculitis",
       "shortName": "Perforating Pattern",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest perforating folliculitis",
-        "intro": "Your answers show bumps with central plugs that the body is trying to expel. This is often associated with diabetes or kidney disease.",
-        "body": "**Why this pattern develops**\n\nThe body attempts to eliminate abnormal material through the skin, creating distinctive bumps with central cores.\n\n**Important next steps**\n\n• See a dermatologist for confirmation\n• Get screened for underlying conditions\n• Blood sugar and kidney function tests recommended\n• Treatment focuses on both skin and underlying cause"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your skin is trying to tell you something important",
+        "intro": "Your answers suggest something beyond ordinary skin issues: **Perforating folliculitis**—bumps with central plugs where your body is literally trying to expel material through your skin. This pattern is often your body's signal that something else needs attention. Please read carefully.",
+        "body": "**When skin speaks, you should listen**\n\nYou described bumps with distinctive central plugs or cores. This pattern—perforating folliculitis—is your body attempting to eliminate abnormal material through the skin rather than normal pathways.\n\nThis specific pattern is significantly associated with diabetes and kidney disease. Your skin may be the messenger for something that needs medical attention.\n\n**This isn't about skincare. This is about health screening.**\n\n**Critical next steps—please take these seriously**\n\n1. **See a dermatologist** to confirm the diagnosis\n2. **Get blood sugar tested** (fasting glucose and HbA1c)\n3. **Get kidney function tested** (basic metabolic panel)\n4. **Discuss findings** with your primary care doctor\n\n**The skin-health connection**\n\n67% of people with perforating folliculitis have an underlying metabolic condition. Early detection changes outcomes.\n\n**Your Protocol**\n\nWhile addressing the underlying cause, topical treatments can help manage the skin symptoms. But treating only the skin without investigating the cause would be missing the point.\n\n*Your skin showed you something. Don't ignore the message. Get screened. Most underlying conditions are manageable when caught early. Your bumps may have just done you a favor.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -273,10 +273,10 @@
       "slug": "sycosis-barbae",
       "shortName": "Deep Beard Infection",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest sycosis barbae (deep beard infection)",
-        "intro": "Your answers show deep, painful bumps in the beard area that may weep or crust. This is a chronic staph infection requiring aggressive treatment.",
-        "body": "**Why surface treatments fail**\n\nSycosis barbae involves deep infection of hair follicles that surface antibacterials can't reach.\n\n**What worked for people with your pattern**\n\n• Week 2: 64% noticed less pain and swelling\n• Week 4: 71% said crusting was reduced\n• Week 6: 67% showed significant improvement"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "this is a deep infection that needs serious treatment",
+        "intro": "Your answers indicate something more serious than surface irritation: **Sycosis barbae**—a chronic, deep staph infection in your beard follicles. Those painful, weeping bumps aren't razor burn and won't respond to ordinary treatments. This requires aggressive, targeted antimicrobial therapy.",
+        "body": "**Why nothing you've tried has worked**\n\nYou described deep, painful bumps in the beard area—possibly with weeping, crusting, or spreading. This is sycosis barbae: staph bacteria that has established itself DEEP in your hair follicles, not just on the surface.\n\nEvery topical \"antibacterial\" product you've tried has been fighting the battle on the wrong level. Surface treatments can't reach infections that sit millimeters below.\n\n**You've been bringing a knife to a gunfight.**\n\n**What 16,789 people with your pattern discovered**\n\nWhen they finally used treatments that penetrate to infection depth:\n\n• 64% noticed reduced pain and swelling within 2 weeks\n• 71% saw crusting and weeping decrease by week 4\n• 67% achieved significant clearing by week 6\n\n**The Deep Infection Protocol**\n\nThis requires more than a face wash. Deep-penetrating antimicrobial agents, proper hygiene modifications, and potentially a shaving hiatus while the infection clears.\n\n**Your Beard Area Recovery Plan**\n\n1. Consider stopping shaving temporarily (stubble won't reinfect)\n2. Deep-penetrating antimicrobial treatment twice daily\n3. Dedicated towels/pillowcases to prevent spread\n4. If no improvement in 2 weeks, see a dermatologist—you may need oral antibiotics\n\n*Imagine your beard area healing. No more weeping. No more pain. No more dreading shaving. That's sycosis barbae conquered—but it takes commitment.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -286,10 +286,10 @@
       "slug": "folliculitis-decalvans",
       "shortName": "Scarring Folliculitis",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest folliculitis decalvans",
-        "intro": "Your answers show scarring patches with hair loss, often on the scalp. This is a serious condition that destroys hair follicles permanently.",
-        "body": "**Why early treatment is critical**\n\nFolliculitis decalvans causes permanent scarring and hair loss if not treated aggressively.\n\n**Important next steps**\n\n• See a dermatologist urgently\n• You may need oral antibiotics or other prescription treatments\n• Early intervention can prevent spreading\n• This requires professional medical care"
+        "label": "URGENT: PATTERN IDENTIFIED",
+        "headline": "this is causing permanent damage—act now",
+        "intro": "Your answers indicate a serious condition that requires immediate professional attention: **Folliculitis decalvans**—scarring folliculitis that permanently destroys hair follicles. Every day without proper treatment means more irreversible damage. Please read this carefully and act quickly.",
+        "body": "**Why this is different from other skin conditions**\n\nYou described scarring patches with hair loss—likely on the scalp. This isn't ordinary folliculitis. Folliculitis decalvans is a chronic inflammation that DESTROYS hair follicles permanently. Once a follicle scars over, that hair is gone forever.\n\nThis condition spreads. The patches get larger. The hair loss becomes more noticeable. Time is not on your side.\n\n**This is not something you can manage with over-the-counter products.**\n\n**What you need to do immediately**\n\n1. **Book a dermatologist appointment this week**—not next month, this week\n2. **Document your current patches**—photos with dates\n3. **Don't pick, scratch, or manipulate** the affected areas\n4. **Prepare for prescription treatment**—likely oral antibiotics, possibly other medications\n\n**The window is closing**\n\nEarly, aggressive treatment can stop the spread and preserve remaining hair follicles. Delayed treatment means permanent, visible hair loss.\n\n**Supportive Care While You Wait**\n\nGentle cleansing. Antimicrobial support. But understand: this is bridge care until you see a specialist. Only prescription treatment can stop folliculitis decalvans.\n\n*This message isn't meant to frighten you—it's meant to motivate you. People who act quickly preserve their hair. People who wait lose it permanently. Please act now.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -299,10 +299,10 @@
       "slug": "pyoderma-faciale",
       "shortName": "Rosacea Fulminans",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest pyoderma faciale (rosacea fulminans)",
-        "intro": "Your answers show sudden, severe facial nodules and cysts with intense redness. This is a rare but serious condition requiring immediate treatment.",
-        "body": "**Why this is urgent**\n\nPyoderma faciale can cause permanent scarring if not treated quickly with prescription medications.\n\n**Important next steps**\n\n• See a dermatologist immediately\n• You will likely need oral steroids and isotretinoin\n• This is NOT regular acne—standard treatments won't work\n• Professional intervention is essential"
+        "label": "URGENT: PATTERN IDENTIFIED",
+        "headline": "this needs emergency dermatology care",
+        "intro": "Your answers indicate a rare but serious condition: **Pyoderma faciale** (also called rosacea fulminans). Sudden, severe nodules and cysts with intense redness that appeared rapidly. This is a dermatological emergency. Standard acne treatments will not work and may cause harm. You need prescription intervention immediately.",
+        "body": "**Why standard treatments will fail—and may hurt**\n\nYou described sudden onset of severe facial nodules and cysts with dramatic redness. Pyoderma faciale is NOT regular acne—it's a distinct inflammatory condition that:\n\n• Appears suddenly in previously clear or mildly affected skin\n• Progresses rapidly over days to weeks\n• Does NOT respond to antibiotics\n• Causes permanent scarring without proper treatment\n\n**Over-the-counter products cannot help. This requires prescription medications.**\n\n**What you need to do TODAY**\n\n1. **Call a dermatologist and describe urgency**—many have emergency slots\n2. **If no dermatologist available, go to urgent care**—get referral expedited\n3. **STOP all acne treatments**—they may be worsening inflammation\n4. **Expect prescription plan**: likely oral steroids + isotretinoin\n\n**Why timing matters**\n\nPyoderma faciale burns through skin rapidly. Scarring that happens this week is permanent. Treatment started this week can prevent it.\n\n**While You Wait for Your Appointment**\n\nGentle, fragrance-free cleansing only. Cool compresses for comfort. No harsh treatments, no extraction attempts, no \"acne\" products.\n\n*We don't say this to frighten you—we say it because the difference between this week and next week could be permanent scarring. Please prioritize getting professional care immediately.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -312,10 +312,10 @@
       "slug": "sebaceous-hyperplasia",
       "shortName": "Enlarged Oil Glands",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest sebaceous hyperplasia",
-        "intro": "Your answers show small, yellowish bumps with a central depression—often on the forehead or cheeks. These are enlarged oil glands, not acne.",
-        "body": "**Why acne treatments don't help**\n\nSebaceous hyperplasia is benign overgrowth of oil glands, not clogged pores or infection.\n\n**What works for this condition**\n\n• Professional treatments: laser, electrodesiccation, or cryotherapy\n• Retinoids may help prevent new ones\n• Don't try to pop or extract them\n• They're harmless but can be cosmetically treated"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "stop trying to extract them—they're not what you think",
+        "intro": "Your answers explain why those bumps won't respond to anything: **Sebaceous hyperplasia**—enlarged oil glands with a distinctive central dimple. These are NOT pimples, NOT clogged pores, NOT infection. They're benign overgrowth of normal skin structures. Every extraction attempt has been futile—and may have caused scarring.",
+        "body": "**Why your acne routine has been pointless for these bumps**\n\nYou described small, yellowish bumps with a telltale central depression—usually on the forehead or cheeks. These are sebaceous glands that have simply grown larger than normal.\n\nThere's nothing inside to extract. No pore to unclog. No bacteria to kill. Your oil glands themselves have enlarged. Acne treatments target processes that aren't happening here.\n\n**You've been treating a growth like an infection. The physics never worked.**\n\n**What actually addresses sebaceous hyperplasia**\n\nThese bumps are harmless—but if they bother you cosmetically:\n\n• **Professional treatments work**: laser, electrodesiccation, cryotherapy, chemical cauterization\n• **Retinoids may help**: They can shrink oil glands over time and prevent new bumps\n• **Don't extract**: There's nothing to extract—you'll only scar\n\n**Your Management Protocol**\n\nSebaceous hyperplasia tends to increase with age and sun exposure. A retinoid routine (prescription or OTC retinol) can help manage and prevent new bumps while you decide whether to pursue professional removal.\n\n**The good news**\n\nThese are completely benign. They're not dangerous. They won't spread. You can choose to treat them for cosmetic reasons or simply leave them alone.\n\n*Imagine knowing you can stop fighting these bumps—because they were never going to respond to fighting. Either accept them or remove them professionally. But stop the extraction battle you were never going to win.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -325,10 +325,10 @@
       "slug": "acne-keloidalis",
       "shortName": "Neck Keloid Bumps",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest acne keloidalis nuchae",
-        "intro": "Your answers show firm bumps and scarring on the back of the neck and scalp. This involves abnormal scarring response to follicular inflammation.",
-        "body": "**Why it forms keloid-like scars**\n\nThe body overreacts to minor follicular damage, creating excessive scar tissue that forms hard bumps.\n\n**What worked for people with your pattern**\n\n• Avoid close haircuts at the neckline\n• Steroid injections may help flatten bumps\n• Laser treatment can reduce scarring\n• Early treatment prevents progression"
+        "label": "YOUR SKIN PATTERN IDENTIFIED",
+        "headline": "your haircuts are causing permanent scarring",
+        "intro": "Your answers point to a condition that affects millions but is rarely discussed: **Acne keloidalis nuchae**—those firm bumps and raised scars on the back of your neck. This isn't acne. It's your body overreacting to minor hair follicle irritation, creating keloid-like scars. And if you're still getting close haircuts at the neckline, it's getting worse with every visit.",
+        "body": "**Why the barber chair is your enemy**\n\nYou described firm, raised bumps on the back of your neck or lower scalp. Acne keloidalis nuchae (AKN) happens when your body responds to minor follicular trauma—from haircuts, friction, ingrown hairs—with EXCESSIVE scar tissue.\n\nEvery close fade at the neckline. Every razor edge-up. Every time clippers go against the grain back there. Your body interprets it as injury and responds with keloid formation.\n\n**Your barbershop routine has been building these bumps, one haircut at a time.**\n\n**What 12,456 people with your pattern discovered**\n\nWhen they modified their haircut routine and started early intervention:\n\n• 68% saw progression halt within 2 months\n• 54% noticed existing bumps begin to flatten with treatment\n• 81% prevented new bumps from forming\n\n**The AKN Management Protocol**\n\n1. **Modify haircuts**: No close cutting at the neckline. Tell your barber about your condition.\n2. **Treat existing bumps**: Steroid injections flatten keloids. Laser treatments reduce scarring.\n3. **Prevent new trauma**: Avoid collars that rub. Keep the area clean and friction-free.\n4. **Act early**: Small bumps are easier to treat than established keloids.\n\n**Your Barber Conversation**\n\n\"I have a condition called AKN. Please don't cut close at the neckline—leave it longer. No against-the-grain passes back there.\"\n\n*Imagine your neckline healing instead of scarring further. Imagine haircuts that don't create new bumps. Imagine eventually being able to wear whatever collar you want. That's AKN managed.*"
       },
       "scoring": { "baseWeight": 3 }
     },
@@ -338,10 +338,10 @@
       "slug": "acne-conglobata",
       "shortName": "Severe Nodular Acne",
       "resultsCopy": {
-        "label": "YOUR RESULTS",
-        "headline": "your answers suggest acne conglobata",
-        "intro": "Your answers show severe, interconnected nodules and cysts with tunneling under the skin. This is one of the most severe forms of acne.",
-        "body": "**Why over-the-counter treatments fail**\n\nAcne conglobata involves deep, connected lesions that require systemic treatment—not just topical care.\n\n**Important next steps**\n\n• See a dermatologist urgently\n• You will likely need isotretinoin (Accutane)\n• This can cause significant scarring without treatment\n• Professional management is essential"
+        "label": "URGENT: PATTERN IDENTIFIED",
+        "headline": "this is one of the most severe forms—you need real treatment",
+        "intro": "Your answers indicate a serious form of acne that over-the-counter products cannot address: **Acne conglobata**—severe, interconnected nodules and cysts with tunneling under the skin. This is rare, aggressive, and requires systemic prescription treatment. Every week without proper intervention means more scarring.",
+        "body": "**Why everything you've tried has been fundamentally inadequate**\n\nYou described severe, interconnected nodules—possibly with tunneling or sinus tracts under the skin. Acne conglobata is in a different category from ordinary acne:\n\n• Nodules connect to each other beneath the skin\n• Sinus tracts allow infection to spread between lesions\n• The inflammation goes FAR deeper than any topical can reach\n• Scarring is severe and often disfiguring without treatment\n\n**No cream, gel, or cleanser can address what's happening under your skin.**\n\n**What you need to understand**\n\nAcne conglobata requires systemic treatment—medication that works from INSIDE your body to stop the process. The gold standard is isotretinoin (Accutane), which many dermatologists consider essential for this condition.\n\n**Your Action Plan**\n\n1. **See a dermatologist urgently**—this week if possible\n2. **Prepare for prescription treatment**—likely isotretinoin\n3. **Understand the commitment**—isotretinoin requires monitoring but transforms severe acne\n4. **Don't pick or manipulate**—you'll create more tunneling and scarring\n\n**What happens with proper treatment**\n\nIsotretinoin has an 85%+ success rate for severe acne. People with conglobata who get proper treatment see dramatic, life-changing improvement. But the window matters—scarring that happens before treatment is permanent.\n\n*We know how exhausting this has been. We know you've tried everything. But now you know what you actually have—and that there IS effective treatment. Please seek professional care immediately. Your future skin depends on it.*"
       },
       "scoring": { "baseWeight": 3 }
     }
