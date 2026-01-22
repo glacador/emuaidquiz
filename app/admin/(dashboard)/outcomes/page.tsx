@@ -1,5 +1,6 @@
 import { createClient } from '@/lib/supabase/server'
 import Link from 'next/link'
+import FunnelSelector from '@/components/admin/FunnelSelector'
 
 interface PageProps {
   searchParams: Promise<{ funnel?: string }>
@@ -72,22 +73,11 @@ export default async function OutcomesPage({ searchParams }: PageProps) {
         <label className="block text-sm font-medium text-gray-700 mb-2">
           Select Funnel
         </label>
-        <select
-          defaultValue={funnelId || ''}
-          onChange={(e) => {
-            if (e.target.value) {
-              window.location.href = `/admin/outcomes?funnel=${e.target.value}`
-            }
-          }}
-          className="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
-        >
-          <option value="">Choose a funnel...</option>
-          {funnels.map((funnel) => (
-            <option key={funnel.id} value={funnel.id}>
-              {funnel.name}
-            </option>
-          ))}
-        </select>
+        <FunnelSelector
+          funnels={funnels}
+          selectedFunnelId={funnelId}
+          redirectPath="/admin/outcomes"
+        />
       </div>
 
       {/* Conditions List */}

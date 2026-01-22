@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import Link from 'next/link'
 import QuestionsList from '@/components/admin/QuestionsList'
+import FunnelSelector from '@/components/admin/FunnelSelector'
 
 interface PageProps {
   searchParams: Promise<{ funnel?: string }>
@@ -92,25 +93,11 @@ export default async function QuestionsPage({ searchParams }: PageProps) {
         <label className="block text-sm font-medium text-gray-700 mb-2">
           Select Funnel
         </label>
-        <form>
-          <select
-            name="funnel"
-            defaultValue={funnelId || ''}
-            onChange={(e) => {
-              if (e.target.value) {
-                window.location.href = `/admin/questions?funnel=${e.target.value}`
-              }
-            }}
-            className="w-full md:w-64 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
-          >
-            <option value="">Choose a funnel...</option>
-            {funnels.map((funnel) => (
-              <option key={funnel.id} value={funnel.id}>
-                {funnel.name}
-              </option>
-            ))}
-          </select>
-        </form>
+        <FunnelSelector
+          funnels={funnels}
+          selectedFunnelId={funnelId}
+          redirectPath="/admin/questions"
+        />
       </div>
 
       {/* Questions List */}
